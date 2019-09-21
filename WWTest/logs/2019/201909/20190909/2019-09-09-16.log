@@ -1,0 +1,1164 @@
+Time:2019-09-09 16:00:12,516; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:00:12,521; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:00:12.519231 
+Time:2019-09-09 16:00:12,523; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909160012 
+Time:2019-09-09 16:00:12,526; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:00:12.524932 
+Time:2019-09-09 16:00:12,529; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201909 
+Time:2019-09-09 16:00:12,532; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root 
+Time:2019-09-09 16:00:12,535; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects 
+Time:2019-09-09 16:00:12,537; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc 
+Time:2019-09-09 16:00:12,540; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media 
+Time:2019-09-09 16:00:12,543; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report 
+Time:2019-09-09 16:00:12,546; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909 
+Time:2019-09-09 16:00:12,548; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909/screenshots 
+Time:2019-09-09 16:00:12,551; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909/screenshots/ 
+Time:2019-09-09 16:00:12,584; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:***** 
+Time:2019-09-09 16:00:12,587; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:media\report\201909\screenshots\screenpicture_20190909160012.png 
+Time:2019-09-09 16:00:12,589; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:***** 
+Time:2019-09-09 16:00:12,592; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:打开网页失败,关闭驱动.问题描述：[Message: Malformed URL:  is not a valid URL.
+] 
+Time:2019-09-09 16:03:41,724; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-09-09 16:03:41,741; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:03:41,742; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:03:41.741590 
+Time:2019-09-09 16:03:41,744; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909160341 
+Time:2019-09-09 16:03:41,745; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:03:41.744469 
+Time:2019-09-09 16:03:41,746; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201909 
+Time:2019-09-09 16:03:41,747; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root 
+Time:2019-09-09 16:03:41,749; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects 
+Time:2019-09-09 16:03:41,750; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc 
+Time:2019-09-09 16:03:41,751; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media 
+Time:2019-09-09 16:03:41,752; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report 
+Time:2019-09-09 16:03:41,753; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909 
+Time:2019-09-09 16:03:41,754; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909/screenshots 
+Time:2019-09-09 16:03:41,756; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909/screenshots/ 
+Time:2019-09-09 16:03:46,650; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:***** 
+Time:2019-09-09 16:03:46,650; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:media\report\201909\screenshots\screenpicture_20190909160341.png 
+Time:2019-09-09 16:03:46,651; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:***** 
+Time:2019-09-09 16:03:46,652; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:打开网页失败,关闭驱动.问题描述：[Message: invalid argument
+  (Session info: chrome=76.0.3809.132)
+] 
+Time:2019-09-09 16:04:25,600; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:04:25.599048 
+Time:2019-09-09 16:04:25,601; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909160425 
+Time:2019-09-09 16:04:25,603; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:04:25.602315 
+Time:2019-09-09 16:04:25,604; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909160425 
+Time:2019-09-09 16:04:25,605; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:04:25.605109 
+Time:2019-09-09 16:04:25,607; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909160425 
+Time:2019-09-09 16:04:25,608; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:04:25.607582 
+Time:2019-09-09 16:04:25,609; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909160425 
+Time:2019-09-09 16:04:25,636; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Running the tests... 
+Time:2019-09-09 16:04:25,637; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:04:25.636495 
+Time:2019-09-09 16:04:25,638; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909160425 
+Time:2019-09-09 16:04:25,640; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:04:25.639241 
+Time:2019-09-09 16:04:25,641; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201909 
+Time:2019-09-09 16:04:25,643; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root 
+Time:2019-09-09 16:04:25,644; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects 
+Time:2019-09-09 16:04:25,645; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc 
+Time:2019-09-09 16:04:25,647; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media 
+Time:2019-09-09 16:04:25,648; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report 
+Time:2019-09-09 16:04:25,649; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909 
+Time:2019-09-09 16:04:25,651; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:The report path:/root/PycharmProjects/wanwenyc/media/report/201909/20190909160425_report.html 
+Time:2019-09-09 16:08:24,649; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-09-09 16:08:32,124; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入网址：https://www.imooc.com/user/newlogin 
+Time:2019-09-09 16:08:32,205; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到Xpath为【/html/body/div[2]/div/div/div[2]/div/form/div[1]/input】的元素 
+Time:2019-09-09 16:08:32,967; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到Xpath为【/html/body/div[2]/div/div/div[2]/div/form/div[2]/input】的元素 
+Time:2019-09-09 16:08:33,335; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到Xpath为【/html/body/div[2]/div/div/div[2]/div/form/div[5]/input】的元素 
+Time:2019-09-09 16:08:38,022; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素的Xpath路径为：/html/body/div[2]/div/div/div[2]/div/form/div[5]/input 
+Time:2019-09-09 16:08:41,025; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:08:44,030; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:09:44,316; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:09:44.315184 
+Time:2019-09-09 16:09:44,317; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909160944 
+Time:2019-09-09 16:09:44,319; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:09:44.318292 
+Time:2019-09-09 16:09:44,320; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909160944 
+Time:2019-09-09 16:09:44,322; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:09:44.321423 
+Time:2019-09-09 16:09:44,323; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909160944 
+Time:2019-09-09 16:09:44,324; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:09:44.324009 
+Time:2019-09-09 16:09:44,325; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909160944 
+Time:2019-09-09 16:09:44,339; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Running the tests... 
+Time:2019-09-09 16:09:44,340; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:09:44.339720 
+Time:2019-09-09 16:09:44,341; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909160944 
+Time:2019-09-09 16:09:44,342; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:09:44.342062 
+Time:2019-09-09 16:09:44,344; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201909 
+Time:2019-09-09 16:09:44,345; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root 
+Time:2019-09-09 16:09:44,346; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects 
+Time:2019-09-09 16:09:44,347; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc 
+Time:2019-09-09 16:09:44,348; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media 
+Time:2019-09-09 16:09:44,349; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report 
+Time:2019-09-09 16:09:44,351; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909 
+Time:2019-09-09 16:09:44,353; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:The report path:/root/PycharmProjects/wanwenyc/media/report/201909/20190909160944_report.html 
+Time:2019-09-09 16:10:15,453; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入网址：https://www.imooc.com/ 
+Time:2019-09-09 16:10:15,859; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到Xpath为【/html/body/div[8]/div/i】的元素 
+Time:2019-09-09 16:10:18,452; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素的Xpath路径为：/html/body/div[8]/div/i 
+Time:2019-09-09 16:10:21,457; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:10:21,459; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:开始正式执行测试用例 
+Time:2019-09-09 16:10:21,476; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-09 16:10:21,508; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:10:21,510; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:10:21.509362 
+Time:2019-09-09 16:10:21,511; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909161021 
+Time:2019-09-09 16:10:22,534; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:10:22.533260 
+Time:2019-09-09 16:10:22,535; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909161022 
+Time:2019-09-09 16:10:22,539; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00001_20190909161022_ele.png 
+Time:2019-09-09 16:10:24,500; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:10:27,505; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:10:27,532; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[2]/div[2]/div[1]/div/div[1]/a/div[2]/h3】的元素 
+Time:2019-09-09 16:10:27,610; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:10:27,611; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:10:27.611048 
+Time:2019-09-09 16:10:27,613; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909161027 
+Time:2019-09-09 16:10:28,064; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:10:28.063606 
+Time:2019-09-09 16:10:28,066; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909161028 
+Time:2019-09-09 16:10:28,073; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00001_20190909161028_ele.png 
+Time:2019-09-09 16:10:54,793; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入网址：https://www.imooc.com/ 
+Time:2019-09-09 16:10:55,134; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到Xpath为【/html/body/div[8]/div/i】的元素 
+Time:2019-09-09 16:10:55,745; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素的Xpath路径为：/html/body/div[8]/div/i 
+Time:2019-09-09 16:10:58,750; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:10:58,751; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖ID（dependid）为:1 
+Time:2019-09-09 16:10:58,752; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行依赖 
+Time:2019-09-09 16:10:58,769; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到依赖数据 
+Time:2019-09-09 16:10:58,775; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:depend:None 
+Time:2019-09-09 16:10:58,777; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行的caseid:1 
+Time:2019-09-09 16:10:58,797; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-09 16:10:58,868; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:10:58,870; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:10:58.869399 
+Time:2019-09-09 16:10:58,871; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909161058 
+Time:2019-09-09 16:10:59,779; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:10:59.778907 
+Time:2019-09-09 16:10:59,780; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909161059 
+Time:2019-09-09 16:10:59,782; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/1_1_20190909161059_ele.png 
+Time:2019-09-09 16:11:02,626; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:11:05,631; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:11:05,632; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖函数执行完毕！！！ 
+Time:2019-09-09 16:11:05,634; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:开始正式执行测试用例 
+Time:2019-09-09 16:11:05,652; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[2]/div[2]/div[1]/div/div[1]/a/div[2]/h3】的元素 
+Time:2019-09-09 16:11:05,730; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:11:05,731; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:11:05.731065 
+Time:2019-09-09 16:11:05,733; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909161105 
+Time:2019-09-09 16:11:06,200; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:11:06.199263 
+Time:2019-09-09 16:11:06,201; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909161106 
+Time:2019-09-09 16:11:06,206; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00002_20190909161106_ele.png 
+Time:2019-09-09 16:11:10,641; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:11:13,646; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:11:13,695; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:目前打开的窗口有2个。 
+Time:2019-09-09 16:11:16,738; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:11:16,756; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-09 16:11:16,790; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:11:16,791; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:11:16.790940 
+Time:2019-09-09 16:11:16,793; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909161116 
+Time:2019-09-09 16:11:17,183; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:11:17.182327 
+Time:2019-09-09 16:11:17,184; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909161117 
+Time:2019-09-09 16:11:17,188; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00002_20190909161117_ele.png 
+Time:2019-09-09 16:11:56,372; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入网址：https://www.imooc.com/ 
+Time:2019-09-09 16:11:56,602; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到Xpath为【/html/body/div[8]/div/i】的元素 
+Time:2019-09-09 16:11:57,831; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素的Xpath路径为：/html/body/div[8]/div/i 
+Time:2019-09-09 16:12:00,837; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:12:00,838; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖ID（dependid）为:2 
+Time:2019-09-09 16:12:00,839; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行依赖 
+Time:2019-09-09 16:12:00,855; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到依赖数据 
+Time:2019-09-09 16:12:00,861; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:depend:1 
+Time:2019-09-09 16:12:00,862; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入下一层依赖 
+Time:2019-09-09 16:12:00,863; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖ID（dependid）为:1 
+Time:2019-09-09 16:12:00,864; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行依赖 
+Time:2019-09-09 16:12:00,877; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到依赖数据 
+Time:2019-09-09 16:12:00,883; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:depend:None 
+Time:2019-09-09 16:12:00,884; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行的caseid:1 
+Time:2019-09-09 16:12:00,903; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-09 16:12:00,944; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:12:00,945; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:12:00.944502 
+Time:2019-09-09 16:12:00,946; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909161200 
+Time:2019-09-09 16:12:02,064; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:12:02.063434 
+Time:2019-09-09 16:12:02,065; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909161202 
+Time:2019-09-09 16:12:02,069; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/1_1_20190909161202_ele.png 
+Time:2019-09-09 16:12:07,363; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:12:10,373; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:12:10,374; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行的caseid:2 
+Time:2019-09-09 16:12:10,411; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[2]/div[2]/div[1]/div/div[1]/a/div[2]/h3】的元素 
+Time:2019-09-09 16:12:10,521; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:12:10,522; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:12:10.521576 
+Time:2019-09-09 16:12:10,522; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909161210 
+Time:2019-09-09 16:12:10,824; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:12:10.823822 
+Time:2019-09-09 16:12:10,824; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909161210 
+Time:2019-09-09 16:12:10,826; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/2_1_20190909161210_ele.png 
+Time:2019-09-09 16:12:14,347; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:12:17,352; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:12:17,785; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:目前打开的窗口有2个。 
+Time:2019-09-09 16:12:20,835; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:12:20,836; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖函数执行完毕！！！ 
+Time:2019-09-09 16:12:20,837; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:开始正式执行测试用例 
+Time:2019-09-09 16:12:20,849; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-09 16:12:20,875; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:12:20,876; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:12:20.875770 
+Time:2019-09-09 16:12:20,877; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909161220 
+Time:2019-09-09 16:12:21,125; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:12:21.123942 
+Time:2019-09-09 16:12:21,126; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909161221 
+Time:2019-09-09 16:12:21,129; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00003_20190909161221_ele.png 
+Time:2019-09-09 16:12:26,402; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:12:29,406; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:12:29,425; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[3]/div[1]/div[1]/div[1]/a[3]】的元素 
+Time:2019-09-09 16:12:29,459; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:12:29,461; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:12:29.460436 
+Time:2019-09-09 16:12:29,462; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909161229 
+Time:2019-09-09 16:12:29,813; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:12:29.812406 
+Time:2019-09-09 16:12:29,815; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909161229 
+Time:2019-09-09 16:12:29,819; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00003_20190909161229_ele.png 
+Time:2019-09-09 16:13:33,419; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:13:33.418343 
+Time:2019-09-09 16:13:33,422; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909161333 
+Time:2019-09-09 16:13:33,423; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:13:33.422554 
+Time:2019-09-09 16:13:33,424; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201909 
+Time:2019-09-09 16:13:33,425; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root 
+Time:2019-09-09 16:13:33,427; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects 
+Time:2019-09-09 16:13:33,428; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc 
+Time:2019-09-09 16:13:33,429; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media 
+Time:2019-09-09 16:13:33,431; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report 
+Time:2019-09-09 16:13:33,432; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909 
+Time:2019-09-09 16:13:33,433; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909/pies 
+Time:2019-09-09 16:13:33,434; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909/pies/ 
+Time:2019-09-09 16:16:35,896; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入网址：http://111.207.18.22:22044/ 
+Time:2019-09-09 16:16:36,123; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取的cookie的值为：{'name': 'access_token', 'value': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJmbWFkbWluIiwiYXRpIjoiMTM5MjI2Mjc0MyIsImV4cCI6MTU3MDYwNTkyMiwianRpIjoiMTM5MjI2Mjc0MCIsImNsaWVudF9pZCI6ImRjbG91ZC1jbGllbnQtYXV0aCJ9.vpRYfbh1XuA4h1HXFHrtppoa8Of86R_KKNtHy84cMVE', 'path': '/', 'domain': '111.207.18.22', 'secure': False, 'httpOnly': False} 
+Time:2019-09-09 16:17:35,827; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入网址：http://111.207.18.22:22044/ 
+Time:2019-09-09 16:17:37,812; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取的cookie的值为：{'name': 'access_token', 'value': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJmbWFkbWluIiwiYXRpIjoiMTM5MjI2Mjc0MyIsImV4cCI6MTU3MDYwNTkyMiwianRpIjoiMTM5MjI2Mjc0MCIsImNsaWVudF9pZCI6ImRjbG91ZC1jbGllbnQtYXV0aCJ9.vpRYfbh1XuA4h1HXFHrtppoa8Of86R_KKNtHy84cMVE', 'path': '/', 'domain': '111.207.18.22', 'secure': False, 'httpOnly': False} 
+Time:2019-09-09 16:17:59,334; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:17:59.333702 
+Time:2019-09-09 16:17:59,336; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909161759 
+Time:2019-09-09 16:17:59,337; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:17:59.336668 
+Time:2019-09-09 16:17:59,338; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909161759 
+Time:2019-09-09 16:17:59,339; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:17:59.339134 
+Time:2019-09-09 16:17:59,341; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909161759 
+Time:2019-09-09 16:17:59,342; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:17:59.341509 
+Time:2019-09-09 16:17:59,343; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909161759 
+Time:2019-09-09 16:17:59,359; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Running the tests... 
+Time:2019-09-09 16:17:59,360; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:17:59.359533 
+Time:2019-09-09 16:17:59,361; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909161759 
+Time:2019-09-09 16:17:59,362; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:17:59.362001 
+Time:2019-09-09 16:17:59,363; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201909 
+Time:2019-09-09 16:17:59,365; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root 
+Time:2019-09-09 16:17:59,366; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects 
+Time:2019-09-09 16:17:59,367; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc 
+Time:2019-09-09 16:17:59,368; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media 
+Time:2019-09-09 16:17:59,370; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report 
+Time:2019-09-09 16:17:59,371; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909 
+Time:2019-09-09 16:17:59,373; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:The report path:/root/PycharmProjects/wanwenyc/media/report/201909/20190909161759_report.html 
+Time:2019-09-09 16:18:11,790; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-09-09 16:18:24,599; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入网址：https://www.imooc.com/ 
+Time:2019-09-09 16:18:24,693; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到Xpath为【/html/body/div[8]/div/i】的元素 
+Time:2019-09-09 16:18:26,487; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素的Xpath路径为：/html/body/div[8]/div/i 
+Time:2019-09-09 16:18:29,489; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:18:29,490; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:开始正式执行测试用例 
+Time:2019-09-09 16:18:29,540; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-09 16:18:29,575; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:18:29,576; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:18:29.575686 
+Time:2019-09-09 16:18:29,577; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909161829 
+Time:2019-09-09 16:18:35,329; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:18:35.328681 
+Time:2019-09-09 16:18:35,331; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909161835 
+Time:2019-09-09 16:18:35,334; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00001_20190909161835_ele.png 
+Time:2019-09-09 16:18:39,018; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:18:42,023; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:18:42,070; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[2]/div[2]/div[1]/div/div[1]/a/div[2]/h3】的元素 
+Time:2019-09-09 16:18:42,104; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:18:42,105; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:18:42.104801 
+Time:2019-09-09 16:18:42,106; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909161842 
+Time:2019-09-09 16:18:47,381; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:18:47.380043 
+Time:2019-09-09 16:18:47,382; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909161847 
+Time:2019-09-09 16:18:47,387; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00001_20190909161847_ele.png 
+Time:2019-09-09 16:18:58,053; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-09-09 16:19:05,357; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入网址：https://www.imooc.com/ 
+Time:2019-09-09 16:19:05,389; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到Xpath为【/html/body/div[8]/div/i】的元素 
+Time:2019-09-09 16:19:05,508; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素的Xpath路径为：/html/body/div[8]/div/i 
+Time:2019-09-09 16:19:08,514; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:19:08,516; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖ID（dependid）为:1 
+Time:2019-09-09 16:19:08,518; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行依赖 
+Time:2019-09-09 16:19:08,539; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到依赖数据 
+Time:2019-09-09 16:19:08,549; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:depend:None 
+Time:2019-09-09 16:19:08,550; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行的caseid:1 
+Time:2019-09-09 16:19:08,600; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-09 16:19:08,634; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:19:08,635; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:19:08.634488 
+Time:2019-09-09 16:19:08,636; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909161908 
+Time:2019-09-09 16:19:13,828; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:19:13.827845 
+Time:2019-09-09 16:19:13,830; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909161913 
+Time:2019-09-09 16:19:13,834; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/1_1_20190909161913_ele.png 
+Time:2019-09-09 16:19:17,505; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:19:20,510; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:19:20,512; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖函数执行完毕！！！ 
+Time:2019-09-09 16:19:20,513; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:开始正式执行测试用例 
+Time:2019-09-09 16:19:20,560; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[2]/div[2]/div[1]/div/div[1]/a/div[2]/h3】的元素 
+Time:2019-09-09 16:19:20,594; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:19:20,596; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:19:20.595342 
+Time:2019-09-09 16:19:20,597; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909161920 
+Time:2019-09-09 16:19:25,537; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:19:25.536716 
+Time:2019-09-09 16:19:25,538; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909161925 
+Time:2019-09-09 16:19:25,542; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00002_20190909161925_ele.png 
+Time:2019-09-09 16:19:27,043; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:19:30,048; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:19:31,047; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:目前打开的窗口有2个。 
+Time:2019-09-09 16:19:34,096; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:19:35,954; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-09 16:19:36,021; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:19:36,023; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:19:36.022428 
+Time:2019-09-09 16:19:36,024; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909161936 
+Time:2019-09-09 16:19:41,372; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:19:41.372082 
+Time:2019-09-09 16:19:41,373; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909161941 
+Time:2019-09-09 16:19:41,376; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00002_20190909161941_ele.png 
+Time:2019-09-09 16:19:51,768; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-09-09 16:20:02,163; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入网址：https://www.imooc.com/ 
+Time:2019-09-09 16:20:02,302; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到Xpath为【/html/body/div[8]/div/i】的元素 
+Time:2019-09-09 16:20:05,251; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素的Xpath路径为：/html/body/div[8]/div/i 
+Time:2019-09-09 16:20:08,256; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:20:08,258; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖ID（dependid）为:2 
+Time:2019-09-09 16:20:08,259; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行依赖 
+Time:2019-09-09 16:20:08,272; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到依赖数据 
+Time:2019-09-09 16:20:08,277; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:depend:1 
+Time:2019-09-09 16:20:08,278; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入下一层依赖 
+Time:2019-09-09 16:20:08,278; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖ID（dependid）为:1 
+Time:2019-09-09 16:20:08,279; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行依赖 
+Time:2019-09-09 16:20:08,293; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到依赖数据 
+Time:2019-09-09 16:20:08,297; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:depend:None 
+Time:2019-09-09 16:20:08,298; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行的caseid:1 
+Time:2019-09-09 16:20:08,326; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-09 16:20:08,464; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:20:08,465; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:20:08.464782 
+Time:2019-09-09 16:20:08,465; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162008 
+Time:2019-09-09 16:20:16,867; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:20:16.866448 
+Time:2019-09-09 16:20:16,868; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162016 
+Time:2019-09-09 16:20:16,872; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/1_1_20190909162016_ele.png 
+Time:2019-09-09 16:20:22,638; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:20:25,642; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:20:25,644; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行的caseid:2 
+Time:2019-09-09 16:20:25,695; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[2]/div[2]/div[1]/div/div[1]/a/div[2]/h3】的元素 
+Time:2019-09-09 16:20:25,737; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:20:25,739; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:20:25.738006 
+Time:2019-09-09 16:20:25,740; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162025 
+Time:2019-09-09 16:20:32,520; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:20:32.519718 
+Time:2019-09-09 16:20:32,521; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162032 
+Time:2019-09-09 16:20:32,525; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/2_1_20190909162032_ele.png 
+Time:2019-09-09 16:20:34,499; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:20:37,503; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:20:37,839; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:目前打开的窗口有2个。 
+Time:2019-09-09 16:20:41,953; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:20:41,955; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖函数执行完毕！！！ 
+Time:2019-09-09 16:20:41,956; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:开始正式执行测试用例 
+Time:2019-09-09 16:20:43,768; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-09 16:20:43,806; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:20:43,807; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:20:43.806585 
+Time:2019-09-09 16:20:43,808; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162043 
+Time:2019-09-09 16:20:48,383; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:20:48.382708 
+Time:2019-09-09 16:20:48,385; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162048 
+Time:2019-09-09 16:20:48,388; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00003_20190909162048_ele.png 
+Time:2019-09-09 16:20:53,924; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:20:56,929; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:20:56,981; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[3]/div[1]/div[1]/div[1]/a[3]】的元素 
+Time:2019-09-09 16:20:57,015; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:20:57,016; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:20:57.015889 
+Time:2019-09-09 16:20:57,017; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162057 
+Time:2019-09-09 16:21:01,524; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:21:01.523234 
+Time:2019-09-09 16:21:01,526; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162101 
+Time:2019-09-09 16:21:01,530; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00003_20190909162101_ele.png 
+Time:2019-09-09 16:21:12,289; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-09-09 16:21:18,572; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入网址：https://www.imooc.com/ 
+Time:2019-09-09 16:21:18,670; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到Xpath为【/html/body/div[8]/div/i】的元素 
+Time:2019-09-09 16:21:21,302; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素的Xpath路径为：/html/body/div[8]/div/i 
+Time:2019-09-09 16:21:24,304; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:21:24,305; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖ID（dependid）为:3 
+Time:2019-09-09 16:21:24,307; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行依赖 
+Time:2019-09-09 16:21:24,323; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到依赖数据 
+Time:2019-09-09 16:21:24,330; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:depend:2 
+Time:2019-09-09 16:21:24,331; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入下一层依赖 
+Time:2019-09-09 16:21:24,332; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖ID（dependid）为:2 
+Time:2019-09-09 16:21:24,333; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行依赖 
+Time:2019-09-09 16:21:24,346; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到依赖数据 
+Time:2019-09-09 16:21:24,352; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:depend:1 
+Time:2019-09-09 16:21:24,353; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入下一层依赖 
+Time:2019-09-09 16:21:24,354; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖ID（dependid）为:1 
+Time:2019-09-09 16:21:24,356; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行依赖 
+Time:2019-09-09 16:21:24,368; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到依赖数据 
+Time:2019-09-09 16:21:24,375; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:depend:None 
+Time:2019-09-09 16:21:24,376; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行的caseid:1 
+Time:2019-09-09 16:21:24,425; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-09 16:21:24,457; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:21:24,459; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:21:24.458382 
+Time:2019-09-09 16:21:24,460; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162124 
+Time:2019-09-09 16:21:28,790; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:21:28.789507 
+Time:2019-09-09 16:21:28,794; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162128 
+Time:2019-09-09 16:21:28,799; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/1_1_20190909162128_ele.png 
+Time:2019-09-09 16:21:32,821; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:21:35,825; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:21:35,826; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行的caseid:2 
+Time:2019-09-09 16:21:35,873; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[2]/div[2]/div[1]/div/div[1]/a/div[2]/h3】的元素 
+Time:2019-09-09 16:21:35,988; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:21:35,989; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:21:35.989031 
+Time:2019-09-09 16:21:35,990; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162135 
+Time:2019-09-09 16:21:41,272; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:21:41.272054 
+Time:2019-09-09 16:21:41,273; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162141 
+Time:2019-09-09 16:21:41,275; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/2_1_20190909162141_ele.png 
+Time:2019-09-09 16:21:42,864; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:21:45,869; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:21:46,903; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:目前打开的窗口有2个。 
+Time:2019-09-09 16:21:49,951; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:21:49,952; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行的caseid:3 
+Time:2019-09-09 16:21:52,085; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-09 16:21:52,116; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:21:52,118; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:21:52.117295 
+Time:2019-09-09 16:21:52,119; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162152 
+Time:2019-09-09 16:21:57,176; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:21:57.175360 
+Time:2019-09-09 16:21:57,177; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162157 
+Time:2019-09-09 16:21:57,180; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/3_1_20190909162157_ele.png 
+Time:2019-09-09 16:22:07,003; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:22:10,008; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:22:10,010; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖函数执行完毕！！！ 
+Time:2019-09-09 16:22:10,011; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:开始正式执行测试用例 
+Time:2019-09-09 16:22:10,055; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[3]/div[1]/div[1]/div[1]/a[3]】的元素 
+Time:2019-09-09 16:22:10,109; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:22:10,111; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:22:10.109981 
+Time:2019-09-09 16:22:10,112; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162210 
+Time:2019-09-09 16:22:14,272; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:22:14.272256 
+Time:2019-09-09 16:22:14,273; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162214 
+Time:2019-09-09 16:22:14,274; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00004_20190909162214_ele.png 
+Time:2019-09-09 16:22:18,493; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:22:21,496; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:22:21,545; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/h2/div/a/i】的元素 
+Time:2019-09-09 16:22:21,580; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:22:21,581; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:22:21.581097 
+Time:2019-09-09 16:22:21,583; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162221 
+Time:2019-09-09 16:22:25,388; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:22:25.387555 
+Time:2019-09-09 16:22:25,390; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162225 
+Time:2019-09-09 16:22:25,394; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00004_20190909162225_ele.png 
+Time:2019-09-09 16:22:25,638; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:22:25.637496 
+Time:2019-09-09 16:22:25,640; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162225 
+Time:2019-09-09 16:22:25,641; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:22:25.640441 
+Time:2019-09-09 16:22:25,642; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201909 
+Time:2019-09-09 16:22:25,643; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root 
+Time:2019-09-09 16:22:25,644; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects 
+Time:2019-09-09 16:22:25,645; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc 
+Time:2019-09-09 16:22:25,647; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media 
+Time:2019-09-09 16:22:25,648; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report 
+Time:2019-09-09 16:22:25,649; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909 
+Time:2019-09-09 16:22:25,651; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909/pies 
+Time:2019-09-09 16:22:25,652; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909/pies/ 
+Time:2019-09-09 16:23:33,827; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:23:33.826052 
+Time:2019-09-09 16:23:33,828; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162333 
+Time:2019-09-09 16:23:33,830; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:23:33.829264 
+Time:2019-09-09 16:23:33,831; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162333 
+Time:2019-09-09 16:23:33,832; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:23:33.831815 
+Time:2019-09-09 16:23:33,833; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162333 
+Time:2019-09-09 16:23:33,835; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:23:33.834277 
+Time:2019-09-09 16:23:33,836; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162333 
+Time:2019-09-09 16:23:33,852; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Running the tests... 
+Time:2019-09-09 16:23:33,853; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:23:33.852643 
+Time:2019-09-09 16:23:33,854; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162333 
+Time:2019-09-09 16:23:33,856; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:23:33.855131 
+Time:2019-09-09 16:23:33,857; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201909 
+Time:2019-09-09 16:23:33,858; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root 
+Time:2019-09-09 16:23:33,859; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects 
+Time:2019-09-09 16:23:33,860; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc 
+Time:2019-09-09 16:23:33,862; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media 
+Time:2019-09-09 16:23:33,863; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report 
+Time:2019-09-09 16:23:33,864; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909 
+Time:2019-09-09 16:23:33,866; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:The report path:/root/PycharmProjects/wanwenyc/media/report/201909/20190909162333_report.html 
+Time:2019-09-09 16:23:40,756; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-09-09 16:23:44,455; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入网址：https://www.imooc.com/ 
+Time:2019-09-09 16:23:44,579; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到Xpath为【/html/body/div[8]/div/i】的元素 
+Time:2019-09-09 16:23:44,769; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素的Xpath路径为：/html/body/div[8]/div/i 
+Time:2019-09-09 16:23:47,775; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:23:47,776; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:开始正式执行测试用例 
+Time:2019-09-09 16:23:47,866; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-09 16:23:48,334; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:23:48,335; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:23:48.334632 
+Time:2019-09-09 16:23:48,336; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162348 
+Time:2019-09-09 16:23:48,948; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:23:48.947710 
+Time:2019-09-09 16:23:48,949; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162348 
+Time:2019-09-09 16:23:48,953; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00001_20190909162348_ele.png 
+Time:2019-09-09 16:23:50,242; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:23:53,247; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:23:53,315; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[2]/div[2]/div[1]/div/div[1]/a/div[2]/h3】的元素 
+Time:2019-09-09 16:23:53,421; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:23:53,422; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:23:53.421955 
+Time:2019-09-09 16:23:53,423; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162353 
+Time:2019-09-09 16:23:53,865; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:23:53.864351 
+Time:2019-09-09 16:23:53,866; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162353 
+Time:2019-09-09 16:23:53,871; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00001_20190909162353_ele.png 
+Time:2019-09-09 16:24:00,786; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-09-09 16:24:04,743; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入网址：https://www.imooc.com/ 
+Time:2019-09-09 16:24:04,906; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到Xpath为【/html/body/div[8]/div/i】的元素 
+Time:2019-09-09 16:24:05,109; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素的Xpath路径为：/html/body/div[8]/div/i 
+Time:2019-09-09 16:24:08,114; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:24:08,116; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖ID（dependid）为:1 
+Time:2019-09-09 16:24:08,117; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行依赖 
+Time:2019-09-09 16:24:08,134; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到依赖数据 
+Time:2019-09-09 16:24:08,141; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:depend:None 
+Time:2019-09-09 16:24:08,142; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行的caseid:1 
+Time:2019-09-09 16:24:08,461; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-09 16:24:08,849; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:24:08,850; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:24:08.850109 
+Time:2019-09-09 16:24:08,851; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162408 
+Time:2019-09-09 16:24:09,382; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:24:09.381398 
+Time:2019-09-09 16:24:09,383; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162409 
+Time:2019-09-09 16:24:09,388; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/1_1_20190909162409_ele.png 
+Time:2019-09-09 16:24:10,613; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:24:13,618; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:24:13,620; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖函数执行完毕！！！ 
+Time:2019-09-09 16:24:13,621; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:开始正式执行测试用例 
+Time:2019-09-09 16:24:13,669; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[2]/div[2]/div[1]/div/div[1]/a/div[2]/h3】的元素 
+Time:2019-09-09 16:24:13,768; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:24:13,770; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:24:13.769144 
+Time:2019-09-09 16:24:13,771; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162413 
+Time:2019-09-09 16:24:14,216; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:24:14.215837 
+Time:2019-09-09 16:24:14,218; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162414 
+Time:2019-09-09 16:24:14,222; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00002_20190909162414_ele.png 
+Time:2019-09-09 16:24:14,468; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:24:17,474; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:24:17,484; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:目前打开的窗口有2个。 
+Time:2019-09-09 16:24:20,514; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:24:20,594; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-09 16:24:20,634; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:24:20,636; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:24:20.635232 
+Time:2019-09-09 16:24:20,637; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162420 
+Time:2019-09-09 16:24:20,909; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:24:20.908815 
+Time:2019-09-09 16:24:20,911; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162420 
+Time:2019-09-09 16:24:20,914; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00002_20190909162420_ele.png 
+Time:2019-09-09 16:24:27,816; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-09-09 16:24:34,640; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入网址：https://www.imooc.com/ 
+Time:2019-09-09 16:24:34,780; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到Xpath为【/html/body/div[8]/div/i】的元素 
+Time:2019-09-09 16:24:35,606; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素的Xpath路径为：/html/body/div[8]/div/i 
+Time:2019-09-09 16:24:38,611; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:24:38,613; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖ID（dependid）为:2 
+Time:2019-09-09 16:24:38,614; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行依赖 
+Time:2019-09-09 16:24:38,630; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到依赖数据 
+Time:2019-09-09 16:24:38,636; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:depend:1 
+Time:2019-09-09 16:24:38,638; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入下一层依赖 
+Time:2019-09-09 16:24:38,639; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖ID（dependid）为:1 
+Time:2019-09-09 16:24:38,641; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行依赖 
+Time:2019-09-09 16:24:38,653; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到依赖数据 
+Time:2019-09-09 16:24:38,659; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:depend:None 
+Time:2019-09-09 16:24:38,661; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行的caseid:1 
+Time:2019-09-09 16:24:38,706; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-09 16:24:38,784; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:24:38,785; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:24:38.784818 
+Time:2019-09-09 16:24:38,786; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162438 
+Time:2019-09-09 16:24:39,685; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:24:39.684629 
+Time:2019-09-09 16:24:39,686; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162439 
+Time:2019-09-09 16:24:39,691; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/1_1_20190909162439_ele.png 
+Time:2019-09-09 16:24:41,108; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:24:44,114; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:24:44,115; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行的caseid:2 
+Time:2019-09-09 16:24:44,161; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[2]/div[2]/div[1]/div/div[1]/a/div[2]/h3】的元素 
+Time:2019-09-09 16:24:44,250; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:24:44,251; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:24:44.250438 
+Time:2019-09-09 16:24:44,252; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162444 
+Time:2019-09-09 16:24:44,784; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:24:44.783272 
+Time:2019-09-09 16:24:44,785; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162444 
+Time:2019-09-09 16:24:44,789; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/2_1_20190909162444_ele.png 
+Time:2019-09-09 16:24:45,043; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:24:48,049; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:24:48,058; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:目前打开的窗口有2个。 
+Time:2019-09-09 16:24:51,089; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:24:51,091; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖函数执行完毕！！！ 
+Time:2019-09-09 16:24:51,092; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:开始正式执行测试用例 
+Time:2019-09-09 16:24:51,172; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-09 16:24:51,211; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:24:51,213; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:24:51.212147 
+Time:2019-09-09 16:24:51,214; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162451 
+Time:2019-09-09 16:24:51,492; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:24:51.491248 
+Time:2019-09-09 16:24:51,493; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162451 
+Time:2019-09-09 16:24:51,496; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00003_20190909162451_ele.png 
+Time:2019-09-09 16:24:53,546; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:24:56,549; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:24:56,594; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[3]/div[1]/div[1]/div[1]/a[3]】的元素 
+Time:2019-09-09 16:24:56,634; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:24:56,635; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:24:56.634816 
+Time:2019-09-09 16:24:56,636; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162456 
+Time:2019-09-09 16:24:56,843; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:24:56.842786 
+Time:2019-09-09 16:24:56,844; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162456 
+Time:2019-09-09 16:24:56,846; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00003_20190909162456_ele.png 
+Time:2019-09-09 16:25:03,814; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-09-09 16:25:07,534; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入网址：https://www.imooc.com/ 
+Time:2019-09-09 16:25:07,669; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到Xpath为【/html/body/div[8]/div/i】的元素 
+Time:2019-09-09 16:25:07,878; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素的Xpath路径为：/html/body/div[8]/div/i 
+Time:2019-09-09 16:25:10,882; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:25:10,883; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖ID（dependid）为:3 
+Time:2019-09-09 16:25:10,883; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行依赖 
+Time:2019-09-09 16:25:10,892; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到依赖数据 
+Time:2019-09-09 16:25:10,895; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:depend:2 
+Time:2019-09-09 16:25:10,896; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入下一层依赖 
+Time:2019-09-09 16:25:10,896; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖ID（dependid）为:2 
+Time:2019-09-09 16:25:10,897; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行依赖 
+Time:2019-09-09 16:25:10,903; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到依赖数据 
+Time:2019-09-09 16:25:10,906; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:depend:1 
+Time:2019-09-09 16:25:10,907; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入下一层依赖 
+Time:2019-09-09 16:25:10,907; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖ID（dependid）为:1 
+Time:2019-09-09 16:25:10,908; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行依赖 
+Time:2019-09-09 16:25:10,914; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到依赖数据 
+Time:2019-09-09 16:25:10,917; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:depend:None 
+Time:2019-09-09 16:25:10,918; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行的caseid:1 
+Time:2019-09-09 16:25:11,025; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-09 16:25:11,321; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:25:11,323; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:25:11.322316 
+Time:2019-09-09 16:25:11,324; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162511 
+Time:2019-09-09 16:25:12,096; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:25:12.095029 
+Time:2019-09-09 16:25:12,097; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162512 
+Time:2019-09-09 16:25:12,101; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/1_1_20190909162512_ele.png 
+Time:2019-09-09 16:25:25,187; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:25:28,191; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:25:28,192; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行的caseid:2 
+Time:2019-09-09 16:25:28,238; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[2]/div[2]/div[1]/div/div[1]/a/div[2]/h3】的元素 
+Time:2019-09-09 16:25:28,335; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:25:28,336; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:25:28.335844 
+Time:2019-09-09 16:25:28,337; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162528 
+Time:2019-09-09 16:25:28,787; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:25:28.786235 
+Time:2019-09-09 16:25:28,788; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162528 
+Time:2019-09-09 16:25:28,793; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/2_1_20190909162528_ele.png 
+Time:2019-09-09 16:25:29,040; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:25:32,045; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:25:32,055; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:目前打开的窗口有2个。 
+Time:2019-09-09 16:25:35,085; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:25:35,087; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行的caseid:3 
+Time:2019-09-09 16:25:35,166; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-09 16:25:35,198; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:25:35,200; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:25:35.199122 
+Time:2019-09-09 16:25:35,201; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162535 
+Time:2019-09-09 16:25:35,412; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:25:35.411189 
+Time:2019-09-09 16:25:35,413; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162535 
+Time:2019-09-09 16:25:35,416; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/3_1_20190909162535_ele.png 
+Time:2019-09-09 16:25:43,933; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:25:46,938; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:25:46,939; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖函数执行完毕！！！ 
+Time:2019-09-09 16:25:46,941; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:开始正式执行测试用例 
+Time:2019-09-09 16:25:46,987; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[3]/div[1]/div[1]/div[1]/a[3]】的元素 
+Time:2019-09-09 16:25:47,036; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:25:47,037; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:25:47.036526 
+Time:2019-09-09 16:25:47,038; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162547 
+Time:2019-09-09 16:25:47,293; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:25:47.292568 
+Time:2019-09-09 16:25:47,294; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162547 
+Time:2019-09-09 16:25:47,297; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00004_20190909162547_ele.png 
+Time:2019-09-09 16:25:49,186; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:25:52,189; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:25:52,235; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/h2/div/a/i】的元素 
+Time:2019-09-09 16:25:52,279; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:25:52,281; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:25:52.280262 
+Time:2019-09-09 16:25:52,282; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162552 
+Time:2019-09-09 16:25:52,535; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:25:52.534867 
+Time:2019-09-09 16:25:52,537; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162552 
+Time:2019-09-09 16:25:52,540; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00004_20190909162552_ele.png 
+Time:2019-09-09 16:25:52,750; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:25:52.749159 
+Time:2019-09-09 16:25:52,751; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162552 
+Time:2019-09-09 16:25:52,753; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:25:52.752134 
+Time:2019-09-09 16:25:52,754; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201909 
+Time:2019-09-09 16:25:52,755; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root 
+Time:2019-09-09 16:25:52,756; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects 
+Time:2019-09-09 16:25:52,758; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc 
+Time:2019-09-09 16:25:52,759; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media 
+Time:2019-09-09 16:25:52,760; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report 
+Time:2019-09-09 16:25:52,761; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909 
+Time:2019-09-09 16:25:52,762; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909/pies 
+Time:2019-09-09 16:25:52,764; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909/pies/ 
+Time:2019-09-09 16:27:42,428; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:27:42.427652 
+Time:2019-09-09 16:27:42,430; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162742 
+Time:2019-09-09 16:27:42,431; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:27:42.430606 
+Time:2019-09-09 16:27:42,432; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162742 
+Time:2019-09-09 16:27:42,433; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:27:42.432690 
+Time:2019-09-09 16:27:42,434; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162742 
+Time:2019-09-09 16:27:42,435; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:27:42.435085 
+Time:2019-09-09 16:27:42,436; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162742 
+Time:2019-09-09 16:27:42,443; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Running the tests... 
+Time:2019-09-09 16:27:42,444; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:27:42.443991 
+Time:2019-09-09 16:27:42,444; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162742 
+Time:2019-09-09 16:27:42,445; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:27:42.445142 
+Time:2019-09-09 16:27:42,446; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201909 
+Time:2019-09-09 16:27:42,446; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root 
+Time:2019-09-09 16:27:42,447; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects 
+Time:2019-09-09 16:27:42,448; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc 
+Time:2019-09-09 16:27:42,449; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media 
+Time:2019-09-09 16:27:42,450; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report 
+Time:2019-09-09 16:27:42,452; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909 
+Time:2019-09-09 16:27:42,454; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:The report path:/root/PycharmProjects/wanwenyc/media/report/201909/20190909162742_report.html 
+Time:2019-09-09 16:27:49,331; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-09-09 16:27:55,836; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入网址：https://www.imooc.com/ 
+Time:2019-09-09 16:27:55,943; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到Xpath为【/html/body/div[8]/div/i】的元素 
+Time:2019-09-09 16:27:56,181; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素的Xpath路径为：/html/body/div[8]/div/i 
+Time:2019-09-09 16:27:59,185; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:27:59,187; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:开始正式执行测试用例 
+Time:2019-09-09 16:27:59,233; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-09 16:27:59,325; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:27:59,326; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:27:59.326088 
+Time:2019-09-09 16:27:59,328; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162759 
+Time:2019-09-09 16:27:59,838; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:27:59.837400 
+Time:2019-09-09 16:27:59,839; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162759 
+Time:2019-09-09 16:27:59,843; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00001_20190909162759_ele.png 
+Time:2019-09-09 16:28:01,217; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:28:04,221; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:28:04,275; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[2]/div[2]/div[1]/div/div[1]/a/div[2]/h3】的元素 
+Time:2019-09-09 16:28:04,390; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:28:04,391; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:28:04.391299 
+Time:2019-09-09 16:28:04,392; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162804 
+Time:2019-09-09 16:28:04,847; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:28:04.846407 
+Time:2019-09-09 16:28:04,848; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162804 
+Time:2019-09-09 16:28:04,853; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00001_20190909162804_ele.png 
+Time:2019-09-09 16:28:11,869; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-09-09 16:28:15,600; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入网址：https://www.imooc.com/ 
+Time:2019-09-09 16:28:15,731; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到Xpath为【/html/body/div[8]/div/i】的元素 
+Time:2019-09-09 16:28:15,953; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素的Xpath路径为：/html/body/div[8]/div/i 
+Time:2019-09-09 16:28:18,958; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:28:18,961; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖ID（dependid）为:1 
+Time:2019-09-09 16:28:18,962; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行依赖 
+Time:2019-09-09 16:28:18,979; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到依赖数据 
+Time:2019-09-09 16:28:18,986; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:depend:None 
+Time:2019-09-09 16:28:18,987; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行的caseid:1 
+Time:2019-09-09 16:28:19,285; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-09 16:28:19,477; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:28:19,478; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:28:19.477689 
+Time:2019-09-09 16:28:19,479; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162819 
+Time:2019-09-09 16:28:20,114; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:28:20.113226 
+Time:2019-09-09 16:28:20,115; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162820 
+Time:2019-09-09 16:28:20,119; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/1_1_20190909162820_ele.png 
+Time:2019-09-09 16:28:21,495; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:28:24,500; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:28:24,501; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖函数执行完毕！！！ 
+Time:2019-09-09 16:28:24,502; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:开始正式执行测试用例 
+Time:2019-09-09 16:28:24,547; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[2]/div[2]/div[1]/div/div[1]/a/div[2]/h3】的元素 
+Time:2019-09-09 16:28:24,631; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:28:24,632; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:28:24.631774 
+Time:2019-09-09 16:28:24,633; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162824 
+Time:2019-09-09 16:28:25,086; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:28:25.085914 
+Time:2019-09-09 16:28:25,088; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162825 
+Time:2019-09-09 16:28:25,092; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00002_20190909162825_ele.png 
+Time:2019-09-09 16:28:25,344; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:28:28,349; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:28:28,359; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:目前打开的窗口有2个。 
+Time:2019-09-09 16:28:31,387; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:28:31,491; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-09 16:28:31,512; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:28:31,513; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:28:31.512558 
+Time:2019-09-09 16:28:31,513; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162831 
+Time:2019-09-09 16:28:31,802; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:28:31.801971 
+Time:2019-09-09 16:28:31,803; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162831 
+Time:2019-09-09 16:28:31,805; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00002_20190909162831_ele.png 
+Time:2019-09-09 16:28:39,160; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-09-09 16:28:46,010; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入网址：https://www.imooc.com/ 
+Time:2019-09-09 16:28:46,153; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到Xpath为【/html/body/div[8]/div/i】的元素 
+Time:2019-09-09 16:28:46,365; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素的Xpath路径为：/html/body/div[8]/div/i 
+Time:2019-09-09 16:28:49,370; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:28:49,372; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖ID（dependid）为:2 
+Time:2019-09-09 16:28:49,373; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行依赖 
+Time:2019-09-09 16:28:49,390; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到依赖数据 
+Time:2019-09-09 16:28:49,397; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:depend:1 
+Time:2019-09-09 16:28:49,398; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入下一层依赖 
+Time:2019-09-09 16:28:49,399; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖ID（dependid）为:1 
+Time:2019-09-09 16:28:49,401; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行依赖 
+Time:2019-09-09 16:28:49,413; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到依赖数据 
+Time:2019-09-09 16:28:49,419; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:depend:None 
+Time:2019-09-09 16:28:49,421; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行的caseid:1 
+Time:2019-09-09 16:28:49,466; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-09 16:28:49,558; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:28:49,559; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:28:49.558687 
+Time:2019-09-09 16:28:49,560; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162849 
+Time:2019-09-09 16:28:49,993; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:28:49.992392 
+Time:2019-09-09 16:28:49,993; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162849 
+Time:2019-09-09 16:28:49,996; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/1_1_20190909162849_ele.png 
+Time:2019-09-09 16:28:50,906; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:28:53,910; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:28:53,912; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行的caseid:2 
+Time:2019-09-09 16:28:53,956; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[2]/div[2]/div[1]/div/div[1]/a/div[2]/h3】的元素 
+Time:2019-09-09 16:28:54,046; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:28:54,047; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:28:54.046567 
+Time:2019-09-09 16:28:54,048; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162854 
+Time:2019-09-09 16:28:54,406; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:28:54.405320 
+Time:2019-09-09 16:28:54,407; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162854 
+Time:2019-09-09 16:28:54,412; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/2_1_20190909162854_ele.png 
+Time:2019-09-09 16:28:54,641; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:28:57,646; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:28:57,656; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:目前打开的窗口有2个。 
+Time:2019-09-09 16:29:00,686; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:29:00,688; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖函数执行完毕！！！ 
+Time:2019-09-09 16:29:00,690; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:开始正式执行测试用例 
+Time:2019-09-09 16:29:00,771; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-09 16:29:00,808; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:29:00,809; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:29:00.808648 
+Time:2019-09-09 16:29:00,810; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162900 
+Time:2019-09-09 16:29:01,098; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:29:01.097952 
+Time:2019-09-09 16:29:01,100; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162901 
+Time:2019-09-09 16:29:01,103; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00003_20190909162901_ele.png 
+Time:2019-09-09 16:29:03,170; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:29:06,176; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:29:06,223; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[3]/div[1]/div[1]/div[1]/a[3]】的元素 
+Time:2019-09-09 16:29:06,273; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:29:06,274; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:29:06.273810 
+Time:2019-09-09 16:29:06,275; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162906 
+Time:2019-09-09 16:29:06,519; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:29:06.518843 
+Time:2019-09-09 16:29:06,520; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162906 
+Time:2019-09-09 16:29:06,522; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00003_20190909162906_ele.png 
+Time:2019-09-09 16:29:13,563; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-09-09 16:29:17,477; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入网址：https://www.imooc.com/ 
+Time:2019-09-09 16:29:17,616; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到Xpath为【/html/body/div[8]/div/i】的元素 
+Time:2019-09-09 16:29:17,839; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素的Xpath路径为：/html/body/div[8]/div/i 
+Time:2019-09-09 16:29:20,843; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:29:20,845; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖ID（dependid）为:3 
+Time:2019-09-09 16:29:20,846; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行依赖 
+Time:2019-09-09 16:29:20,862; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到依赖数据 
+Time:2019-09-09 16:29:20,869; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:depend:2 
+Time:2019-09-09 16:29:20,870; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入下一层依赖 
+Time:2019-09-09 16:29:20,871; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖ID（dependid）为:2 
+Time:2019-09-09 16:29:20,873; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行依赖 
+Time:2019-09-09 16:29:20,886; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到依赖数据 
+Time:2019-09-09 16:29:20,893; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:depend:1 
+Time:2019-09-09 16:29:20,895; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入下一层依赖 
+Time:2019-09-09 16:29:20,896; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖ID（dependid）为:1 
+Time:2019-09-09 16:29:20,897; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行依赖 
+Time:2019-09-09 16:29:20,910; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到依赖数据 
+Time:2019-09-09 16:29:20,917; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:depend:None 
+Time:2019-09-09 16:29:20,918; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行的caseid:1 
+Time:2019-09-09 16:29:21,132; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-09 16:29:21,407; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:29:21,408; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:29:21.408072 
+Time:2019-09-09 16:29:21,409; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162921 
+Time:2019-09-09 16:29:21,929; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:29:21.929050 
+Time:2019-09-09 16:29:21,930; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162921 
+Time:2019-09-09 16:29:21,932; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/1_1_20190909162921_ele.png 
+Time:2019-09-09 16:29:23,460; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:29:26,466; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:29:26,467; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行的caseid:2 
+Time:2019-09-09 16:29:26,514; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[2]/div[2]/div[1]/div/div[1]/a/div[2]/h3】的元素 
+Time:2019-09-09 16:29:26,603; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:29:26,605; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:29:26.604327 
+Time:2019-09-09 16:29:26,606; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162926 
+Time:2019-09-09 16:29:27,095; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:29:27.094217 
+Time:2019-09-09 16:29:27,096; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162927 
+Time:2019-09-09 16:29:27,101; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/2_1_20190909162927_ele.png 
+Time:2019-09-09 16:29:27,339; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:29:30,343; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:29:30,354; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:目前打开的窗口有2个。 
+Time:2019-09-09 16:29:33,384; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:29:33,386; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行的caseid:3 
+Time:2019-09-09 16:29:33,467; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-09 16:29:33,507; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:29:33,510; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:29:33.508604 
+Time:2019-09-09 16:29:33,511; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162933 
+Time:2019-09-09 16:29:33,783; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:29:33.782010 
+Time:2019-09-09 16:29:33,784; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162933 
+Time:2019-09-09 16:29:33,787; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/3_1_20190909162933_ele.png 
+Time:2019-09-09 16:29:35,645; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:29:38,650; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:29:38,652; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖函数执行完毕！！！ 
+Time:2019-09-09 16:29:38,653; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:开始正式执行测试用例 
+Time:2019-09-09 16:29:38,703; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:问题描述：Message: invalid selector: Unable to locate an element with the xpath expression /html/body/div[4]/div[3]/div[1]/div[1]/div[1]/a[3]/1 because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '/html/body/div[4]/div[3]/div[1]/div[1]/div[1]/a[3]/1' is not a valid XPath expression.
+  (Session info: headless chrome=76.0.3809.132)
+ 
+Time:2019-09-09 16:29:38,704; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:29:38,705; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:29:38.704684 
+Time:2019-09-09 16:29:38,706; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162938 
+Time:2019-09-09 16:29:44,003; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-09-09 16:29:44,039; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:29:44,041; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:29:44.040414 
+Time:2019-09-09 16:29:44,042; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162944 
+Time:2019-09-09 16:29:44,043; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:29:44.042845 
+Time:2019-09-09 16:29:44,044; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201909 
+Time:2019-09-09 16:29:44,045; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root 
+Time:2019-09-09 16:29:44,047; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects 
+Time:2019-09-09 16:29:44,048; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc 
+Time:2019-09-09 16:29:44,049; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media 
+Time:2019-09-09 16:29:44,050; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report 
+Time:2019-09-09 16:29:44,051; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909 
+Time:2019-09-09 16:29:44,052; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909/screenshots 
+Time:2019-09-09 16:29:44,053; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909/screenshots/ 
+Time:2019-09-09 16:29:44,357; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:***** 
+Time:2019-09-09 16:29:44,359; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:media\report\201909\screenshots\screenpicture_20190909162944.png 
+Time:2019-09-09 16:29:44,360; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:***** 
+Time:2019-09-09 16:29:44,361; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:停顿5秒后再次查找依然未找到元素.问题描述：Message: invalid selector: Unable to locate an element with the xpath expression /html/body/div[4]/div[3]/div[1]/div[1]/div[1]/a[3]/1 because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '/html/body/div[4]/div[3]/div[1]/div[1]/div[1]/a[3]/1' is not a valid XPath expression.
+  (Session info: headless chrome=76.0.3809.132)
+ 
+Time:2019-09-09 16:29:44,580; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:29:44.579095 
+Time:2019-09-09 16:29:44,581; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909162944 
+Time:2019-09-09 16:29:44,582; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:29:44.581523 
+Time:2019-09-09 16:29:44,583; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201909 
+Time:2019-09-09 16:29:44,584; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root 
+Time:2019-09-09 16:29:44,585; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects 
+Time:2019-09-09 16:29:44,586; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc 
+Time:2019-09-09 16:29:44,587; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media 
+Time:2019-09-09 16:29:44,588; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report 
+Time:2019-09-09 16:29:44,589; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909 
+Time:2019-09-09 16:29:44,590; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909/pies 
+Time:2019-09-09 16:29:44,591; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909/pies/ 
+Time:2019-09-09 16:33:04,284; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:33:04.283205 
+Time:2019-09-09 16:33:04,286; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909163304 
+Time:2019-09-09 16:33:04,287; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:33:04.286594 
+Time:2019-09-09 16:33:04,288; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909163304 
+Time:2019-09-09 16:33:04,290; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:33:04.289182 
+Time:2019-09-09 16:33:04,291; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909163304 
+Time:2019-09-09 16:33:04,292; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:33:04.291524 
+Time:2019-09-09 16:33:04,293; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909163304 
+Time:2019-09-09 16:33:04,309; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Running the tests... 
+Time:2019-09-09 16:33:04,310; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:33:04.310077 
+Time:2019-09-09 16:33:04,312; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909163304 
+Time:2019-09-09 16:33:04,313; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:33:04.312970 
+Time:2019-09-09 16:33:04,315; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201909 
+Time:2019-09-09 16:33:04,316; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root 
+Time:2019-09-09 16:33:04,317; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects 
+Time:2019-09-09 16:33:04,318; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc 
+Time:2019-09-09 16:33:04,319; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media 
+Time:2019-09-09 16:33:04,321; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report 
+Time:2019-09-09 16:33:04,322; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909 
+Time:2019-09-09 16:33:04,323; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:The report path:/root/PycharmProjects/wanwenyc/media/report/201909/20190909163304_report.html 
+Time:2019-09-09 16:33:13,863; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-09-09 16:33:23,719; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入网址：https://www.imooc.com/ 
+Time:2019-09-09 16:33:23,787; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到Xpath为【/html/body/div[8]/div/i】的元素 
+Time:2019-09-09 16:33:25,693; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素的Xpath路径为：/html/body/div[8]/div/i 
+Time:2019-09-09 16:33:28,699; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:33:28,700; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:开始正式执行测试用例 
+Time:2019-09-09 16:33:28,755; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-09 16:33:28,787; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:33:28,789; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:33:28.788331 
+Time:2019-09-09 16:33:28,791; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909163328 
+Time:2019-09-09 16:33:36,305; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:33:36.304775 
+Time:2019-09-09 16:33:36,306; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909163336 
+Time:2019-09-09 16:33:36,312; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00001_20190909163336_ele.png 
+Time:2019-09-09 16:33:39,890; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:33:42,893; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:33:42,941; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[2]/div[2]/div[1]/div/div[1]/a/div[2]/h3】的元素 
+Time:2019-09-09 16:33:42,974; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:33:42,975; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:33:42.974812 
+Time:2019-09-09 16:33:42,976; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909163342 
+Time:2019-09-09 16:33:48,720; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:33:48.719672 
+Time:2019-09-09 16:33:48,721; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909163348 
+Time:2019-09-09 16:33:48,725; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00001_20190909163348_ele.png 
+Time:2019-09-09 16:33:59,280; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-09-09 16:34:05,111; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入网址：https://www.imooc.com/ 
+Time:2019-09-09 16:34:05,200; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到Xpath为【/html/body/div[8]/div/i】的元素 
+Time:2019-09-09 16:34:06,266; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素的Xpath路径为：/html/body/div[8]/div/i 
+Time:2019-09-09 16:34:09,270; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:34:09,272; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖ID（dependid）为:1 
+Time:2019-09-09 16:34:09,273; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行依赖 
+Time:2019-09-09 16:34:09,289; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到依赖数据 
+Time:2019-09-09 16:34:09,296; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:depend:None 
+Time:2019-09-09 16:34:09,297; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行的caseid:1 
+Time:2019-09-09 16:34:09,342; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-09 16:34:09,392; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:34:09,393; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:34:09.392816 
+Time:2019-09-09 16:34:09,394; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909163409 
+Time:2019-09-09 16:34:16,741; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:34:16.739889 
+Time:2019-09-09 16:34:16,742; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909163416 
+Time:2019-09-09 16:34:16,746; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/1_1_20190909163416_ele.png 
+Time:2019-09-09 16:34:20,403; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:34:23,406; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:34:23,407; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖函数执行完毕！！！ 
+Time:2019-09-09 16:34:23,408; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:开始正式执行测试用例 
+Time:2019-09-09 16:34:23,455; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[2]/div[2]/div[1]/div/div[1]/a/div[2]/h3】的元素 
+Time:2019-09-09 16:34:23,488; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:34:23,489; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:34:23.488881 
+Time:2019-09-09 16:34:23,491; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909163423 
+Time:2019-09-09 16:34:29,834; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:34:29.833899 
+Time:2019-09-09 16:34:29,835; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909163429 
+Time:2019-09-09 16:34:29,838; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00002_20190909163429_ele.png 
+Time:2019-09-09 16:34:31,535; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:34:34,538; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:34:35,580; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:目前打开的窗口有2个。 
+Time:2019-09-09 16:34:38,661; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:34:40,532; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-09 16:34:40,566; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:34:40,568; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:34:40.567290 
+Time:2019-09-09 16:34:40,569; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909163440 
+Time:2019-09-09 16:34:44,825; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:34:44.823963 
+Time:2019-09-09 16:34:44,826; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909163444 
+Time:2019-09-09 16:34:44,829; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00002_20190909163444_ele.png 
+Time:2019-09-09 16:34:56,233; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-09-09 16:35:04,735; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入网址：https://www.imooc.com/ 
+Time:2019-09-09 16:35:04,823; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到Xpath为【/html/body/div[8]/div/i】的元素 
+Time:2019-09-09 16:35:06,723; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素的Xpath路径为：/html/body/div[8]/div/i 
+Time:2019-09-09 16:35:09,728; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:35:09,729; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖ID（dependid）为:2 
+Time:2019-09-09 16:35:09,730; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行依赖 
+Time:2019-09-09 16:35:09,746; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到依赖数据 
+Time:2019-09-09 16:35:09,755; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:depend:1 
+Time:2019-09-09 16:35:09,757; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入下一层依赖 
+Time:2019-09-09 16:35:09,758; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖ID（dependid）为:1 
+Time:2019-09-09 16:35:09,759; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行依赖 
+Time:2019-09-09 16:35:09,776; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到依赖数据 
+Time:2019-09-09 16:35:09,785; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:depend:None 
+Time:2019-09-09 16:35:09,787; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行的caseid:1 
+Time:2019-09-09 16:35:09,832; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-09 16:35:09,867; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:35:09,868; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:35:09.867917 
+Time:2019-09-09 16:35:09,869; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909163509 
+Time:2019-09-09 16:35:16,976; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:35:16.974718 
+Time:2019-09-09 16:35:16,978; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909163516 
+Time:2019-09-09 16:35:16,984; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/1_1_20190909163516_ele.png 
+Time:2019-09-09 16:35:21,339; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:35:24,344; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:35:24,345; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行的caseid:2 
+Time:2019-09-09 16:35:24,432; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[2]/div[2]/div[1]/div/div[1]/a/div[2]/h3】的元素 
+Time:2019-09-09 16:35:24,465; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:35:24,466; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:35:24.466089 
+Time:2019-09-09 16:35:24,468; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909163524 
+Time:2019-09-09 16:35:30,725; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:35:30.724747 
+Time:2019-09-09 16:35:30,727; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909163530 
+Time:2019-09-09 16:35:30,730; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/2_1_20190909163530_ele.png 
+Time:2019-09-09 16:35:32,446; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:35:35,452; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:35:36,951; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:目前打开的窗口有2个。 
+Time:2019-09-09 16:35:39,998; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:35:40,000; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖函数执行完毕！！！ 
+Time:2019-09-09 16:35:40,001; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:开始正式执行测试用例 
+Time:2019-09-09 16:35:42,473; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-09 16:35:42,507; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:35:42,509; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:35:42.508332 
+Time:2019-09-09 16:35:42,510; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909163542 
+Time:2019-09-09 16:35:47,197; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:35:47.196531 
+Time:2019-09-09 16:35:47,197; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909163547 
+Time:2019-09-09 16:35:47,199; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00003_20190909163547_ele.png 
+Time:2019-09-09 16:35:54,468; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:35:57,473; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:35:57,519; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[3]/div[1]/div[1]/div[1]/a[3]】的元素 
+Time:2019-09-09 16:35:57,554; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:35:57,555; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:35:57.554680 
+Time:2019-09-09 16:35:57,557; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909163557 
+Time:2019-09-09 16:36:02,662; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:36:02.662044 
+Time:2019-09-09 16:36:02,663; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909163602 
+Time:2019-09-09 16:36:02,665; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00003_20190909163602_ele.png 
+Time:2019-09-09 16:36:13,848; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-09-09 16:36:22,804; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入网址：https://www.imooc.com/ 
+Time:2019-09-09 16:36:22,888; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到Xpath为【/html/body/div[8]/div/i】的元素 
+Time:2019-09-09 16:36:24,786; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素的Xpath路径为：/html/body/div[8]/div/i 
+Time:2019-09-09 16:36:27,790; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:36:27,791; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖ID（dependid）为:3 
+Time:2019-09-09 16:36:27,792; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行依赖 
+Time:2019-09-09 16:36:27,808; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到依赖数据 
+Time:2019-09-09 16:36:27,815; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:depend:2 
+Time:2019-09-09 16:36:27,816; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入下一层依赖 
+Time:2019-09-09 16:36:27,818; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖ID（dependid）为:2 
+Time:2019-09-09 16:36:27,819; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行依赖 
+Time:2019-09-09 16:36:27,831; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到依赖数据 
+Time:2019-09-09 16:36:27,838; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:depend:1 
+Time:2019-09-09 16:36:27,840; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入下一层依赖 
+Time:2019-09-09 16:36:27,841; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖ID（dependid）为:1 
+Time:2019-09-09 16:36:27,842; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行依赖 
+Time:2019-09-09 16:36:27,855; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到依赖数据 
+Time:2019-09-09 16:36:27,862; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:depend:None 
+Time:2019-09-09 16:36:27,863; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行的caseid:1 
+Time:2019-09-09 16:36:27,912; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-09 16:36:27,994; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:36:27,995; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:36:27.994959 
+Time:2019-09-09 16:36:27,996; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909163627 
+Time:2019-09-09 16:36:34,061; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:36:34.060836 
+Time:2019-09-09 16:36:34,062; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909163634 
+Time:2019-09-09 16:36:34,066; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/1_1_20190909163634_ele.png 
+Time:2019-09-09 16:36:39,059; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:36:42,064; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:36:42,065; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行的caseid:2 
+Time:2019-09-09 16:36:42,113; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[2]/div[2]/div[1]/div/div[1]/a/div[2]/h3】的元素 
+Time:2019-09-09 16:36:42,249; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:36:42,251; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:36:42.250045 
+Time:2019-09-09 16:36:42,252; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909163642 
+Time:2019-09-09 16:36:49,044; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:36:49.042523 
+Time:2019-09-09 16:36:49,046; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909163649 
+Time:2019-09-09 16:36:49,051; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/2_1_20190909163649_ele.png 
+Time:2019-09-09 16:36:50,449; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:36:53,454; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:36:54,519; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:目前打开的窗口有2个。 
+Time:2019-09-09 16:36:57,577; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:36:57,578; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行的caseid:3 
+Time:2019-09-09 16:36:59,754; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-09 16:36:59,788; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:36:59,789; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:36:59.789028 
+Time:2019-09-09 16:36:59,791; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909163659 
+Time:2019-09-09 16:37:06,883; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:37:06.882922 
+Time:2019-09-09 16:37:06,885; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909163706 
+Time:2019-09-09 16:37:06,888; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/3_1_20190909163706_ele.png 
+Time:2019-09-09 16:37:12,554; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:37:15,558; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:37:15,559; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖函数执行完毕！！！ 
+Time:2019-09-09 16:37:15,561; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:开始正式执行测试用例 
+Time:2019-09-09 16:37:15,622; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:问题描述：Message: invalid selector: Unable to locate an element with the xpath expression /html/body/div[4]/div[3]/div[1]/div[1]/div[1]/a[3]/1 because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '/html/body/div[4]/div[3]/div[1]/div[1]/div[1]/a[3]/1' is not a valid XPath expression.
+  (Session info: chrome=76.0.3809.132)
+ 
+Time:2019-09-09 16:37:15,624; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:37:15,626; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:37:15.625065 
+Time:2019-09-09 16:37:15,628; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909163715 
+Time:2019-09-09 16:37:25,408; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-09-09 16:37:25,456; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:37:25,458; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:37:25.457279 
+Time:2019-09-09 16:37:25,459; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909163725 
+Time:2019-09-09 16:37:25,460; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:37:25.459849 
+Time:2019-09-09 16:37:25,461; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201909 
+Time:2019-09-09 16:37:25,463; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root 
+Time:2019-09-09 16:37:25,464; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects 
+Time:2019-09-09 16:37:25,465; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc 
+Time:2019-09-09 16:37:25,466; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media 
+Time:2019-09-09 16:37:25,467; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report 
+Time:2019-09-09 16:37:25,469; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909 
+Time:2019-09-09 16:37:25,470; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909/screenshots 
+Time:2019-09-09 16:37:25,471; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909/screenshots/ 
+Time:2019-09-09 16:37:26,161; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:***** 
+Time:2019-09-09 16:37:26,162; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:media\report\201909\screenshots\screenpicture_20190909163725.png 
+Time:2019-09-09 16:37:26,163; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:***** 
+Time:2019-09-09 16:37:26,164; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:停顿5秒后再次查找依然未找到元素.问题描述：Message: invalid selector: Unable to locate an element with the xpath expression /html/body/div[4]/div[3]/div[1]/div[1]/div[1]/a[3]/1 because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '/html/body/div[4]/div[3]/div[1]/div[1]/div[1]/a[3]/1' is not a valid XPath expression.
+  (Session info: chrome=76.0.3809.132)
+ 
+Time:2019-09-09 16:37:26,418; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:37:26.417179 
+Time:2019-09-09 16:37:26,420; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909163726 
+Time:2019-09-09 16:37:26,421; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:37:26.420503 
+Time:2019-09-09 16:37:26,422; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201909 
+Time:2019-09-09 16:37:26,424; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root 
+Time:2019-09-09 16:37:26,425; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects 
+Time:2019-09-09 16:37:26,426; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc 
+Time:2019-09-09 16:37:26,427; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media 
+Time:2019-09-09 16:37:26,429; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report 
+Time:2019-09-09 16:37:26,430; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909 
+Time:2019-09-09 16:37:26,431; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909/pies 
+Time:2019-09-09 16:37:26,432; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909/pies/ 
+Time:2019-09-09 16:40:48,871; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:40:48.870612 
+Time:2019-09-09 16:40:48,873; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909164048 
+Time:2019-09-09 16:40:48,874; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:40:48.873881 
+Time:2019-09-09 16:40:48,875; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909164048 
+Time:2019-09-09 16:40:48,877; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:40:48.876430 
+Time:2019-09-09 16:40:48,878; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909164048 
+Time:2019-09-09 16:40:48,879; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:40:48.878944 
+Time:2019-09-09 16:40:48,881; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909164048 
+Time:2019-09-09 16:40:48,897; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Running the tests... 
+Time:2019-09-09 16:40:48,898; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:40:48.897963 
+Time:2019-09-09 16:40:48,900; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909164048 
+Time:2019-09-09 16:40:48,901; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:40:48.900548 
+Time:2019-09-09 16:40:48,902; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201909 
+Time:2019-09-09 16:40:48,903; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root 
+Time:2019-09-09 16:40:48,905; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects 
+Time:2019-09-09 16:40:48,906; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc 
+Time:2019-09-09 16:40:48,907; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media 
+Time:2019-09-09 16:40:48,908; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report 
+Time:2019-09-09 16:40:48,910; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909 
+Time:2019-09-09 16:40:48,911; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:The report path:/root/PycharmProjects/wanwenyc/media/report/201909/20190909164048_report.html 
+Time:2019-09-09 16:44:46,065; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:44:46.064372 
+Time:2019-09-09 16:44:46,067; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909164446 
+Time:2019-09-09 16:44:46,068; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:44:46.067701 
+Time:2019-09-09 16:44:46,069; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909164446 
+Time:2019-09-09 16:44:46,070; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:44:46.069993 
+Time:2019-09-09 16:44:46,071; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909164446 
+Time:2019-09-09 16:44:46,073; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:44:46.072305 
+Time:2019-09-09 16:44:46,074; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909164446 
+Time:2019-09-09 16:44:46,089; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:Running the tests... 
+Time:2019-09-09 16:44:46,090; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:44:46.090115 
+Time:2019-09-09 16:44:46,092; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909164446 
+Time:2019-09-09 16:44:46,093; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:44:46.092508 
+Time:2019-09-09 16:44:46,094; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201909 
+Time:2019-09-09 16:44:46,095; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root 
+Time:2019-09-09 16:44:46,097; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects 
+Time:2019-09-09 16:44:46,098; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc 
+Time:2019-09-09 16:44:46,099; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media 
+Time:2019-09-09 16:44:46,100; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report 
+Time:2019-09-09 16:44:46,101; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909 
+Time:2019-09-09 16:44:46,103; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:The report path:/root/PycharmProjects/wanwenyc/media/report/201909/20190909164446_report.html 
+Time:2019-09-09 16:44:56,685; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-09-09 16:45:04,006; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入网址：https://www.imooc.com/ 
+Time:2019-09-09 16:45:04,217; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到Xpath为【/html/body/div[8]/div/i】的元素 
+Time:2019-09-09 16:45:05,414; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素的Xpath路径为：/html/body/div[8]/div/i 
+Time:2019-09-09 16:45:08,418; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:45:08,420; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:开始正式执行测试用例 
+Time:2019-09-09 16:45:08,458; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[2]/div/ul/li[2]/a】的元素 
+Time:2019-09-09 16:45:08,492; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:45:08,493; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:45:08.492920 
+Time:2019-09-09 16:45:08,494; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909164508 
+Time:2019-09-09 16:45:13,504; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:45:13.503310 
+Time:2019-09-09 16:45:13,506; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909164513 
+Time:2019-09-09 16:45:13,511; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00001_20190909164513_ele.png 
+Time:2019-09-09 16:45:19,897; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:点击元素 
+Time:2019-09-09 16:45:22,902; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待3秒--- 
+Time:2019-09-09 16:45:22,949; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到xpath为【/html/body/div[4]/div[2]/div[2]/div[1]/div/div[1]/a/div[2]/h3】的元素 
+Time:2019-09-09 16:45:22,987; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-09 16:45:22,988; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:45:22.987860 
+Time:2019-09-09 16:45:22,990; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909164522 
+Time:2019-09-09 16:45:27,566; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-09 16:45:27.565401 
+Time:2019-09-09 16:45:27,567; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190909164527 
+Time:2019-09-09 16:45:27,571; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取到的元素的截图路径为：/root/PycharmProjects/wanwenyc/WWTest/imagefile/ele/00001_20190909164527_ele.png 
