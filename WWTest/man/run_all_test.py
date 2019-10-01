@@ -89,11 +89,15 @@ class RunAllTest(unittest.TestCase):
         print(reportname)
         reportrd.reportfile = reportname
         reportrd.save()
+        from wanwenyc.settings import DJANGO_SERVER_YUMING
+        reportnew = Report.objects.all().order_by('-id')[:1][0]  #获取最新报告
+        reporturl = "%s/media/%s" % (DJANGO_SERVER_YUMING,reportnew.reportfile)  #最新报告访问网址
 
         # 发送report至邮箱
         emailtitle = u'%s_%s 自动化测试_测试报告'% (testproject,testmodule)
         send_e = SendEmail()
-        send_e.run_send(runresult.success_count, runresult.failure_count,runresult.error_count,filename,emailtitle=emailtitle)
+        send_e.run_send(runresult.success_count, runresult.failure_count,runresult.error_count,filename,
+                                    emailtitle=emailtitle,reporturl=reporturl)
 
     def outPutMyLog(self, context):
         mylog = MyLogs(context)

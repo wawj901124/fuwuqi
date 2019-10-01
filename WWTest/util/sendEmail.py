@@ -5,18 +5,36 @@ from email.mime.application import MIMEApplication   #添加附件用
 
 class SendEmail:
 
-    # globals() ['send_user'] = "xiangkaizheng@iapppay.com"  #构建全局变量发送者
-    # globals() ['email_host'] = "mail.iapppay.com"    #构建全局变量邮件服务器的email_host（smpt）
-    # globals() ['password'] = "iapppay002"    #构建全局变量邮件服务器的password，邮箱服务器发送者的登录密码
-    globals() ['send_user'] = "410287958@qq.com"  #构建全局变量发送者
-    globals() ['email_host'] = "smtp.qq.com"    #构建全局变量邮件服务器的email_host（smpt）
-    globals() ['password'] = "wbfiwwnajhrabijg"    #构建全局变量邮件服务器的password，邮箱服务器发送者的登录密码
+    globals() ['send_user'] = "xiang_kaizheng@wanweitech.com"  #构建全局变量发送者
+    globals() ['email_host'] = "smtp.263.net"    #构建全局变量邮件服务器的email_host（smpt）
+    globals() ['password'] = "wanwei889"    #构建全局变量邮件服务器的password，邮箱服务器发送者的登录密码
+    # globals() ['send_user'] = "410287958@qq.com"  #构建全局变量发送者
+    # globals() ['email_host'] = "smtp.qq.com"    #构建全局变量邮件服务器的email_host（smpt）
+    # globals() ['password'] = "wbfiwwnajhrabijg"    #构建全局变量邮件服务器的password，邮箱服务器发送者的登录密码
 
-    def send_mail(self,user_list,sub,content,filenamepath):   #收件人，主题，内容
+    def send_mail(self,user_list,sub,content,filenamepath,reporturl=None):   #收件人，主题，内容
          user = "Mushishi" +"<"+send_user+">"   #构建发送者
          # message = MIMEText(content, _subtype='plain',_charset='utf-8')   #构建内容，格式，编码
          message = MIMEMultipart()   #Multipart就是多个部分
+         if reporturl != None:   #如果传递reporturl，则发送，如果没有，则不发送
+             html_msg = \
+                 """
+                 <!DOCTYPE html>
+                 <html lang="en">
+                 <head>
+                     <meta charset="UTF-8">
+                     <title>测试报告</title>
+                 </head>
+                 <body>
+                 <label>报告网址：<a href="%s">%s</a></label>
+                 </html>
+                 """ % (reporturl,reporturl)
+
+             # html 内容
+             content_html = MIMEText(html_msg, "html", "utf-8")   #使用HTML构造正文,HTML正文要在plain正文的前面，否则plain正文不会显示
+             message.attach(content_html)   #使用HTML构造正文
          message.attach(MIMEText(content, _subtype='plain', _charset='utf-8')) #构建正文内容，格式，编码
+
          message['Subject'] = sub   #定义邮件的主题
          message['From'] = user   #定义邮件发送者
          message['To'] = ";".join(user_list)   #以分号为分隔符将收件人分割开来
@@ -32,7 +50,8 @@ class SendEmail:
          server.sendmail(user,user_list,message.as_string())   #发送邮件，发送者user,接收者user_list,发送内容message，需要用as_string()转义成字符串发送
          server.close()   #关闭服务器
 
-    def run_send(self,pass_count,fail_count,error_count,filenamepath,userlist=None,emailtitle=None):
+
+    def run_send(self,pass_count,fail_count,error_count,filenamepath,userlist=None,emailtitle=None,reporturl=None):
         pass_num = float(pass_count)   #转换为浮点类型
         fail_num = float(fail_count)   #转换为浮点类型
         error_num = float(error_count) #转换为浮点类型
@@ -42,7 +61,7 @@ class SendEmail:
         fail_result = "%.2f%%" % (fail_num/count_num*100)   #失败率
         error_result = "%.2f%%" % (error_num / count_num * 100)  # 失败率
         if userlist == None:
-            user_list = ['xiangkaizheng@iapppay.com']
+            user_list = ['xiang_kaizheng@wanweitech.com']
         else:
             user_list = userlist
         if emailtitle == None:
@@ -50,13 +69,14 @@ class SendEmail:
         else:
             sub = emailtitle
         content = "此次一共执行用例个数为%s个，成功个数为%s个，失败个数为%s个，错误个数为%s个，通过率为%s，失败率为的%s，错误率为%s." %(count_num,pass_num,fail_num,error_num,pass_result,fail_result,error_result)
-        self.send_mail(user_list,sub,content,filenamepath)   #调用本类发送邮件函数
+        self.send_mail(user_list,sub,content,filenamepath,reporturl=reporturl)   #调用本类发送邮件函数
 
 
 if __name__ == '__main__':
     sen = SendEmail()   #实例化
     # sen.send_main([2,3,4],[5,6,7],'../report/01_report.html')
-    user_list = ['410287958@qq.com']
+    user_list = ['xiang_kaizheng@wanweitech.com']
     emailtitle = "商户后台-登录_自动化测试报告"
-    sen.run_send(2,0,0,'1.txt',user_list,emailtitle,)
+    # sen.run_send(2,0,0,'1.txt',user_list,emailtitle,)
+    sen.run_send(2,0,0,'1.txt',user_list,emailtitle,reporturl="123")
     print("邮件已发送")

@@ -103,7 +103,7 @@ class  NewAddAndCheckView(View):  #继承View
             zj.save()
 
             newaddandcheckid = zj.id
-            newaddandcheckadd = ClickAndBack.objects.get(id=int(newaddandcheckid))  # 获取用例
+            newaddandcheckadd = NewAddAndCheck.objects.get(id=int(newaddandcheckid))  # 获取用例
             return render(request, "newaddandcheck/newAddAndCheck.html", {
                 "newaddandcheck": newaddandcheckadd,
                 "clickandback_all": clickandback_all,

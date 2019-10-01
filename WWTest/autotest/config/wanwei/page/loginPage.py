@@ -75,8 +75,8 @@ class LoginPageFunction(object):
 
 
     def loginwithcookiesauto(self,activebroser):
-        activebroser = ActiveBrowser()
-        # activebroser = activebroser
+        # activebroser = ActiveBrowser()
+        activebroser = activebroser
         if gc.ISONLINE:
             loginurl = gc.ONLINE_WEB_YUMING
             loginaccount = gc.ONLINE_LOGIN_ACCOUNT
@@ -87,7 +87,7 @@ class LoginPageFunction(object):
             loginpassword = gc.TEST_LOGIN_PASSWORD
 
         cookies = activebroser.readCookieFromJsonFile(gc.COOKIE_FILE_NAME)
-        activebroser.writerCookies(cookies,loginurl,loginurl)
+        activebroser. writerCookiesWithOneUrl(cookies,loginurl)
         if self.isExistLoginButton(activebroser):   #如果登录按钮存在，则进行登录命令
             self.login(activebroser)
 

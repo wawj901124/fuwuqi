@@ -44,7 +44,8 @@ class TestClickAndBackClass(unittest.TestCase):  # 创建测试类
 
     def setUp(self):  # 每条用例执行测试之前都要执行此方法
         self.activebrowser = ActiveBrowser()  # 实例化
-        lpf.login(self.activebrowser)
+        # lpf.login(self.activebrowser)
+        lpf.loginwithcookiesauto(self.activebrowser)
         pass
 
     def tearDown(self):  # 每条用例执行测试之后都要执行此方法

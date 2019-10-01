@@ -47,7 +47,8 @@ class TestSearchClass(unittest.TestCase):  # 创建测试类
 
     def setUp(self):  # 每条用例执行测试之前都要执行此方法
         self.activebrowser = ActiveBrowser()  # 实例化
-        lpf.login(self.activebrowser)
+        # lpf.login(self.activebrowser)
+        lpf.loginwithcookiesauto(self.activebrowser)
         pass
 
     def tearDown(self):  # 每条用例执行测试之后都要执行此方法
@@ -148,8 +149,8 @@ class TestSearchClass(unittest.TestCase):  # 创建测试类
 def __generateTestCases():
     from testdatas.models import SearchAndCheck
 
-    searchandchecktestcase_all = SearchAndCheck.objects.filter(is_run_case=False).\
-        filter(test_project="餐饮油烟监管治服一体化平台 ").filter(test_page="餐饮企业").order_by('id')
+    searchandchecktestcase_all = SearchAndCheck.objects.filter(is_run_case=True).\
+        filter(test_project="餐饮油烟监管治服一体化平台 ").order_by('id')
 
     for searchandchecktestcase in searchandchecktestcase_all:
         forcount = searchandchecktestcase.case_counts

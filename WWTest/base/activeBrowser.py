@@ -77,13 +77,13 @@ class  ActiveBrowser(object):
     def getChromeDriver(self):
         chrome_options = webdriver.ChromeOptions()   #为驱动加入无界面配置
 
-        # chrome_options.add_argument('--headless')   #–headless”参数是不用打开图形界面
+        chrome_options.add_argument('--headless')   #–headless”参数是不用打开图形界面
         chrome_options.add_argument('--no-sandbox')  #“–no - sandbox”参数是让Chrome在root权限下跑
         # chrome_options.add_argument('--disable-dev-shm-usage') #不加载图片, 提升速度
         # chrome_options.add_argument('blink-settings=imagesEnabled=false')
         # chrome_options.add_argument('--disable-gpu') # 谷歌文档提到需要加上这个属性来规避bug
         # chromedriver = webdriver.Chrome(chrome_options=chrome_options)
-        chromedriver = webdriver.Chrome()  # 需要把驱动所在路径配置到系统环境变量里
+        # chromedriver = webdriver.Chrome()  # 需要把驱动所在路径配置到系统环境变量里
         path = r"%s/driver/chromedriver"% str(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))) )  #配置驱动路径
         print("path:%s" % path)
         # path = r"D:\Users\Administrator\PycharmProjects\webtestdata\TestCaseFunction\driver\chromedriver.exe"  #配置驱动路径
@@ -91,7 +91,7 @@ class  ActiveBrowser(object):
         # option.add_argument('--user-data-dir=C:\\Users\\Administrator\\Local\\Google\\Chrome\\User Data\\Default')  # 设置成用户自己的数据目录
         #                                                             #浏览器输入chrome://version 下个人资料路径就是自己的数据目录
         # chromedriver = webdriver.Chrome(chrome_options=chrome_options)
-        # chromedriver = webdriver.Chrome(executable_path=path,chrome_options=chrome_options)
+        chromedriver = webdriver.Chrome(executable_path=path,chrome_options=chrome_options)
         # chromedriver = webdriver.Chrome(executable_path=path)
         # chromedriver = webdriver.Chrome(executable_path=path)
         chromedriver.maximize_window()   #窗口最大化
@@ -400,7 +400,9 @@ class  ActiveBrowser(object):
         pageScreenshot = Image.open(pageScreenshotpath)   #打开截图
         imageScreen = pageScreenshot.crop(coderange)   #使用Image的crop函数，从截图中再次截取我们需要的区域,即验证码区域
         tStr = self.getTimeStr()
-        eleimage = "%s/imagefile/ele/%s_%s_ele.png" % (str(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),num,tStr)
+        firedir = r"%s/imagefile/ele/"% str(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+        self.createdir(firedir)
+        eleimage = "%s/%s_%s_ele.png" % (firedir,num,tStr)
         imageScreen.save(eleimage)   #保存控件截图
         self.outPutMyLog('获取到的元素的截图路径为：%s'% eleimage)
         return ele
@@ -447,7 +449,7 @@ class  ActiveBrowser(object):
             self.outPutMyLog("点击元素")
             self.delayTime(3)
             alertele = self.driver.switch_to.alert()
-            self.outPutMyLog("alert信息：%s" % alertele.text)
+            self.outPutMyLog("alert信息：%s" % alertele)
             # self.delayTime(3)
         except Exception as e:
             self.getScreenshotAboutMySQL()
@@ -503,6 +505,7 @@ class  ActiveBrowser(object):
             self.outPutMyLog('%s in %s' % (inputtext,tabledic))
         else:
             self.outPutErrorMyLog('%s not in %s' % (inputtext,tabledic))
+            self.getScreenshotAboutMySQL()
 
         return is_exist
 
@@ -574,6 +577,18 @@ class  ActiveBrowser(object):
             self.outPutErrorMyLog("上传文件失败，关闭驱动.问题描述：%s"% e)
             self.closeBrowse()
             assert False
+
+    #查找到要输入文件的input元素，然后上传文件
+    def findEleAndUploadFileNotCloseBrowser(self,num,findstyle,findstylevalue,filepath,inputclassname=None):
+        if inputclassname == None:
+            inputclassname = "el-upload__input"
+        else:
+            inputclassname = inputclassname
+        self.quDiaoInputStyle(inputclassname)
+        ele = self.findEleImageNum(num,findstyle,findstylevalue)
+        ele.send_keys(filepath)
+        self.delayTime(1)
+
 
 
     def quDiaoInputStyle(self,inputclassname):
@@ -1073,7 +1088,9 @@ class  ActiveBrowser(object):
         driver = self.driver
         self.outPutMyLog("调用截取图片函数")
         tStr = self.getTimeStr()
-        path = "%s/imagefile/%s.png"% (str(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),tStr)
+        firedir = r"%s/imagefile/"% str(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+        self.createdir(firedir)
+        path = r"%s/%s.png"% (firedir,tStr)
         driver.get_screenshot_as_file(path)
         return path
 
@@ -1193,6 +1210,31 @@ class  ActiveBrowser(object):
         self.outPutMyLog("刷新当前页面---------")
         self.delayTime(5)   #等待5秒
         self.getCookies()
+
+    #写入cookies
+    def writerCookiesWithOneUrl(self,cookies,url):
+        self.outPutMyLog("\n开始写入cookie-----------------\n")
+        self.getUrl(url)
+        long = len(cookies)
+        for i in range(long):
+            cookie = {'name': cookies[i]['name'], 'value': cookies[i]['value']}
+            self.driver.add_cookie(cookie)   #selenium添加cookies时，得先登录网址才能添加cookies的
+            self.outPutMyLog("写入cookie的值为：%s" % cookie)
+        self.delayTime(2)  # 等待2秒
+        self.driver.refresh()  #
+        self.outPutMyLog("刷新当前页面---------")
+        self.delayTime(3)   #等待3秒
+        self.getCookies()
+
+    #写入cookies到文件
+    def writerCookieToJson(self,cookiefile):
+        cookies = self.getCookies()
+        cookie_wenjianjian = '%s/myJsonFile' % str(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+        self.createdir(cookie_wenjianjian)
+        cookie_file = '%s/%s' % (cookie_wenjianjian,cookiefile)
+        oj = OperationJson(cookie_file)
+        oj.write_data(cookies)
+        self.outPutMyLog("\ncookie信息‘%s’已经写入‘%s’文件里。\n" % (cookies,cookie_file))
 
     #写入cookies到文件
     def writerCookieToJsonFile(self,cookiefile):

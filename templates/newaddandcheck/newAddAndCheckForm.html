@@ -52,8 +52,8 @@
                 <label>是否运行:</label>
             </td>
             <td>
-                <input type="radio" id="is_run_case" name="is_run_case"  value=1 {% if newaddandcheckform.is_run_case.value == 1 %} checked="checked"{% endif %}>运行
-                <input type="radio" id="is_run_case" name="is_run_case"  value=0 {% if newaddandcheckform.is_run_case.value  == 0 %} checked="checked"{% endif %}>不运行
+                <input type="radio" id="is_run_case" name="is_run_case"  value="true" {% if newaddandcheckform.is_run_case.value == 1 %} checked="checked"{% endif %}>运行
+                <input type="radio" id="is_run_case" name="is_run_case"  value="false" {% if newaddandcheckform.is_run_case.value  == 0 %} checked="checked"{% endif %}>不运行
             </td>
         </tr>
 
@@ -82,8 +82,8 @@
                 <label>是否点击取消按钮:</label>
             </td>
             <td>
-                <input type="radio" id="is_click_cancel" name="is_click_cancel"  value=1 {% if newaddandcheckform.is_click_cancel.value == 1 %} checked="checked"{% endif %}>点击取消按钮
-                <input type="radio" id="is_click_cancel" name="is_click_cancel"  value=0 {% if newaddandcheckform.is_click_cancel.value  == 0 %} checked="checked"{% endif %}>点击确定按钮
+                <input type="radio" id="is_click_cancel" name="is_click_cancel"  value="true" {% if newaddandcheckform.is_click_cancel.value == 1 %} checked="checked"{% endif %}>点击取消按钮
+                <input type="radio" id="is_click_cancel" name="is_click_cancel"  value="false" {% if newaddandcheckform.is_click_cancel.value == 0 %} checked="checked"{% endif %}>点击确定按钮
             </td>
         </tr>
 
@@ -113,8 +113,8 @@
                 <label>是否添加成功:</label>
             </td>
             <td>
-                <input type="radio" id="is_submit_success" name="is_submit_success"  value=1 {% if newaddandcheckform.is_submit_success.value == 1 %} checked="checked"{% endif %}>是
-                <input type="radio" id="is_submit_success" name="is_submit_success"  value=0 {% if newaddandcheckform.is_submit_success.value  == 0 %} checked="checked"{% endif %}>否
+                <input type="radio" id="is_submit_success" name="is_submit_success"  value="true" {% if newaddandcheckform.is_submit_success.value == 1 %} checked="checked"{% endif %}>是
+                <input type="radio" id="is_submit_success" name="is_submit_success"  value="false" {% if newaddandcheckform.is_submit_success.value == 0 %} checked="checked"{% endif %}>否
             </td>
         </tr>
 
@@ -123,8 +123,8 @@
                 <label>是否单页面:</label>
             </td>
             <td>
-                <input type="radio" id="is_signel_page" name="is_signel_page"  value=1 {% if newaddandcheckform.is_signel_page.value == 1 %} checked="checked"{% endif %}>是
-                <input type="radio" id="is_signel_page" name="is_signel_page"  value=0 {% if newaddandcheckform.is_signel_page.value  == 0 %} checked="checked"{% endif %}>否
+                <input type="radio" id="is_signel_page" name="is_signel_page"  value="true" {% if newaddandcheckform.is_signel_page.value == 1 %} checked="checked"{% endif %}>是
+                <input type="radio" id="is_signel_page" name="is_signel_page"  value="false" {% if newaddandcheckform.is_signel_page.value == 0 %} checked="checked"{% endif %}>否
             </td>
         </tr>
 
@@ -156,6 +156,15 @@
             <td>
                 <input id="result_table_ele_find_value" name="result_table_ele_find_value"
                        type="text" value="{{ newaddandcheckform.result_table_ele_find_value.value }}"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label>结果表格总列数:</label>
+            </td>
+            <td>
+                <input id="table_colnum_counts" name="table_colnum_counts" type="text" value="{{ newaddandcheckform.table_colnum_counts.value }}"/>
             </td>
         </tr>
 

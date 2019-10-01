@@ -51,7 +51,8 @@ class TestNewAddClass(unittest.TestCase):  # 创建测试类
 
     def setUp(self):  # 每条用例执行测试之前都要执行此方法
         self.activebrowser = ActiveBrowser()  # 实例化
-        lpf.login(self.activebrowser)
+        # lpf.login(self.activebrowser)
+        lpf.loginwithcookiesauto(self.activebrowser)
         pass
 
     def tearDown(self):  # 每条用例执行测试之后都要执行此方法
@@ -107,6 +108,7 @@ class TestNewAddClass(unittest.TestCase):  # 创建测试类
         if is_cancel:
             #如果点击取消按钮，则点击取消按钮
             self.activebrowser.findEleAndClick(num,cancel_ele_find,cancel_ele_find_value)
+            self.activebrowser.outPutMyLog("点击【取消】按钮")
 
             if is_signel_page:
                 self.activebrowser.outPutMyLog("页面不需要分页")
@@ -123,16 +125,35 @@ class TestNewAddClass(unittest.TestCase):  # 创建测试类
                                                          result_table_ele_find_value, inputtext_list[i],
                                                          table_colnum_counts)
                 self.assertFalse(reault_check)
+
+            asserttest_list_all = asserttiptext.assertiptext(self.activebrowser, addnew_id)
+            asserttest_list_all_long = len(asserttest_list_all)
+            if asserttest_list_all_long == 0 and inputtext_list_len == 0:
+                self.activebrowser.outPutErrorMyLog("【异常提示】：本用例为验证点击取消按钮的用例，"
+                                                        "但没有添加要输入的测试数据或者验证文本信息，"
+                                                        "请检查用例测试数据，将测试数据补充完整！")
+                self.assertTrue(False)
+
+
         else:
             #否则点击确定按钮
             self.activebrowser.findEleAndClick(num,confirm_ele_find,confirm_ele_find_value)
+            self.activebrowser.outPutMyLog("点击【确定】按钮")
 
             if not is_submit_success:  #如果不是添加成功，需要验证某些文本信息
+                self.activebrowser.outPutMyLog("提交不成功时的提示信息验证")
                 asserttest_list_all = asserttiptext.assertiptext(self.activebrowser,addnew_id)
                 asserttest_list_all_long = len(asserttest_list_all)
-                for i in range(0,asserttest_list_all_long):
-                    self.assertTrue(asserttest_list_all[i][0],asserttest_list_all[i][1])
+                if asserttest_list_all_long != 0:
+                    for i in range(0,asserttest_list_all_long):
+                        self.assertEqual(asserttest_list_all[i][0],asserttest_list_all[i][1])
+                else:
+                    self.activebrowser.outPutErrorMyLog("【异常提示】：本用例为验证提示信息用例，"
+                                                        "但是却没有添加相应的提示信息测试数据"
+                                                        "请检查用例测试数据，将测试数据补充完整！")
+                    self.assertTrue(False)
             else:
+                self.activebrowser.outPutMyLog("添加成功后的添加数据的验证")
                 if is_signel_page:
                     self.activebrowser.outPutMyLog("页面不需要分页")
                 else:
@@ -142,12 +163,18 @@ class TestNewAddClass(unittest.TestCase):  # 创建测试类
                     self.activebrowser.findEleAndClick(num, "xpath", son_last_xpath)
 
                 inputtext_list_len = len(inputtext_list)
-                for i in range(0,inputtext_list_len):
-                    reault_check = self.activebrowser.\
-                        findEleAndCheckTableWithColnumCounts(num,result_table_ele_find,
-                                                             result_table_ele_find_value,inputtext_list[i],
-                                                             table_colnum_counts)
-                    self.assertTrue(reault_check)
+                if inputtext_list_len != 0:
+                    for i in range(0,inputtext_list_len):
+                        reault_check = self.activebrowser.\
+                            findEleAndCheckTableWithColnumCounts(num,result_table_ele_find,
+                                                                 result_table_ele_find_value,inputtext_list[i],
+                                                                 table_colnum_counts)
+                        self.assertTrue(reault_check)
+                else:
+                    self.activebrowser.outPutErrorMyLog("【异常提示】：本用例为验证添加成功后，"
+                                                        "是否存在添加的数据，但实际没有添加要输入的测试数据"
+                                                        "请检查用例测试数据，将测试数据补充完整！")
+                    self.assertTrue(False)
 
 
 
@@ -183,7 +210,7 @@ class TestNewAddClass(unittest.TestCase):  # 创建测试类
 def __generateTestCases():
     from testdatas.models import NewAddAndCheck
 
-    newaddandchecktestcase_all = NewAddAndCheck.objects.filter(is_run_case=False).\
+    newaddandchecktestcase_all = NewAddAndCheck.objects.filter(is_run_case=True).\
         filter(test_project="餐饮油烟监管治服一体化平台").order_by('id')
 
     for newaddandchecktestcase in newaddandchecktestcase_all:

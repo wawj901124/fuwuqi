@@ -1,0 +1,78 @@
+Time:2019-09-23 12:00:08,796; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-23 12:00:08.794822 
+Time:2019-09-23 12:00:08,798; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190923120008 
+Time:2019-09-23 12:00:19,635; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-09-23 12:00:31,886; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-09-23 12:00:31,908; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root 
+Time:2019-09-23 12:00:31,910; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects 
+Time:2019-09-23 12:00:31,912; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc 
+Time:2019-09-23 12:00:31,914; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/WWTest 
+Time:2019-09-23 12:00:31,916; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/WWTest/myJsonFile 
+Time:2019-09-23 12:00:31,918; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+获取到的cookies类型为;<class 'list'>
+ 
+Time:2019-09-23 12:00:31,921; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+获取到的cookie信息为‘[{'domain': '111.207.18.22', 'expiry': 2191291068, 'httpOnly': False, 'name': 'wanwei_dcloud_REGION_CODE', 'path': '/', 'secure': False, 'value': '220211'}, {'domain': '111.207.18.22', 'expiry': 2191291068, 'httpOnly': False, 'name': 'wanwei_dcloud_LOGIN_NAME', 'path': '/', 'secure': False, 'value': 'fmadmin'}, {'domain': '111.207.18.22', 'expiry': 1569254268, 'httpOnly': False, 'name': 'wanwei_dcloud_REFRESH_TOKEN', 'path': '/', 'secure': False, 'value': '{%22refresh_token%22:%22eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJmbWFkbWluIiwiYXRpIjoiMTEwOTIxODYxOSIsImV4cCI6MTU3MTgwMzA5MiwianRpIjoiMTEwOTIxODY1MCIsImNsaWVudF9pZCI6ImRjbG91ZC1jbGllbnQtYXV0aCJ9.J-D2VdmsHyc-Ed1_ETlF0edAxZGCxpW13CxDKdOCFgc%22%2C%22expires_in%22:7199%2C%22scope%22:%22*%22%2C%22timestamp%22:1569211092186%2C%22loginName%22:%22fmadmin%22}'}, {'domain': '111.207.18.22', 'expiry': 1569254268, 'httpOnly': False, 'name': 'wanwei_dcloud_AUTH_TOKEN', 'path': '/', 'secure': False, 'value': '{%22access_token%22:%22eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJmbWFkbWluIiwiZXhwIjoxNTY5MjE4MjkyLCJqdGkiOiIxMTA5MjE4NjE5IiwiY2xpZW50X2lkIjoiZGNsb3VkLWNsaWVudC1hdXRoIn0.eaWUaikd55QZbVMc_ephk6w9iVVFiaKKroVnsff11iU%22%2C%22expires_in%22:7199%2C%22scope%22:%22*%22%2C%22timestamp%22:1569211092186%2C%22loginName%22:%22fmadmin%22}'}]’从‘/root/PycharmProjects/wanwenyc/WWTest/myJsonFile/wanwenlogincookie.json’文件里。
+ 
+Time:2019-09-23 12:00:31,924; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+开始写入cookie-----------------
+ 
+Time:2019-09-23 12:00:38,538; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入网址：http://111.207.18.22:22044/ 
+Time:2019-09-23 12:00:38,569; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:写入cookie的值为：{'name': 'wanwei_dcloud_REGION_CODE', 'value': '220211'} 
+Time:2019-09-23 12:00:38,589; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:写入cookie的值为：{'name': 'wanwei_dcloud_LOGIN_NAME', 'value': 'fmadmin'} 
+Time:2019-09-23 12:00:38,609; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:写入cookie的值为：{'name': 'wanwei_dcloud_REFRESH_TOKEN', 'value': '{%22refresh_token%22:%22eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJmbWFkbWluIiwiYXRpIjoiMTEwOTIxODYxOSIsImV4cCI6MTU3MTgwMzA5MiwianRpIjoiMTEwOTIxODY1MCIsImNsaWVudF9pZCI6ImRjbG91ZC1jbGllbnQtYXV0aCJ9.J-D2VdmsHyc-Ed1_ETlF0edAxZGCxpW13CxDKdOCFgc%22%2C%22expires_in%22:7199%2C%22scope%22:%22*%22%2C%22timestamp%22:1569211092186%2C%22loginName%22:%22fmadmin%22}'} 
+Time:2019-09-23 12:00:38,629; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:写入cookie的值为：{'name': 'wanwei_dcloud_AUTH_TOKEN', 'value': '{%22access_token%22:%22eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJmbWFkbWluIiwiZXhwIjoxNTY5MjE4MjkyLCJqdGkiOiIxMTA5MjE4NjE5IiwiY2xpZW50X2lkIjoiZGNsb3VkLWNsaWVudC1hdXRoIn0.eaWUaikd55QZbVMc_ephk6w9iVVFiaKKroVnsff11iU%22%2C%22expires_in%22:7199%2C%22scope%22:%22*%22%2C%22timestamp%22:1569211092186%2C%22loginName%22:%22fmadmin%22}'} 
+Time:2019-09-23 12:00:45,024; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:刷新当前页面--------- 
+Time:2019-09-23 12:00:47,693; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入网址：http://111.207.18.22:22044/ 
+Time:2019-09-23 12:00:47,696; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:url2为：http://111.207.18.22:22044/. 
+Time:2019-09-23 12:01:00,081; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:刷新当前页面--------- 
+Time:2019-09-23 12:01:05,089; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-09-23 12:01:05,110; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取的cookie的值为：{'domain': '111.207.18.22', 'httpOnly': False, 'name': 'wanwei_dcloud_AUTH_TOKEN', 'path': '/', 'secure': False, 'value': '{%22access_token%22:%22eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJmbWFkbWluIiwiZXhwIjoxNTY5MjE4MjkyLCJqdGkiOiIxMTA5MjE4NjE5IiwiY2xpZW50X2lkIjoiZGNsb3VkLWNsaWVudC1hdXRoIn0.eaWUaikd55QZbVMc_ephk6w9iVVFiaKKroVnsff11iU%22%2C%22expires_in%22:7199%2C%22scope%22:%22*%22%2C%22timestamp%22:1569211092186%2C%22loginName%22:%22fmadmin%22}'} 
+Time:2019-09-23 12:01:05,113; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取的cookie的值为：{'domain': '111.207.18.22', 'httpOnly': False, 'name': 'wanwei_dcloud_REFRESH_TOKEN', 'path': '/', 'secure': False, 'value': '{%22refresh_token%22:%22eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJmbWFkbWluIiwiYXRpIjoiMTEwOTIxODYxOSIsImV4cCI6MTU3MTgwMzA5MiwianRpIjoiMTEwOTIxODY1MCIsImNsaWVudF9pZCI6ImRjbG91ZC1jbGllbnQtYXV0aCJ9.J-D2VdmsHyc-Ed1_ETlF0edAxZGCxpW13CxDKdOCFgc%22%2C%22expires_in%22:7199%2C%22scope%22:%22*%22%2C%22timestamp%22:1569211092186%2C%22loginName%22:%22fmadmin%22}'} 
+Time:2019-09-23 12:01:05,115; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取的cookie的值为：{'domain': '111.207.18.22', 'httpOnly': False, 'name': 'wanwei_dcloud_LOGIN_NAME', 'path': '/', 'secure': False, 'value': 'fmadmin'} 
+Time:2019-09-23 12:01:05,117; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:获取的cookie的值为：{'domain': '111.207.18.22', 'httpOnly': False, 'name': 'wanwei_dcloud_REGION_CODE', 'path': '/', 'secure': False, 'value': '220211'} 
+Time:2019-09-23 12:01:05,171; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖ID（dependid）为:10 
+Time:2019-09-23 12:01:05,173; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行依赖 
+Time:2019-09-23 12:01:05,191; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到依赖数据 
+Time:2019-09-23 12:01:05,199; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:depend:9 
+Time:2019-09-23 12:01:05,201; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入下一层依赖 
+Time:2019-09-23 12:01:05,202; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖ID（dependid）为:9 
+Time:2019-09-23 12:01:05,204; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行依赖 
+Time:2019-09-23 12:01:05,218; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到依赖数据 
+Time:2019-09-23 12:01:05,226; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:depend:8 
+Time:2019-09-23 12:01:05,228; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入下一层依赖 
+Time:2019-09-23 12:01:05,229; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖ID（dependid）为:8 
+Time:2019-09-23 12:01:05,231; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行依赖 
+Time:2019-09-23 12:01:05,245; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到依赖数据 
+Time:2019-09-23 12:01:05,252; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:depend:7 
+Time:2019-09-23 12:01:05,254; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入下一层依赖 
+Time:2019-09-23 12:01:05,256; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:依赖ID（dependid）为:7 
+Time:2019-09-23 12:01:05,258; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行依赖 
+Time:2019-09-23 12:01:05,271; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:找到依赖数据 
+Time:2019-09-23 12:01:05,278; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:depend:None 
+Time:2019-09-23 12:01:05,280; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行的caseid:7 
+Time:2019-09-23 12:01:05,331; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:问题描述：Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/div/div/div[1]/div/div/div[2]/i"}
+  (Session info: chrome=76.0.3809.132)
+ 
+Time:2019-09-23 12:01:05,334; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-09-23 12:01:05,336; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-23 12:01:05.335127 
+Time:2019-09-23 12:01:05,337; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190923120105 
+Time:2019-09-23 12:01:14,269; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-09-23 12:01:14,302; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:调用截取图片函数 
+Time:2019-09-23 12:01:14,304; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-23 12:01:14.303476 
+Time:2019-09-23 12:01:14,306; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20190923120114 
+Time:2019-09-23 12:01:14,308; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-09-23 12:01:14.307150 
+Time:2019-09-23 12:01:14,309; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201909 
+Time:2019-09-23 12:01:14,311; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root 
+Time:2019-09-23 12:01:14,313; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects 
+Time:2019-09-23 12:01:14,315; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc 
+Time:2019-09-23 12:01:14,317; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media 
+Time:2019-09-23 12:01:14,319; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report 
+Time:2019-09-23 12:01:14,320; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909 
+Time:2019-09-23 12:01:14,322; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909/screenshots 
+Time:2019-09-23 12:01:14,324; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201909/screenshots/ 
+Time:2019-09-23 12:01:15,008; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:***** 
+Time:2019-09-23 12:01:15,009; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:media\report\201909\screenshots\screenpicture_20190923120114.png 
+Time:2019-09-23 12:01:15,011; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:***** 
+Time:2019-09-23 12:01:15,013; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:停顿5秒后再次查找依然未找到元素.问题描述：Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/div/div/div[1]/div/div/div[2]/i"}
+  (Session info: chrome=76.0.3809.132)
+ 

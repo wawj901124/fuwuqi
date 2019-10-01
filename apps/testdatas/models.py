@@ -31,7 +31,7 @@ class ClickAndBack(models.Model):#继承django的Model模块
                                              help_text=u"元素查找风格：id、name、class_name、tag_name、"
                                                        u"link_text、partial_link_text、css_selector、xpath")
     next_page_check_ele_find_value = models.CharField(max_length=1000, default="",
-                                                         verbose_name=u"下一页面要点击元素查找风格的确切值")
+                                                         verbose_name=u"下一页面标识元素查找风格的确切值")
     case_counts = models.IntegerField(default="1",verbose_name="用例循环次数",help_text=u"用例循环次数，请填写数字，"
                                                                    u"例如：1、2、3")
     depend_case = models.ForeignKey('self', default="", null=True, blank=True,
@@ -142,9 +142,18 @@ class InputTapInputText(models.Model):
                                                 u"link_text、partial_link_text、css_selector、xpath")
     input_ele_find_value = models.CharField(max_length=1000, default="",null=True, blank=True,
                                                          verbose_name=u"输入框查找风格的确切值")
+    is_auto_input = models.BooleanField(default=False, verbose_name=u"是否自动输入")
+    auto_input_type = models.CharField(choices=(('1','数字'),('2','字母'),('3','数字和字母'),('4','数字和字母和特殊符号'),('5','数字和字母和特殊符号和转义字符'),('6','汉字')),
+                                       null=True, blank=True,
+                                       max_length=10,default='6',verbose_name="自动输入字符的类型")
+    auto_input_long = models.CharField(max_length=100,default="300",null=True, blank=True,
+                                          verbose_name="自动输入的字符的个数",help_text=u"字符的个数，请填写数字，"
+                                                                   u"例如：1、2、3")
+
     input_text = models.CharField(max_length=300,default="",null=True, blank=True,
                                   verbose_name=u"输入框中要输入的内容")
     is_with_time = models.BooleanField(default=True,verbose_name=u"是否带时间串")
+    is_check = models.BooleanField(default=True,verbose_name=u"是否进行验证")
     # datetime.now记录实例化时间，datetime.now()记录模型创建时间,auto_now_add=True是指定在数据新增时, 自动写入时间
     add_time = models.DateTimeField(null=True, blank=True, auto_now_add=True,verbose_name=u"添加时间")
     # datetime.now记录实例化时间，datetime.now()记录模型创建时间，auto_now=True是无论新增还是更新数据, 此字段都会更新为当前时间
@@ -155,7 +164,8 @@ class InputTapInputText(models.Model):
         verbose_name_plural = verbose_name
 
     def __str__(self):#重载函数
-        return self.input_ele_find_value
+        return self.input_ele_find
+
 
 
 class InputTapInputFile(models.Model):
@@ -172,7 +182,8 @@ class InputTapInputFile(models.Model):
     input_ele_find_value = models.CharField(max_length=1000, default="",null=True, blank=True,
                                                          verbose_name=u"输入框查找风格的确切值")
     input_file = models.CharField(max_length=300,default="",null=True, blank=True,
-                                  verbose_name=u"输入框中要输入的文件路径")
+                                  verbose_name=u"输入框中要输入的文件路径",
+                                  help_text = u"多个文件路径之间以半角逗号隔开,例如“D:\\timg.jpg,/root/timg.jpg”，会获取第一个有效路径")
     input_class_name = models.CharField(max_length=300,default="",null=True, blank=True,
                                         verbose_name=u"隐藏输入框的类名")
     # datetime.now记录实例化时间，datetime.now()记录模型创建时间,auto_now_add=True是指定在数据新增时, 自动写入时间
