@@ -60,6 +60,10 @@ class ClickAndBack(models.Model):#继承django的Model模块
 
 
 
+
+
+
+
 class NewAddAndCheck(models.Model):#继承django的Model模块
     """
     新增数据场景
@@ -67,6 +71,10 @@ class NewAddAndCheck(models.Model):#继承django的Model模块
     test_project = models.CharField(max_length=100, default="", verbose_name=u"测试项目")
     test_module = models.CharField(max_length=100, default="",null=True, blank=True, verbose_name=u"测试模块")
     test_page = models.CharField(max_length=100, default="", verbose_name=u"测试页面")
+    case_priority = models.CharField(max_length=10,null=True, blank=True,
+                                     choices=(("P0", u"冒烟用例"), ("P1", u"系统的重要功能用例") , ("P2", u"系统的一般功能用例"), ("P3", "极低级别的用例")),
+                                     default="P1",
+                                     verbose_name=u"用例优先级")
     test_case_title = models.CharField(max_length=200, default="", verbose_name=u"测试内容的名称")
     is_run_case = models.BooleanField(default=True,verbose_name=u"是否运行")
     depend_click_case = models.ForeignKey(ClickAndBack, default="", null=True, blank=True,
@@ -121,10 +129,17 @@ class NewAddAndCheck(models.Model):#继承django的Model模块
 
     def go_to(self):   #定义点击后跳转到某一个地方（可以加html代码）
         from django.utils.safestring import mark_safe   #调用mark_safe这个函数，django可以显示成一个文本，而不是html代码
-        return mark_safe("<a href='{}/testdatas/newaddandcheckcopy/{}/'>复制新加</a>".format(DJANGO_SERVER_YUMING,self.id))
+        return mark_safe("<a href='{}/testdatas/newaddandcheckcopy/{}/'>复制新加不带关联</a>".format(DJANGO_SERVER_YUMING,self.id))
         # return  "<a href='http://192.168.212.194:9002/testcase/{}/'>跳转</a>".format(self.id)
 
-    go_to.short_description = u"复制新加"   #为go_to函数名个名字
+    go_to.short_description = u"复制新加不带关联"   #为go_to函数名个名字
+
+    def go_to_with_relevance(self):   #定义点击后跳转到某一个地方（可以加html代码）
+        from django.utils.safestring import mark_safe   #调用mark_safe这个函数，django可以显示成一个文本，而不是html代码
+        return mark_safe("<a href='{}/testdatas/newaddandcheckcopywithrelevance/{}/'>复制新加</a>".format(DJANGO_SERVER_YUMING,self.id))
+        # return  "<a href='http://192.168.212.194:9002/testcase/{}/'>跳转</a>".format(self.id)
+
+    go_to_with_relevance.short_description = u"复制新加"   #为go_to函数名个名字
 
 
 
@@ -401,6 +416,10 @@ class SearchAndCheck(models.Model):#继承django的Model模块
     test_project = models.CharField(max_length=100, default="", verbose_name=u"测试项目")
     test_module = models.CharField(max_length=100, default="",null=True, blank=True, verbose_name=u"测试模块")
     test_page = models.CharField(max_length=100, default="", verbose_name=u"测试页面")
+    case_priority = models.CharField(max_length=10,null=True, blank=True,
+                                     choices=(("P0", u"冒烟用例"), ("P1", u"系统的重要功能用例") , ("P2", u"系统的一般功能用例"), ("P3", "极低级别的用例")),
+                                     default="P1",
+                                     verbose_name=u"用例优先级")
     test_case_title = models.CharField(max_length=200, default="", verbose_name=u"测试内容的名称")
     is_run_case = models.BooleanField(default=True,verbose_name=u"是否运行")
     depend_click_case = models.ForeignKey(ClickAndBack, default="", null=True, blank=True,
@@ -440,10 +459,17 @@ class SearchAndCheck(models.Model):#继承django的Model模块
 
     def go_to(self):   #定义点击后跳转到某一个地方（可以加html代码）
         from django.utils.safestring import mark_safe   #调用mark_safe这个函数，django可以显示成一个文本，而不是html代码
-        return mark_safe("<a href='{}/testdatas/searchandcheckcopy/{}/'>复制新加</a>".format(DJANGO_SERVER_YUMING,self.id))
+        return mark_safe("<a href='{}/testdatas/searchandcheckcopy/{}/'>复制新加不带关联</a>".format(DJANGO_SERVER_YUMING,self.id))
         # return  "<a href='http://192.168.212.194:9002/testcase/{}/'>跳转</a>".format(self.id)
 
-    go_to.short_description = u"复制新加"   #为go_to函数名个名字
+    go_to.short_description = u"复制新加不带关联"   #为go_to函数名个名字
+
+    def go_to_with_relevance(self):   #定义点击后跳转到某一个地方（可以加html代码）
+        from django.utils.safestring import mark_safe   #调用mark_safe这个函数，django可以显示成一个文本，而不是html代码
+        return mark_safe("<a href='{}/testdatas/searchandcheckcopywithrelevance/{}/'>复制新加</a>".format(DJANGO_SERVER_YUMING,self.id))
+        # return  "<a href='http://192.168.212.194:9002/testcase/{}/'>跳转</a>".format(self.id)
+
+    go_to_with_relevance.short_description = u"复制新加"   #为go_to函数名个名字
 
 
 class SearchInputTapInputText(models.Model):

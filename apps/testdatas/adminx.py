@@ -127,6 +127,7 @@ class ClickAndBackXAdmin(object):
 
 class NewAddAndCheckXadmin(object):
     all_zi_duan = ["id", "test_project", "test_module", "test_page",
+                   "case_priority",
                    "test_case_title", "is_run_case",
                    "depend_click_case","confirm_ele_find",
                    "confirm_ele_find_value",
@@ -139,6 +140,7 @@ class NewAddAndCheckXadmin(object):
                    "case_counts",  "write_user",
                    "add_time", "update_time"]
     list_display = ["test_project", "test_module", "test_page",
+                    "case_priority",
                     "test_case_title", "is_run_case",
                     "depend_click_case", "confirm_ele_find",
                     "confirm_ele_find_value",
@@ -149,7 +151,7 @@ class NewAddAndCheckXadmin(object):
                     "result_table_ele_find", "result_table_ele_find_value",
                     "table_colnum_counts",
                     "case_counts",
-                    "go_to"]  # 定义显示的字段
+                    "go_to_with_relevance"]  # 定义显示的字段
     list_filter = ["test_project", "test_module", "test_page",
                    "test_case_title", "is_run_case",
                    "write_user"]  # 定义筛选的字段
@@ -256,40 +258,51 @@ class NewAddAndCheckXadmin(object):
             # 将获取的数据循环导入数据库中
             all_list_1 = analyzexls.get_sheets_mg(exceldata, 0)
             i = 0
-            if len(all_list_1[0]) == 19:
+            if len(all_list_1[0]) == 20:
                 while i < len(all_list_1):
                     newaddandcheck = NewAddAndCheck()  # 数据库的对象等于ClickAndBack,实例化
                     newaddandcheck.test_project = all_list_1[i][0]  # 填写项目all_list_1[i][j]
                     newaddandcheck.test_module = all_list_1[i][1]  # 填写模块
                     newaddandcheck.test_page = all_list_1[i][2]  # 填写测试页
-                    newaddandcheck.test_case_title = all_list_1[i][3]  # 填写测试内容的名称
-                    newaddandcheck.is_run_case =all_list_1[i][4]  # 填写是否运行
-                    if all_list_1[i][5] != None:  # 如果依赖列有内容且内容存在数据库中，则保存依赖内容
-                        depend = all_list_1[i][5]
+
+                    if all_list_1[i][3] == u"冒烟用例":
+                        newaddandcheck.case_priority = "P0" # 填写用例优先级
+                    elif all_list_1[i][3] == u"系统的重要功能用例":
+                        newaddandcheck.case_priority = "P1"  # 填写用例优先级
+                    elif all_list_1[i][3] == u"系统的一般功能用例":
+                        newaddandcheck.case_priority = "P2"  # 填写用例优先级
+                    elif all_list_1[i][3] == u"极低级别的用例":
+                        newaddandcheck.case_priority = "P3"  # 填写用例优先级
+
+
+                    newaddandcheck.test_case_title = all_list_1[i][4]  # 填写测试内容的名称
+                    newaddandcheck.is_run_case =all_list_1[i][5]  # 填写是否运行
+                    if all_list_1[i][6] != None:  # 如果依赖列有内容且内容存在数据库中，则保存依赖内容
+                        depend = all_list_1[i][6]
                         depend_contents = ClickAndBack.objects.filter(test_case_title=depend)
                         depend_count = depend_contents.count()
                         if depend_count == 1:
                             for depend_content in depend_contents:
                                 newaddandcheck.depend_click_case_id = depend_content.id
 
-                    newaddandcheck.confirm_ele_find = all_list_1[i][6]  # 填写确定按钮查找风格
-                    newaddandcheck.confirm_ele_find_value = all_list_1[i][7]  # 填写确定按钮查找风格的确切值
-                    newaddandcheck.is_click_cancel = all_list_1[i][8] # 填写是否点击取消按钮
-                    newaddandcheck.cancel_ele_find = all_list_1[i][9]  # 填写取消按钮查找风格
-                    newaddandcheck.cancel_ele_find_value = all_list_1[i][10]  # 填写取消按钮查找风格的确切值
-                    newaddandcheck.is_submit_success = all_list_1[i][11] # 填写是否添加成功
-                    newaddandcheck.is_signel_page = all_list_1[i][12]  # 填写是否单页面
+                    newaddandcheck.confirm_ele_find = all_list_1[i][7]  # 填写确定按钮查找风格
+                    newaddandcheck.confirm_ele_find_value = all_list_1[i][8]  # 填写确定按钮查找风格的确切值
+                    newaddandcheck.is_click_cancel = all_list_1[i][9] # 填写是否点击取消按钮
+                    newaddandcheck.cancel_ele_find = all_list_1[i][10]  # 填写取消按钮查找风格
+                    newaddandcheck.cancel_ele_find_value = all_list_1[i][11]  # 填写取消按钮查找风格的确切值
+                    newaddandcheck.is_submit_success = all_list_1[i][12] # 填写是否添加成功
+                    newaddandcheck.is_signel_page = all_list_1[i][13]  # 填写是否单页面
 
-                    newaddandcheck.page_number_xpath = all_list_1[i][13]  # 填写页数层xpath路径值
-                    newaddandcheck.result_table_ele_find = all_list_1[i][14]  # 填写结果表格查找风格
-                    newaddandcheck.result_table_ele_find_value = all_list_1[i][15] # 填写结果表格查找风格的确切值
-                    newaddandcheck.table_colnum_counts = all_list_1[i][16]  # 填写结果表格总列数
+                    newaddandcheck.page_number_xpath = all_list_1[i][14]  # 填写页数层xpath路径值
+                    newaddandcheck.result_table_ele_find = all_list_1[i][15]  # 填写结果表格查找风格
+                    newaddandcheck.result_table_ele_find_value = all_list_1[i][16] # 填写结果表格查找风格的确切值
+                    newaddandcheck.table_colnum_counts = all_list_1[i][17]  # 填写结果表格总列数
 
-                    newaddandcheck.case_counts = all_list_1[i][17]  # 填写case_counts
-                    if all_list_1[i][18] != None:  # 如果编写人列有数据则填写编写人
+                    newaddandcheck.case_counts = all_list_1[i][18]  # 填写case_counts
+                    if all_list_1[i][19] != None:  # 如果编写人列有数据则填写编写人
                         users = User.objects.all()
                         for user in users:
-                            if user.username == all_list_1[i][18]:
+                            if user.username == all_list_1[i][19]:
                                 newaddandcheck.write_user_id = user.id  # 填写编写人
                     newaddandcheck.save()  # 保存到数据库
 
@@ -301,6 +314,7 @@ class NewAddAndCheckXadmin(object):
 
 class SearchAndCheckXadmin(object):
     all_zi_duan = ["id", "test_project", "test_module", "test_page",
+                   "case_priority",
                    "test_case_title", "is_run_case",
                    "search_ele_find",
                    "search_ele_find_value",
@@ -310,13 +324,14 @@ class SearchAndCheckXadmin(object):
                    "write_user",
                    "add_time", "update_time"]
     list_display = ["test_project", "test_module", "test_page",
+                    "case_priority",
                     "test_case_title", "is_run_case",
                     "search_ele_find",
                     "search_ele_find_value",
                     "is_with_date",
                     "result_table_ele_find", "result_table_ele_find_value",
                     "case_counts","depend_click_case",
-                    "go_to"]  # 定义显示的字段
+                    "go_to_with_relevance"]  # 定义显示的字段
     list_filter = ["test_project", "test_module", "test_page",
                    "test_case_title", "is_run_case",
                    "write_user"]  # 定义筛选的字段
@@ -394,42 +409,51 @@ class SearchAndCheckXadmin(object):
             # 将获取的数据循环导入数据库中
             all_list_1 = analyzexls.get_sheets_mg(exceldata, 0)
             i = 0
-            if len(all_list_1[0]) == 13:
+            if len(all_list_1[0]) == 14:
                 while i < len(all_list_1):
                     searchandcheck = SearchAndCheck()  # 数据库的对象等于SearchAndCheck,实例化
                     searchandcheck.test_project = all_list_1[i][0]  # 填写项目all_list_1[i][j]
                     searchandcheck.test_module = all_list_1[i][1]  # 填写模块
                     searchandcheck.test_page = all_list_1[i][2]  # 填写测试页
-                    searchandcheck.test_case_title = all_list_1[i][3]  # 填写测试内容的名称
-                    searchandcheck.is_run_case = all_list_1[i][4]  # 填写是否运行
+                    if all_list_1[i][3] == u"冒烟用例":
+                        searchandcheck.case_priority = "P0" # 填写用例优先级
+                    elif all_list_1[i][3] == u"系统的重要功能用例":
+                        searchandcheck.case_priority = "P1"  # 填写用例优先级
+                    elif all_list_1[i][3] == u"系统的一般功能用例":
+                        searchandcheck.case_priority = "P2"  # 填写用例优先级
+                    elif all_list_1[i][3] == u"极低级别的用例":
+                        searchandcheck.case_priority = "P3"  # 填写用例优先级
+
+                    searchandcheck.test_case_title = all_list_1[i][4]  # 填写测试内容的名称
+                    searchandcheck.is_run_case = all_list_1[i][5]  # 填写是否运行
                     # if all_list_1[i][4] == "TRUE":
                     #     searchandcheck.is_run_case = 1  # 填写是否运行
                     # elif all_list_1[i][4] == "FALSE":
                     #     searchandcheck.is_run_case = 0  # 填写是否运行
 
-                    searchandcheck.search_ele_find = all_list_1[i][5]  # 填写查询按钮查找风格
-                    searchandcheck.search_ele_find_value = all_list_1[i][6]  # 填写查询按钮查找风格的确切值
-                    searchandcheck.is_with_date = all_list_1[i][7]  # 填写是否查询到数据
+                    searchandcheck.search_ele_find = all_list_1[i][6]  # 填写查询按钮查找风格
+                    searchandcheck.search_ele_find_value = all_list_1[i][7]  # 填写查询按钮查找风格的确切值
+                    searchandcheck.is_with_date = all_list_1[i][8]  # 填写是否查询到数据
                     # if all_list_1[i][7] == "TRUE":
                     #     searchandcheck.is_with_date = "1"  # 填写是否查询到数据
                     # elif all_list_1[i][7] == "FALSE":
                     #     searchandcheck.is_with_date = "0"  # 填写是否查询到数据
-                    searchandcheck.result_table_ele_find = all_list_1[i][8]  # 填写结果表格查找风格
-                    searchandcheck.result_table_ele_find_value = all_list_1[i][9]  # 填写结果表格查找风格的确切值
-                    searchandcheck.case_counts = all_list_1[i][10]  # 填写case_counts
+                    searchandcheck.result_table_ele_find = all_list_1[i][9]  # 填写结果表格查找风格
+                    searchandcheck.result_table_ele_find_value = all_list_1[i][10]  # 填写结果表格查找风格的确切值
+                    searchandcheck.case_counts = all_list_1[i][11]  # 填写case_counts
 
-                    if all_list_1[i][11] != None:  # 如果依赖列有内容且内容存在数据库中，则保存依赖内容
-                        depend = all_list_1[i][11]
+                    if all_list_1[i][12] != None:  # 如果依赖列有内容且内容存在数据库中，则保存依赖内容
+                        depend = all_list_1[i][12]
                         depend_contents = ClickAndBack.objects.filter(test_case_title=depend)
                         depend_count = depend_contents.count()
                         if depend_count == 1:
                             for depend_content in depend_contents:
                                 searchandcheck.depend_click_case_id = depend_content.id
 
-                    if all_list_1[i][12] != None:  # 如果编写人列有数据则填写编写人
+                    if all_list_1[i][13] != None:  # 如果编写人列有数据则填写编写人
                         users = User.objects.all()
                         for user in users:
-                            if user.username == all_list_1[i][12]:
+                            if user.username == all_list_1[i][13]:
                                 searchandcheck.write_user_id = user.id  # 填写编写人
                     searchandcheck.save()  # 保存到数据库
 

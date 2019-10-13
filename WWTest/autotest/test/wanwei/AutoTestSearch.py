@@ -82,10 +82,12 @@ class TestSearchClass(unittest.TestCase):  # 创建测试类
 
         #文本输入框搜素内容
         inputtext_list = searchinputtapinputtext.searchinputtapinputtext(self.activebrowser,search_id)
+        inputtext_list_len = len(inputtext_list)
 
 
         #选项框添加内容
         selectoptiontext_list = searchselecttapselectoption.searchselecttapselectoption(self.activebrowser,search_id)
+        selectoptiontext_list_long = len(selectoptiontext_list)
 
         # #日期添加内容
         # inputtapinputdatetime.inputtapinputdatetime(self.activebrowser,addnew_id)
@@ -124,6 +126,14 @@ class TestSearchClass(unittest.TestCase):  # 创建测试类
         else: #否则断言“暂无数据”在页面中
             self.activebrowser.delayTime(10)
             self.assertIn("暂无数据",self.activebrowser.getPageSource())
+
+
+        if inputtext_list_len == 0 and selectoptiontext_list_long == 0:
+            self.activebrowser.getScreenshotAboutMySQL()
+            self.activebrowser.outPutErrorMyLog("【异常提示】：本用例为查询测试用例，"
+                                                "但没有添加要输入或选择的测试数据，"
+                                                "请检查用例测试数据，将测试数据补充完整！")
+            self.assertTrue(False)
 
             
 

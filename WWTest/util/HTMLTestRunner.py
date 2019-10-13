@@ -202,7 +202,7 @@ class Template_mixin(object):
 
     DEFAULT_TITLE = '单元测试报告'
     DEFAULT_DESCRIPTION = ''
-    DEFAULT_TESTER='小贝'
+    DEFAULT_TESTER='小万'
     DEFAULT_IMGADDRESS=r'F:/aaaa.png'
 
     # ------------------------------------------------------------------------

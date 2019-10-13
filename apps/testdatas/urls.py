@@ -2,6 +2,7 @@ from django.urls import  path
 
 # from .views import TestCaseView, DisplayTestCaseView,MoreTestCaseView,AllTestCaseSiderView,SiderCaseDisplayView,SiderCaseDetailsView   #导入TestCaseView
 from .views import ClickAndBackView,NewAddAndCheckView,SearchAndCheckView   #导入ClickAndBackView
+from .views import NewAddAndCheckWithRelevanceView,SearchAndCheckWithRelevanceView
 
 
 urlpatterns = [
@@ -12,8 +13,16 @@ urlpatterns = [
     path('newaddandcheckcopy/<path:newaddandcheck_id>/', NewAddAndCheckView.as_view(), name="new_add_and_check_id"),
     # 配置复制新增测试用例url,namespace指明命名空间，用命名空间做限定
 
+    # 新增场景的复制页面的url配置,带关联新增
+    path('newaddandcheckcopywithrelevance/<path:newaddandcheck_id>/', NewAddAndCheckWithRelevanceView.as_view(), name="new_add_and_check_with_relevance_id"),
+    # 配置复制新增测试用例url,namespace指明命名空间，用命名空间做限定
+
     # 查询场景的复制页面的url配置
     path('searchandcheckcopy/<path:searchandcheck_id>/', SearchAndCheckView.as_view(), name="search_and_check_id"),
+    # 配置复制新增测试用例url,namespace指明命名空间，用命名空间做限定
+
+    # 查询场景的复制页面的url配置,带关联新增
+    path('searchandcheckcopywithrelevance/<path:searchandcheck_id>/', SearchAndCheckWithRelevanceView.as_view(), name="search_and_check_with_relevance_id"),
     # 配置复制新增测试用例url,namespace指明命名空间，用命名空间做限定
 ]
 

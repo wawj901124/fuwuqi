@@ -3,7 +3,7 @@
     searchandcheck
 {% endblock %}
 {% block action_url %}
-    {% url 'testdatas:search_and_check_id' searchandcheck.id %}
+    {% url 'testdatas:search_and_check_with_relevance_id' searchandcheck.id %}
 {% endblock %}
 {% block box_h1_title %}
     添加数据
@@ -39,6 +39,18 @@
 
         <tr>
             <td>
+                <label>用例优先级:</label>
+            </td>
+            <td>
+                <input type="radio" name="case_priority" value="P0" {% if searchandcheckform.case_priority.value == 'P0' %} checked="checked"{% endif %}>冒烟用例
+                <input type="radio" name="case_priority" value="P1" {% if searchandcheckform.case_priority.value == 'P1' %} checked="checked"{% endif %}>系统的重要功能用例
+                <input type="radio" name="case_priority" value="P2" {% if searchandcheckform.case_priority.value == 'P2' %} checked="checked"{% endif %}>系统的一般功能用例
+                <input type="radio" name="case_priority" value="P3" {% if searchandcheckform.case_priority.value == 'P3' %} checked="checked"{% endif %}>极低级别的用例
+            </td>
+        </tr>
+
+        <tr>
+            <td>
                 <label>测试内容的名称:</label>
             </td>
             <td>
@@ -52,8 +64,8 @@
                 <label>是否运行:</label>
             </td>
             <td>
-                <input type="radio" id="is_run_case" name="is_run_case"  value=1 {% if searchandcheckform.is_run_case.value == 1 %} checked="checked"{% endif %}>运行
-                <input type="radio" id="is_run_case" name="is_run_case"  value=0 {% if searchandcheckform.is_run_case.value  == 0 %} checked="checked"{% endif %}>不运行
+                <input type="radio" id="is_run_case" name="is_run_case"  value="true" {% if searchandcheckform.is_run_case.value == 1 %} checked="checked"{% endif %}>运行
+                <input type="radio" id="is_run_case" name="is_run_case"  value="false" {% if searchandcheckform.is_run_case.value == 0 %} checked="checked"{% endif %}>不运行
             </td>
         </tr>
 
@@ -82,8 +94,8 @@
                 <label>是否查询到数据:</label>
             </td>
             <td>
-                <input type="radio" id="is_with_date" name="is_with_date"  value=1 {% if searchandcheckform.is_with_date.value == 1 %} checked="checked"{% endif %}>查询到数据
-                <input type="radio" id="is_with_date" name="is_with_date"  value=0 {% if searchandcheckform.is_with_date.value == 0 %} checked="checked"{% endif %}>未查询到数据
+                <input type="radio" id="is_with_date" name="is_with_date"  value="true" {% if searchandcheckform.is_with_date.value == 1 %} checked="checked"{% endif %}>查询到数据
+                <input type="radio" id="is_with_date" name="is_with_date"  value="false" {% if searchandcheckform.is_with_date.value == 0 %} checked="checked"{% endif %}>未查询到数据
             </td>
         </tr>
 
@@ -143,6 +155,16 @@
 
             </td>
 
+        </tr>
+
+        <tr>
+            <td>
+                <label>是否附带复制:</label>
+            </td>
+            <td>
+                <input type="radio" id="is_withRelevance" name="is_withRelevance"  value=1  {% if is_withRelevance == 1 %} checked="checked"{% endif %}>附带
+                <input type="radio" id="is_withRelevance" name="is_withRelevance"  value=0  {% if is_withRelevance == 0 %} checked="checked"{% endif %}>不附带
+            </td>
         </tr>
 
     </table>
