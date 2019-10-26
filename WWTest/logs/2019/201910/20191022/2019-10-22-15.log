@@ -1,0 +1,18 @@
+Time:2019-10-22 15:51:22,127; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-10-22 15:51:21.843917 
+Time:2019-10-22 15:51:22,129; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20191022155121 
+Time:2019-10-22 15:51:22,139; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-10-22 15:51:22.138107 
+Time:2019-10-22 15:51:22,140; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20191022155122 
+Time:2019-10-22 15:51:35,696; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-10-22 15:51:35,788; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root 
+Time:2019-10-22 15:51:35,791; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects 
+Time:2019-10-22 15:51:35,792; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc 
+Time:2019-10-22 15:51:35,794; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/WWTest 
+Time:2019-10-22 15:51:35,796; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/WWTest/myJsonFile 
+Time:2019-10-22 15:51:35,811; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+获取到的cookies类型为;<class 'list'>
+ 
+Time:2019-10-22 15:51:35,813; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+获取到的cookie信息为‘[{'name': 'nereus.agent.terminalId', 'value': 'H1sDWJoviyqM78ZfSM7M4arjtBIugjlbe0C__Asth28dLcnQmw', 'path': '/', 'domain': 'bjw.halodigit.com', 'expiry': 3701747575, 'secure': False, 'httpOnly': True}, {'name': '.nereus.agent.sid', 'value': '5d2a069a-7b2f-48a9-9c1a-1f92d23a508f', 'path': '/', 'domain': 'bjw.halodigit.com', 'expiry': None, 'secure': False, 'httpOnly': True}]’从‘/root/PycharmProjects/wanwenyc/WWTest/myJsonFile/sunjinglogincookie.json’文件里。
+ 
+Time:2019-10-22 15:51:35,884; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-10-22 15:51:35.883033 
+Time:2019-10-22 15:51:35,885; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20191022155135 

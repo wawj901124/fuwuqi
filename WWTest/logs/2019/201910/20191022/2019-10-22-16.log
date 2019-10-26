@@ -1,0 +1,194 @@
+Time:2019-10-22 16:00:45,807; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-10-22 16:00:45.805596 
+Time:2019-10-22 16:00:45,809; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20191022160045 
+Time:2019-10-22 16:05:36,052; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-10-22 16:05:36.051056 
+Time:2019-10-22 16:05:36,053; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20191022160536 
+Time:2019-10-22 16:05:36,063; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-10-22 16:05:36.062961 
+Time:2019-10-22 16:05:36,065; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20191022160536 
+Time:2019-10-22 16:05:43,044; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-10-22 16:05:43,114; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root 
+Time:2019-10-22 16:05:43,116; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects 
+Time:2019-10-22 16:05:43,117; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc 
+Time:2019-10-22 16:05:43,119; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/WWTest 
+Time:2019-10-22 16:05:43,121; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/WWTest/myJsonFile 
+Time:2019-10-22 16:05:43,123; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+获取到的cookies类型为;<class 'list'>
+ 
+Time:2019-10-22 16:05:43,125; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+获取到的cookie信息为‘[{'name': 'nereus.agent.terminalId', 'value': 'H1sDWJoviyqM78ZfSM7M4arjtBIugjlbe0C__Asth28dLcnQmw', 'path': '/', 'domain': 'bjw.halodigit.com', 'expiry': 3701747575, 'secure': False, 'httpOnly': True}, {'name': '.nereus.agent.sid', 'value': '5d2a069a-7b2f-48a9-9c1a-1f92d23a508f', 'path': '/', 'domain': 'bjw.halodigit.com', 'expiry': None, 'secure': False, 'httpOnly': True}]’从‘/root/PycharmProjects/wanwenyc/WWTest/myJsonFile/sunjinglogincookie.json’文件里。
+ 
+Time:2019-10-22 16:05:43,195; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-10-22 16:05:43.194864 
+Time:2019-10-22 16:05:43,197; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20191022160543 
+Time:2019-10-22 16:06:22,741; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-10-22 16:06:22.739810 
+Time:2019-10-22 16:06:22,742; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20191022160622 
+Time:2019-10-22 16:06:22,751; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-10-22 16:06:22.750928 
+Time:2019-10-22 16:06:22,753; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20191022160622 
+Time:2019-10-22 16:06:29,291; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-10-22 16:06:29,335; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root 
+Time:2019-10-22 16:06:29,337; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects 
+Time:2019-10-22 16:06:29,339; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc 
+Time:2019-10-22 16:06:29,340; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/WWTest 
+Time:2019-10-22 16:06:29,342; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/WWTest/myJsonFile 
+Time:2019-10-22 16:06:29,345; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+获取到的cookies类型为;<class 'list'>
+ 
+Time:2019-10-22 16:06:29,348; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+获取到的cookie信息为‘[{'name': 'nereus.agent.terminalId', 'value': 'H1sDWJoviyqM78ZfSM7M4arjtBIugjlbe0C__Asth28dLcnQmw', 'path': '/', 'domain': 'bjw.halodigit.com', 'expiry': 3701747575, 'secure': False, 'httpOnly': True}, {'name': '.nereus.agent.sid', 'value': '5d2a069a-7b2f-48a9-9c1a-1f92d23a508f', 'path': '/', 'domain': 'bjw.halodigit.com', 'expiry': None, 'secure': False, 'httpOnly': True}]’从‘/root/PycharmProjects/wanwenyc/WWTest/myJsonFile/sunjinglogincookie.json’文件里。
+ 
+Time:2019-10-22 16:06:29,417; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-10-22 16:06:29.416622 
+Time:2019-10-22 16:06:29,419; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20191022160629 
+Time:2019-10-22 16:12:54,581; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-10-22 16:12:54.579768 
+Time:2019-10-22 16:12:54,582; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20191022161254 
+Time:2019-10-22 16:12:54,591; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-10-22 16:12:54.590476 
+Time:2019-10-22 16:12:54,593; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20191022161254 
+Time:2019-10-22 16:13:01,460; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-10-22 16:13:01,580; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root 
+Time:2019-10-22 16:13:01,582; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects 
+Time:2019-10-22 16:13:01,584; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc 
+Time:2019-10-22 16:13:01,586; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/WWTest 
+Time:2019-10-22 16:13:01,587; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/WWTest/myJsonFile 
+Time:2019-10-22 16:13:01,590; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+获取到的cookies类型为;<class 'list'>
+ 
+Time:2019-10-22 16:13:01,592; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+获取到的cookie信息为‘[{'name': 'nereus.agent.terminalId', 'value': 'H1sDWJoviyqM78ZfSM7M4arjtBIugjlbe0C__Asth28dLcnQmw', 'path': '/', 'domain': 'bjw.halodigit.com', 'expiry': 3701747575, 'secure': False, 'httpOnly': True}, {'name': '.nereus.agent.sid', 'value': '5d2a069a-7b2f-48a9-9c1a-1f92d23a508f', 'path': '/', 'domain': 'bjw.halodigit.com', 'expiry': None, 'secure': False, 'httpOnly': True}]’从‘/root/PycharmProjects/wanwenyc/WWTest/myJsonFile/sunjinglogincookie.json’文件里。
+ 
+Time:2019-10-22 16:13:01,662; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-10-22 16:13:01.661122 
+Time:2019-10-22 16:13:01,663; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20191022161301 
+Time:2019-10-22 16:16:14,555; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-10-22 16:16:14.554155 
+Time:2019-10-22 16:16:14,556; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20191022161614 
+Time:2019-10-22 16:16:14,568; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-10-22 16:16:14.567100 
+Time:2019-10-22 16:16:14,569; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20191022161614 
+Time:2019-10-22 16:16:21,682; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-10-22 16:16:21,721; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root 
+Time:2019-10-22 16:16:21,723; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects 
+Time:2019-10-22 16:16:21,725; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc 
+Time:2019-10-22 16:16:21,727; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/WWTest 
+Time:2019-10-22 16:16:21,729; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/WWTest/myJsonFile 
+Time:2019-10-22 16:16:21,731; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+获取到的cookies类型为;<class 'list'>
+ 
+Time:2019-10-22 16:16:21,733; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+获取到的cookie信息为‘[{'name': 'nereus.agent.terminalId', 'value': 'H1sDWJoviyqM78ZfSM7M4arjtBIugjlbe0C__Asth28dLcnQmw', 'path': '/', 'domain': 'bjw.halodigit.com', 'expiry': 3701747575, 'secure': False, 'httpOnly': True}, {'name': '.nereus.agent.sid', 'value': '5d2a069a-7b2f-48a9-9c1a-1f92d23a508f', 'path': '/', 'domain': 'bjw.halodigit.com', 'expiry': None, 'secure': False, 'httpOnly': True}]’从‘/root/PycharmProjects/wanwenyc/WWTest/myJsonFile/sunjinglogincookie.json’文件里。
+ 
+Time:2019-10-22 16:16:21,802; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-10-22 16:16:21.801916 
+Time:2019-10-22 16:16:21,804; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20191022161621 
+Time:2019-10-22 16:16:28,897; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-10-22 16:16:29,466; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入网址：http://111.207.18.22:40660/app/common/toIndex 
+Time:2019-10-22 16:16:29,524; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:问题描述：Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/div/form/div[1]/input"}
+  (Session info: headless chrome=76.0.3809.132)
+ 
+Time:2019-10-22 16:16:29,526; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-10-22 16:16:29,528; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-10-22 16:16:29.527704 
+Time:2019-10-22 16:16:29,530; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20191022161629 
+Time:2019-10-22 16:16:34,705; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-10-22 16:16:34,740; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:调用截取图片函数 
+Time:2019-10-22 16:16:34,741; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-10-22 16:16:34.741117 
+Time:2019-10-22 16:16:34,743; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20191022161634 
+Time:2019-10-22 16:16:34,745; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-10-22 16:16:34.744642 
+Time:2019-10-22 16:16:34,747; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201910 
+Time:2019-10-22 16:16:34,749; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root 
+Time:2019-10-22 16:16:34,750; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects 
+Time:2019-10-22 16:16:34,752; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc 
+Time:2019-10-22 16:16:34,754; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media 
+Time:2019-10-22 16:16:34,756; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report 
+Time:2019-10-22 16:16:34,758; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201910 
+Time:2019-10-22 16:16:34,760; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201910/screenshots 
+Time:2019-10-22 16:16:34,762; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201910/screenshots/ 
+Time:2019-10-22 16:16:34,932; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:***** 
+Time:2019-10-22 16:16:34,933; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:media\report\201910\screenshots\screenpicture_20191022161634.png 
+Time:2019-10-22 16:16:34,935; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:***** 
+Time:2019-10-22 16:16:34,937; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:停顿5秒后再次查找依然未找到元素.问题描述：Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/div/form/div[1]/input"}
+  (Session info: headless chrome=76.0.3809.132)
+ 
+Time:2019-10-22 16:18:57,730; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-10-22 16:18:57.729093 
+Time:2019-10-22 16:18:57,732; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20191022161857 
+Time:2019-10-22 16:18:57,741; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-10-22 16:18:57.740374 
+Time:2019-10-22 16:18:57,742; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20191022161857 
+Time:2019-10-22 16:19:04,472; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-10-22 16:19:04,511; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root 
+Time:2019-10-22 16:19:04,513; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects 
+Time:2019-10-22 16:19:04,515; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc 
+Time:2019-10-22 16:19:04,516; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/WWTest 
+Time:2019-10-22 16:19:04,518; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/WWTest/myJsonFile 
+Time:2019-10-22 16:19:04,521; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+获取到的cookies类型为;<class 'list'>
+ 
+Time:2019-10-22 16:19:04,523; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+获取到的cookie信息为‘[{'name': 'nereus.agent.terminalId', 'value': 'H1sDWJoviyqM78ZfSM7M4arjtBIugjlbe0C__Asth28dLcnQmw', 'path': '/', 'domain': 'bjw.halodigit.com', 'expiry': 3701747575, 'secure': False, 'httpOnly': True}, {'name': '.nereus.agent.sid', 'value': '5d2a069a-7b2f-48a9-9c1a-1f92d23a508f', 'path': '/', 'domain': 'bjw.halodigit.com', 'expiry': None, 'secure': False, 'httpOnly': True}]’从‘/root/PycharmProjects/wanwenyc/WWTest/myJsonFile/sunjinglogincookie.json’文件里。
+ 
+Time:2019-10-22 16:19:04,592; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-10-22 16:19:04.591437 
+Time:2019-10-22 16:19:04,594; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20191022161904 
+Time:2019-10-22 16:19:11,625; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-10-22 16:19:11,972; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入网址：http://111.207.18.22:40660/app/common/toIndex 
+Time:2019-10-22 16:19:12,022; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:问题描述：Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/div/form/div[1]/input"}
+  (Session info: headless chrome=76.0.3809.132)
+ 
+Time:2019-10-22 16:19:12,024; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-10-22 16:19:12,026; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-10-22 16:19:12.025762 
+Time:2019-10-22 16:19:12,028; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20191022161912 
+Time:2019-10-22 16:19:17,191; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-10-22 16:19:17,225; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:调用截取图片函数 
+Time:2019-10-22 16:19:17,227; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-10-22 16:19:17.226199 
+Time:2019-10-22 16:19:17,228; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20191022161917 
+Time:2019-10-22 16:19:17,230; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-10-22 16:19:17.229823 
+Time:2019-10-22 16:19:17,232; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201910 
+Time:2019-10-22 16:19:17,234; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root 
+Time:2019-10-22 16:19:17,235; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects 
+Time:2019-10-22 16:19:17,237; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc 
+Time:2019-10-22 16:19:17,239; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media 
+Time:2019-10-22 16:19:17,241; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report 
+Time:2019-10-22 16:19:17,242; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201910 
+Time:2019-10-22 16:19:17,244; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201910/screenshots 
+Time:2019-10-22 16:19:17,246; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201910/screenshots/ 
+Time:2019-10-22 16:19:17,423; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:***** 
+Time:2019-10-22 16:19:17,425; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:media\report\201910\screenshots\screenpicture_20191022161917.png 
+Time:2019-10-22 16:19:17,426; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:***** 
+Time:2019-10-22 16:19:17,428; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:停顿5秒后再次查找依然未找到元素.问题描述：Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/div/form/div[1]/input"}
+  (Session info: headless chrome=76.0.3809.132)
+ 
+Time:2019-10-22 16:21:53,484; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-10-22 16:21:53.483657 
+Time:2019-10-22 16:21:53,486; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20191022162153 
+Time:2019-10-22 16:21:53,495; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-10-22 16:21:53.494786 
+Time:2019-10-22 16:21:53,497; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20191022162153 
+Time:2019-10-22 16:22:00,006; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-10-22 16:22:00,046; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root 
+Time:2019-10-22 16:22:00,048; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects 
+Time:2019-10-22 16:22:00,050; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc 
+Time:2019-10-22 16:22:00,052; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/WWTest 
+Time:2019-10-22 16:22:00,054; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/WWTest/myJsonFile 
+Time:2019-10-22 16:22:00,057; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+获取到的cookies类型为;<class 'list'>
+ 
+Time:2019-10-22 16:22:00,059; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+获取到的cookie信息为‘[{'name': 'nereus.agent.terminalId', 'value': 'H1sDWJoviyqM78ZfSM7M4arjtBIugjlbe0C__Asth28dLcnQmw', 'path': '/', 'domain': 'bjw.halodigit.com', 'expiry': 3701747575, 'secure': False, 'httpOnly': True}, {'name': '.nereus.agent.sid', 'value': '5d2a069a-7b2f-48a9-9c1a-1f92d23a508f', 'path': '/', 'domain': 'bjw.halodigit.com', 'expiry': None, 'secure': False, 'httpOnly': True}]’从‘/root/PycharmProjects/wanwenyc/WWTest/myJsonFile/sunjinglogincookie.json’文件里。
+ 
+Time:2019-10-22 16:22:00,154; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-10-22 16:22:00.153533 
+Time:2019-10-22 16:22:00,156; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20191022162200 
+Time:2019-10-22 16:22:06,747; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-10-22 16:22:07,148; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:进入网址：http://111.207.18.22:40660/app/common/toIndex 
+Time:2019-10-22 16:22:07,198; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:问题描述：Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/div/form/div[1]/input"}
+  (Session info: headless chrome=76.0.3809.132)
+ 
+Time:2019-10-22 16:22:07,201; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:调用截取图片函数 
+Time:2019-10-22 16:22:07,203; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-10-22 16:22:07.202459 
+Time:2019-10-22 16:22:07,205; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20191022162207 
+Time:2019-10-22 16:22:12,377; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:等待5秒--- 
+Time:2019-10-22 16:22:12,400; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:调用截取图片函数 
+Time:2019-10-22 16:22:12,401; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-10-22 16:22:12.400958 
+Time:2019-10-22 16:22:12,402; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串：20191022162212 
+Time:2019-10-22 16:22:12,403; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:当前时间：2019-10-22 16:22:12.403006 
+Time:2019-10-22 16:22:12,404; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:时间串年月：201910 
+Time:2019-10-22 16:22:12,405; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root 
+Time:2019-10-22 16:22:12,406; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects 
+Time:2019-10-22 16:22:12,407; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc 
+Time:2019-10-22 16:22:12,408; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media 
+Time:2019-10-22 16:22:12,409; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report 
+Time:2019-10-22 16:22:12,410; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201910 
+Time:2019-10-22 16:22:12,411; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201910/screenshots 
+Time:2019-10-22 16:22:12,412; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:已经存在目录：/root/PycharmProjects/wanwenyc/media/report/201910/screenshots/ 
+Time:2019-10-22 16:22:12,507; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:***** 
+Time:2019-10-22 16:22:12,508; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:media\report\201910\screenshots\screenpicture_20191022162212.png 
+Time:2019-10-22 16:22:12,509; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:***** 
+Time:2019-10-22 16:22:12,510; FileName:myLogs.py;-> FuncName:printErrorLog;  LineNo.:90; LevelNo.:40;--->LevelName:ERROR;----->LogMessage:停顿5秒后再次查找依然未找到元素.问题描述：Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/div/form/div[1]/input"}
+  (Session info: headless chrome=76.0.3809.132)
+ 
