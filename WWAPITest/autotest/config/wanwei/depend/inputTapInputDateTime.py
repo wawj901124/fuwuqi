@@ -10,7 +10,7 @@ class InputTapInputDateTime(object):
                 #点击时间输入框
                 activebrowser.findEleAndClick(0,inputtapinputdatetime.input_ele_find,
                                                  inputtapinputdatetime.input_ele_find_value)
-                activebrowser.delayTime(3)
+                # activebrowser.delayTime(3000)
 
                 #如果有点击上个月按钮的次数，就按照次数循环点击
                 if inputtapinputdatetime.click_last_month_counts !=None:

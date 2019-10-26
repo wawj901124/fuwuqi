@@ -55,19 +55,19 @@ class  ActiveBrowser(object):
     def getFirefoxDriver(self):
         # binary = FirefoxBinary(r'D:\Program Files (x86)\Mozilla Firefox\firefox.exe')
         # firefoxdriver = webdriver.Firefox(firefox_binary=binary)
-        # fire_options = webdriver.FirefoxOptions()   #为驱动加入无界面配置
-        # fire_options.add_argument('--headless')   #为驱动加入无界面配置
+        fire_options = webdriver.FirefoxOptions()   #为驱动加入无界面配置
+        fire_options.add_argument('--headless')   #为驱动加入无界面配置
         # 配置文件路径
         # profile_path = r'/usr/lib64/firefox/'
         # profile_path = r'/root/firefox/'
         # # 加载配置数据
         # profile = webdriver.FirefoxProfile(profile_path)
-        firefoxdriver = webdriver.Firefox()
+        # firefoxdriver = webdriver.Firefox()
         # firefoxdriver = webdriver.Firefox(firefox_options=fire_options)  # 需要把驱动所在路径配置到系统环境变量里
         path = r"%s/driver/geckodriver" % str(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))) ) # 配置驱动路径
         print("path:%s"%path)
-        # firefoxdriver = webdriver.Firefox(firefox_profile=profile,executable_path=path)
-        # firefoxdriver = webdriver.Firefox(executable_path=path)
+        # firefoxdriver = webdriver.Firefox(firefox_profile=fire_options,executable_path=path)
+        firefoxdriver = webdriver.Firefox(executable_path=path)
         firefoxdriver.maximize_window()   #窗口最大化
         return  firefoxdriver
 
@@ -400,7 +400,7 @@ class  ActiveBrowser(object):
         pageScreenshot = Image.open(pageScreenshotpath)   #打开截图
         imageScreen = pageScreenshot.crop(coderange)   #使用Image的crop函数，从截图中再次截取我们需要的区域,即验证码区域
         tStr = self.getTimeStr()
-        firedir = r"%s/imagefile/ele/"% str(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+        firedir = r'%s/imagefile/ele/' % str(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
         self.createdir(firedir)
         eleimage = "%s/%s_%s_ele.png" % (firedir,num,tStr)
         imageScreen.save(eleimage)   #保存控件截图
@@ -1088,9 +1088,9 @@ class  ActiveBrowser(object):
         driver = self.driver
         self.outPutMyLog("调用截取图片函数")
         tStr = self.getTimeStr()
-        firedir = r"%s/imagefile/"% str(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+        firedir = r'%s/imagefile/' % str(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
         self.createdir(firedir)
-        path = r"%s/%s.png"% (firedir,tStr)
+        path = "%s/%s.png"% (firedir,tStr)
         driver.get_screenshot_as_file(path)
         return path
 

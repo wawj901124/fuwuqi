@@ -11,6 +11,7 @@ class SearchSelectTapSelectOption(object):
                 #点击select选项框
                 activebrowser.findEleAndClick(0,searchselecttapselectoption.select_ele_find,
                                                  searchselecttapselectoption.select_ele_find_value)
+                # activebrowser.delayTime(30000)
                 #点击选项
                 activebrowser.findEleAndClick(0,searchselecttapselectoption.select_option_ele_find,
                                                  searchselecttapselectoption.select_option_ele_find_value)

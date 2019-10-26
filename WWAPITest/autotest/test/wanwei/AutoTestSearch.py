@@ -84,13 +84,13 @@ class TestSearchClass(unittest.TestCase):  # 创建测试类
         inputtext_list = searchinputtapinputtext.searchinputtapinputtext(self.activebrowser,search_id)
         inputtext_list_len = len(inputtext_list)
 
-
         #选项框添加内容
         selectoptiontext_list = searchselecttapselectoption.searchselecttapselectoption(self.activebrowser,search_id)
         selectoptiontext_list_long = len(selectoptiontext_list)
 
         # #日期添加内容
         # inputtapinputdatetime.inputtapinputdatetime(self.activebrowser,addnew_id)
+
 
         #点击查询按钮
         self.activebrowser.findEleAndClick(num,serach_ele_find,search_ele_find_value)
@@ -160,7 +160,7 @@ def __generateTestCases():
     from testdatas.models import SearchAndCheck
 
     searchandchecktestcase_all = SearchAndCheck.objects.filter(is_run_case=True).\
-        filter(test_project="餐饮油烟监管治服一体化平台 ").order_by('id')
+        filter(test_project="餐饮油烟监管治服一体化平台 ").filter(id=21).order_by('id')
 
     for searchandchecktestcase in searchandchecktestcase_all:
         forcount = searchandchecktestcase.case_counts

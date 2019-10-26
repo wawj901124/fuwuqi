@@ -34,7 +34,7 @@ class OperationJson:
 
 
 if __name__ == '__main__':
-    opjson = OperationJson(file_path=r'/root/PycharmProjects/wanwenyc/WWTest/myJsonFile/wanwenlogincookie.json')   #实例化
-    # opjson = OperationJson()  # 实例化
-    # print(opjson.write_data("0"))
-    print(opjson.read_data())
+    # opjson = OperationJson(file_path='../cookiejson/cookieagent.json')   #实例化
+    opjson = OperationJson()  # 实例化
+    print(opjson.write_data("0"))
+    # print(opjson.read_data())

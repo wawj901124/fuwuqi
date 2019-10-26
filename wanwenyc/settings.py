@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'users.apps.UsersConfig',  #注册user
     'testdatas.apps.TestdatasConfig', #注册testdatas
     'reportdatas.apps.ReportdatasConfig', #注册reportdatas
+    'testapidatas.apps.TestapidatasConfig',#注册testapidatas
 ]
 
 MIDDLEWARE = [

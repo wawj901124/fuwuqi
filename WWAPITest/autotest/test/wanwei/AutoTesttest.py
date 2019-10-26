@@ -45,7 +45,6 @@ class TestTestClass(unittest.TestCase):  # 创建测试类
 
     def test001(self):
         print("第一条测试用例")
-        self.assertTrue(False)
 
     def test002(self):
         print("第二条测试用例")

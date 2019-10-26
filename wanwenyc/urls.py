@@ -28,4 +28,7 @@ urlpatterns = [
 
     # 配置点击返回场景url,namespace指明命名空间，用命名空间做限定
     path('testdatas/', include('testdatas.urls', namespace='testdatas')),
+
+    # 配置接口数据url,namespace指明命名空间，用命名空间做限定
+    path('testapidatas/', include('testapidatas.urls', namespace='testapidatas')),
 ]

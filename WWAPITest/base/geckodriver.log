@@ -1025,10 +1025,3 @@ Failed to open connection to "session" message bus: Unable to autolaunch a dbus-
 Failed to open connection to "session" message bus: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
 Running without a11y support!
 Error: no DISPLAY environment variable specified
-1568713496235	geckodriver	INFO	geckodriver 0.19.1
-1568713496249	geckodriver	INFO	Listening on 127.0.0.1:55004
-Failed to open connection to "session" message bus: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
-1568713497726	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.lFdezTruMr6k"
-Failed to open connection to "session" message bus: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
-Running without a11y support!
-Error: no DISPLAY environment variable specified

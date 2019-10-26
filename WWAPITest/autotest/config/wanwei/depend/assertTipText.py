@@ -18,7 +18,8 @@ class AssertTipText(object):
 
         else:
             activebrowser.outPutErrorMyLog("没有找到依赖id[%s]对应的数据！" % newaddid)
-        activebrowser.outPutMyLog("asserttext_list_all:%s" % asserttext_list_all )
+
+        activebrowser.outPutMyLog("asserttext_list_all:%s" % asserttext_list_all)
         return asserttext_list_all
 
 

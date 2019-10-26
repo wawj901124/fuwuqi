@@ -100,7 +100,7 @@ class TestClickAndBackClass(unittest.TestCase):  # 创建测试类
 def __generateTestCases():
     from testdatas.models import ClickAndBack
 
-    clickandbacktestcase_all = ClickAndBack.objects.filter(is_run_case=True).\
+    clickandbacktestcase_all = ClickAndBack.objects.filter(is_run_case=False).\
         filter(test_project="餐饮油烟监管治服一体化平台 ").order_by('id')
 
     for clickandbacktestcase in clickandbacktestcase_all:

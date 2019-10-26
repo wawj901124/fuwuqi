@@ -846,7 +846,13 @@ class HTMLTestRunner(Template_mixin):
         if (uo and po != -1):
             hidde_status = ''
             # image_url = 'file:///' +uo.split('*****')[1]
-            image_url = '%s/'% DJANGO_SERVER_YUMING + uo.split('*****')[1]
+            uosplit = len(uo.split('*****'))
+            if uosplit < 2 :
+                print("image_url信息:%s" % uo.split('*****'))
+                print("uosplit项数：%s" % uosplit)
+                image_url = ''
+            else:
+                image_url = '%s/'% DJANGO_SERVER_YUMING + uo.split('*****')[1]
         else:
             hidde_status = '''hidden="hidden"'''
             image_url = ''

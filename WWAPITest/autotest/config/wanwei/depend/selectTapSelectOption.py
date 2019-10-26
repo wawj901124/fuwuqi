@@ -9,6 +9,7 @@ class SelectTapSelectOption(object):
                 # inputtextwithtimestr = "%s%s"%(inputtapinputtext.input_text,timestr)
                 activebrowser.findEleAndClick(0,selecttapselectoption.select_ele_find,
                                               selecttapselectoption.select_ele_find_value)
+                # activebrowser.delayTime(30000)
                 activebrowser.findEleAndClick(0,selecttapselectoption.select_option_ele_find,
                                               selecttapselectoption.select_option_ele_find_value)
 

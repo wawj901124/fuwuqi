@@ -139,7 +139,7 @@ class TestNewAddClass(unittest.TestCase):  # 创建测试类
             #否则点击确定按钮
             self.activebrowser.findEleAndClick(num,confirm_ele_find,confirm_ele_find_value)
             self.activebrowser.outPutMyLog("点击【确定】按钮")
-            # self.activebrowser.delayTime(3000000)
+            self.activebrowser.delayTime(3000000)
 
             if not is_submit_success:  #如果不是添加成功，需要验证某些文本信息
                 self.activebrowser.outPutMyLog("提交不成功时的提示信息验证")

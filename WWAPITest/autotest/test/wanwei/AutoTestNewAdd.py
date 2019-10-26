@@ -139,6 +139,7 @@ class TestNewAddClass(unittest.TestCase):  # 创建测试类
             #否则点击确定按钮
             self.activebrowser.findEleAndClick(num,confirm_ele_find,confirm_ele_find_value)
             self.activebrowser.outPutMyLog("点击【确定】按钮")
+            # self.activebrowser.delayTime(30000)
 
             if not is_submit_success:  #如果不是添加成功，需要验证某些文本信息
                 self.activebrowser.outPutMyLog("提交不成功时的提示信息验证")
@@ -211,7 +212,7 @@ def __generateTestCases():
     from testdatas.models import NewAddAndCheck
 
     newaddandchecktestcase_all = NewAddAndCheck.objects.filter(is_run_case=True).\
-        filter(test_project="餐饮油烟监管治服一体化平台").order_by('id')
+        filter(test_project="餐饮油烟监管治服一体化平台").filter(id=78).order_by('id')
 
     for newaddandchecktestcase in newaddandchecktestcase_all:
         forcount = newaddandchecktestcase.case_counts
