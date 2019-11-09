@@ -1,7 +1,7 @@
 import xadmin
 
 from .models import ApiRequestData,User
-from .models import RequestHeaders,RequestCookies,RequestDatas
+from .models import RequestHeaders,RequestCookies,RequestDatas,RequestUrlDatas
 
 
 
@@ -74,6 +74,13 @@ class ApiRequestDataXadmin(object):
         style = 'tab'    #以标签形式展示
 
     #设置内联
+    class RequestUrlDatasInline(object):
+        model = RequestUrlDatas
+        exclude = ["add_time","update_time"]
+        extra = 1
+        style = 'tab'    #以标签形式展示
+
+    #设置内联
     class RequestDatasInline(object):
         model = RequestDatas
         exclude = ["add_time","update_time"]
@@ -81,7 +88,7 @@ class ApiRequestDataXadmin(object):
         style = 'tab'    #以标签形式展示
 
 
-    inlines = [RequestHeadersInline,RequestCookiesInline,RequestDatasInline,]
+    inlines = [RequestHeadersInline,RequestCookiesInline, RequestUrlDatasInline,RequestDatasInline,]
 
     def save_models(self):  # 重载save_models的方法，可以在做了某个动作后，动态重新加载
         obj = self.new_obj  # 取得当前用例的实例

@@ -55,11 +55,22 @@ class AutoMakeString(object):
 
     def getAsciiLowercase(self,num_count):
         """
-        自动生成指定位数的小写字母和大写字母组成的随机字符串
+        自动生成指定位数的小写字母组成的随机字符串
         :param num_count:
         :return:
         """
-        result_string = self.getBaseString(string_type=string.ascii_letters,num_count=num_count)
+        result_string = self.getBaseString(string_type=string.ascii_lowercase,num_count=num_count)
+        print("自动生成指定%s位数的小写字母组成的随机字符串:%s" % (num_count,result_string))
+        return result_string
+
+    def getAsciiUppercase(self,num_count):
+        """
+        自动生成指定位数的大写字母组成的随机字符串
+        :param num_count:
+        :return:
+        """
+        result_string = self.getBaseString(string_type=string.ascii_uppercase,num_count=num_count)
+        print("自动生成指定%s位数的大写字母组成的随机字符串:%s" % (num_count, result_string))
         return result_string
 
     def getDigits(self,num_count):
@@ -69,7 +80,60 @@ class AutoMakeString(object):
         :return:
         """
         result_string = self.getBaseString(string_type=string.digits,num_count=num_count)
+        print("自动生成指定%s位数的0~9数字的随机字符串:%s" % (num_count, result_string))
         return result_string
+
+    def getSymbols(self,num_count):
+        """
+        自动生成指定位数的特殊符号的随机字符串
+        :param num_count:
+        :return:
+        """
+        result_string = self.getBaseString(string_type=string.punctuation,num_count=num_count)
+        print("自动生成指定%s位数的特殊符号的随机字符串:%s" % (num_count, result_string))
+        return result_string
+
+    def getWhitespace(self,num_count):
+        """
+        自动生成指定位数的空白字符类型的随机字符串
+        :param num_count:
+        :return:
+        """
+        result_string = self.getBaseString(string_type=string.punctuation,num_count=num_count)
+        print("自动生成指定%s位数的空白字符类型的随机字符串:%s" % (num_count, result_string))
+        return result_string
+
+
+    def getAsciiLetters(self,num_count):
+        """
+        自动生成指定位数的小写字母和大写字母组成的随机字符串
+        :param num_count:
+        :return:
+        """
+        result_string = self.getBaseString(string_type=string.ascii_letters,num_count=num_count)
+        print("自动生成指定%s位数的小写字母和大写字母组成的随机字符串:%s" % (num_count, result_string))
+        return result_string
+
+    def getLowercaseAndDigits(self,num_count):
+        """
+        自动生成指定位数的0~9数字和小写字母组成的随机字符串
+        :param num_count:
+        :return:
+        """
+        result_string = self.getBaseString(string.ascii_lowercase+string.digits,num_count=num_count)
+        print("自动生成指定%s位数的0~9数字和小写字母组成的随机字符串:%s" % (num_count, result_string))
+        return result_string
+
+    def getUppercaseAndDigits(self,num_count):
+        """
+        自动生成指定位数的0~9数字和大写字母组成的随机字符串
+        :param num_count:
+        :return:
+        """
+        result_string = self.getBaseString(string.ascii_uppercase+string.digits,num_count=num_count)
+        print("自动生成指定%s位数的0~9数字和大写字母组成的随机字符串:%s" % (num_count, result_string))
+        return result_string
+
 
     def getLettersAndDigits(self,num_count):
         """
@@ -78,6 +142,7 @@ class AutoMakeString(object):
         :return:
         """
         result_string = self.getBaseString(string.ascii_letters+string.digits,num_count=num_count)
+        print("自动生成指定%s位数的0~9数字和大小写字母组成的随机字符串:%s" % (num_count, result_string))
         return result_string
 
     def getLetterAndDigitsAndSymbols(self,num_count):
@@ -87,6 +152,7 @@ class AutoMakeString(object):
         :return:
         """
         result_string = self.getBaseString(string.ascii_letters+string.digits+string.punctuation,num_count=num_count)
+        print("自动生成指定%s位数的0~9数字和大小写字母和特殊字符组成的随机字符串:%s" % (num_count, result_string))
         return result_string
 
     def getLetterAndDigitsAndSymbolsAndWhitespace(self,num_count):
@@ -96,6 +162,7 @@ class AutoMakeString(object):
         :return:
         """
         result_string = self.getBaseString(string.printable,num_count=num_count)
+        print("自动生成指定%s位数的0~9数字和大小写字母和特殊字符和空白字符组成的随机字符串:%s" % (num_count, result_string))
         return result_string
 
     # 直接基于unicode码生成
@@ -153,10 +220,18 @@ automakestring = AutoMakeString()
 
 if __name__ == "__main__":
     auto = AutoMakeString()
-    # auto.getAsciiLowercase(100)
-    # auto.getDigits(151)
-    # auto.getLettersAndDigits(199)
-    # auto.getLetterAndDigitsAndSymbols(250)
-    # auto.getLetterAndDigitsAndSymbolsAndWhitespace(66)
-    auto.getUnicodeZh(600)
-    auto.getGbk2312Zh(600)
+    auto.getAsciiLowercase(100)  #小写字母
+    auto.getAsciiUppercase(100)   #大写字母
+    auto.getDigits(151)         #0~9数字
+    auto.getSymbols(100)        #特殊字符
+    auto.getWhitespace(50)      #空白符
+
+    auto.getAsciiLetters(100)  #大小写字母
+    auto.getLowercaseAndDigits(20) #小写字母和0~9数字
+    auto.getUppercaseAndDigits(35)   #大写字母和0~9数字
+    auto.getLettersAndDigits(199) #大小写和数字0`9
+    auto.getLetterAndDigitsAndSymbols(250)   #大小写字母和数字0~9和特殊符号
+    auto.getLetterAndDigitsAndSymbolsAndWhitespace(66)   #大小写字母和数字0~9和特殊符号和空白符号
+    # auto.getUnicodeZh(600)
+    # auto.getGbk2312Zh(600)
+

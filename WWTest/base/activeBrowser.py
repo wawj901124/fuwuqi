@@ -410,7 +410,11 @@ class  ActiveBrowser(object):
     #查找元素，然后输入内容
     def findEleAndInputNum(self,num,findstyle,findstylevalue,inputcontent):
         ele = self.findEleImageNum(num,findstyle,findstylevalue)
+
         ele.clear()   #清除输入框内容
+        #清除函数失效，使用双击选中内容然后再输入内容
+        #双击
+        self.doubleClick(ele)
         ele.send_keys(inputcontent)   #输入内容
         # self.delayTime(3)
         displaytext = self.findEleAndReturnValueNum(num,findstyle,findstylevalue,'value')
@@ -434,6 +438,25 @@ class  ActiveBrowser(object):
             ele.click()   #点击
             self.outPutMyLog("点击元素")
             self.delayTime(3)
+        except Exception as e:
+            self.getScreenshotAboutMySQL()
+            self.outPutErrorMyLog("点击失败，关闭驱动，问题描述：%s" % e)
+            self.closeBrowse()
+            assert False
+        return ele
+
+    #查找元素，然后点击
+    def findEleAndClickConfigDelayTime(self,num,findstyle,findstylevalue,delaytime):
+        ele = self.findEleImageNum(num,findstyle,findstylevalue)
+        try:
+            ele.click()   #点击
+            self.outPutMyLog("点击元素")
+            if delaytime == None:
+                delaytime = 3   #默认设置为3秒
+            else:
+                delaytime = delaytime
+
+            self.delayTime(int(delaytime))
         except Exception as e:
             self.getScreenshotAboutMySQL()
             self.outPutErrorMyLog("点击失败，关闭驱动，问题描述：%s" % e)
@@ -1114,6 +1137,16 @@ class  ActiveBrowser(object):
     def getCodeTextByThreeInterfase(self,path):
         imagecodestr = self.getCodeImage(path)
         imagecode = r"%s/imagefile/%s_code.png" % (str(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),imagecodestr)# 打开验证码图片
+        #验证码类型（n4:4位纯数字，
+                    # n5:5位纯数字
+                    # n6:6位纯数字
+                    # e4:4位纯英文
+                    # e5:5位纯英文
+                    # e6:6位纯英文
+                    # ne4:4位英文数字
+                    # ne5:5位英文数字
+                    # ne6:6位英文数字）
+        #请准确填写，以免影响识别准确性。（其他类型，请使用：图片验证码识别-复杂版）
         codetext = IdentificationVerificationCode(picture=imagecode,v_type="n4")
         return codetext
 
@@ -1339,6 +1372,11 @@ class  ActiveBrowser(object):
         self.outPutMyLog("\n#####################################################\n")
         # self.outPutMyLog(bs)
         return pagesource
+
+    #双击某个元素
+    def doubleClick(self,ele):
+        ActionChains(self.driver).double_click(ele).perform()
+
 
     #关闭浏览器
     def closeBrowse(self):

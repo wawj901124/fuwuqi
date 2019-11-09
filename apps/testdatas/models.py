@@ -59,11 +59,6 @@ class ClickAndBack(models.Model):#继承django的Model模块
     go_to.short_description = u"复制新加"   #为go_to函数名个名字
 
 
-
-
-
-
-
 class NewAddAndCheck(models.Model):#继承django的Model模块
     """
     新增数据场景
@@ -77,6 +72,10 @@ class NewAddAndCheck(models.Model):#继承django的Model模块
                                      verbose_name=u"用例优先级")
     test_case_title = models.CharField(max_length=200, default="", verbose_name=u"测试内容的名称")
     is_run_case = models.BooleanField(default=True,verbose_name=u"是否运行")
+
+    depend_new_add_and_check_case = models.ForeignKey('self', default="", null=True, blank=True,
+                                   verbose_name=u"依赖的添加场景的用例",on_delete=models.PROTECT)
+
     depend_click_case = models.ForeignKey(ClickAndBack, default="", null=True, blank=True,
                                    verbose_name=u"依赖的点击场景的用例",on_delete=models.PROTECT)
 
@@ -88,6 +87,10 @@ class NewAddAndCheck(models.Model):#继承django的Model模块
                                                   u"link_text、partial_link_text、css_selector、xpath")
     confirm_ele_find_value = models.CharField(max_length=1000, default="",null=True, blank=True,
                                                          verbose_name=u"确定按钮查找风格的确切值")
+    click_confirm_delay_time = models.CharField(max_length=100, default="", null=True, blank=True,
+                                                verbose_name=u"点击确定按钮后的延时时长（单位秒）",
+                                                help_text=u"点击确定按钮后的延时时长（单位秒），请填写数字，例如：1、2、3")
+
     is_click_cancel = models.BooleanField(default=False,verbose_name=u"是否点击取消按钮")
     cancel_ele_find = models.CharField(max_length=100, default="xpath", null=True, blank=True,
                                        verbose_name=u"取消按钮查找风格",
@@ -158,9 +161,16 @@ class InputTapInputText(models.Model):
     input_ele_find_value = models.CharField(max_length=1000, default="",null=True, blank=True,
                                                          verbose_name=u"输入框查找风格的确切值")
     is_auto_input = models.BooleanField(default=False, verbose_name=u"是否自动输入")
-    auto_input_type = models.CharField(choices=(('1','数字'),('2','字母'),('3','数字和字母'),('4','数字和字母和特殊符号'),('5','数字和字母和特殊符号和转义字符'),('6','汉字')),
+    auto_input_type = models.CharField(choices=(('1','数字'),('2','字母（小写）'),
+                                                ('3','字母（大写）'), ('4', '特殊符号'),
+                                                ('5','数字和字母（小写）'),('6','数字和字母（大写）'),
+                                                ('7', '字母（大小写）'),
+                                                ('8','数字和字母（大小写）'),
+                                                ('9', '数字和字母和特殊符号'),
+                                                ('10','数字和字母和特殊符号和空白字符'),('11','汉字'),
+                                                ('12','手机号'),('13','身份证号')),
                                        null=True, blank=True,
-                                       max_length=10,default='6',verbose_name="自动输入字符的类型")
+                                       max_length=10,default='11',verbose_name="自动输入字符的类型")
     auto_input_long = models.CharField(max_length=100,default="300",null=True, blank=True,
                                           verbose_name="自动输入的字符的个数",help_text=u"字符的个数，请填写数字，"
                                                                    u"例如：1、2、3")
