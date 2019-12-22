@@ -13,13 +13,9 @@ from WWTest.util.getTimeStr import GetTimeStr
 from WWTest.autotest.config.wanwei.page.loginPage import *   #导入登录页
 from WWTest.autotest.config.wanwei.depend.clickAndBackDepend import ClickAndBackDepend,clickandbackdepend
     #导入 ClickAndBack依赖
-from WWTest.autotest.config.wanwei.depend.inputTapInputText import InputTapInputText,inputtapinputtext
-from WWTest.autotest.config.wanwei.depend.selectTapSelectOption import SelectTapSelectOption,selecttapselectoption
-from WWTest.autotest.config.wanwei.depend.selectTapSelectText import SelectTapSelectText,selecttapselecttext
-from WWTest.autotest.config.wanwei.depend.inputTapInputFile import InputTapInputFile,inputtapinputfile
-from WWTest.autotest.config.wanwei.depend.assertTipText import AssertTipText,asserttiptext
-from WWTest.autotest.config.wanwei.depend.inputTapInputDateTime import inputtapinputdatetime,InputTapInputDateTime
-from WWTest.autotest.config.wanwei.depend.radioAndReelectionLabel import RadioAndReelectionLabel,radioandreelectionlabel
+from WWTest.autotest.config.wanwei.depend.logindepend.inputTapInputText import InputTapInputText,inputtapinputtext
+
+from WWTest.autotest.config.wanwei.depend.logindepend.assertTipText import AssertTipText,asserttiptext
 
 
 
@@ -51,7 +47,7 @@ class TestLoginClass(unittest.TestCase):  # 创建测试类
 
     def setUp(self):  # 每条用例执行测试之前都要执行此方法
         self.activebrowser = ActiveBrowser()  # 实例化
-        self.activebrowser.getUrl(gc.TEST_WEB_YUMING)
+        # self.activebrowser.getUrl(gc.TEST_WEB_YUMING)
         # lpf.login(self.activebrowser)
         pass
 
@@ -65,92 +61,50 @@ class TestLoginClass(unittest.TestCase):  # 创建测试类
 
 
     #定义新增函数
-    def definenewadd(self,num,depend_click_case_id,
-                     is_cancel,
-                     addnew_id,
-                     confirm_ele_find,confirm_ele_find_value,
-                     cancel_ele_find,cancel_ele_find_value,
-                     is_submit_success,
-                     is_signel_page,
-                     page_number_xpath,
-                     result_table_ele_find,result_table_ele_find_value,
-                     table_colnum_counts
+    def definelogin(self,num,login_id,
+                    login_url,
+                    is_auto_input_code,code_image_xpath,code_type,
+
+                    code_input_ele_find,code_input_ele_find_value,
+
+                    login_button_ele_find,login_button_ele_find_value,
+                    click_login_button_delay_time
                      ):
 
 
-        #如果有依赖ID，则执行依赖函数，达到执行当前用例的前提条件
-        if depend_click_case_id != None:
-            print("depend_click_case_id：%s" % depend_click_case_id)
-            self.definedepend(depend_click_case_id)
-            self.activebrowser.outPutMyLog("依赖函数执行完毕！！！")
 
         self.activebrowser.outPutMyLog("开始正式执行测试用例")
+        #加载登录网址
+        self.activebrowser.getUrl(login_url)
  
         #文本输入框添加内容
-        inputtext_list = inputtapinputtext.inputtapinputtext(self.activebrowser,addnew_id)
+        inputtext_list = inputtapinputtext.inputtapinputtext(self.activebrowser,login_id)
 
-        #文件输入框添加内容
-        inputtapinputfile.inputtapinputfile(self.activebrowser,addnew_id)
+        #自动输入验证码
+        if is_auto_input_code :
+            if code_image_xpath != "" and code_type != "":
+                print("code_image_xpath:[%s]" % code_image_xpath)
+                code = self.activebrowser.getCodeTextByThreeInterfaseWithCodeType(code_image_xpath,code_type)
+                self.activebrowser.findEleAndInputNum(num,code_input_ele_find,code_input_ele_find_value,code)
 
-        #选项框添加内容
-        selecttapselectoption.selecttapselectoption(self.activebrowser,addnew_id)
+        #点击登录按钮
+        self.activebrowser.findEleAndClickConfigDelayTime(num, login_button_ele_find,login_button_ele_find_value,
+                                                          click_login_button_delay_time)
+        self.activebrowser.getPageSource()
+        print("已经点击确定按钮")
+        # self.activebrowser.delayTime(30000)
 
-        #单选项与复选项添加内容
-        radioandreelectionlabel.radioandreelectionlabel(self.activebrowser,addnew_id)
+        #验证验证文本信息
+        asserttest_list_all = asserttiptext.assertiptext(self.activebrowser, login_id)
+        asserttest_list_all_long = len(asserttest_list_all)
+        for i in range(0, asserttest_list_all_long):
+            self.assertTrue(asserttest_list_all[i][0], asserttest_list_all[i][1])
 
-        #日期添加内容
-        inputtapinputdatetime.inputtapinputdatetime(self.activebrowser,addnew_id)
-
-
-
-            
-        #判断是否点击取消按钮
-        if is_cancel:
-            #如果点击取消按钮，则点击取消按钮
-            self.activebrowser.findEleAndClick(num,cancel_ele_find,cancel_ele_find_value)
-
-            if is_signel_page:
-                self.activebrowser.outPutMyLog("页面不需要分页")
-            else:
-                son_ele_s = self.activebrowser.getFatherSonElesList("xpath", page_number_xpath, "tag_name", "li")
-                son_count = len(son_ele_s)
-                son_last_xpath = "%s/%s[%s]" % (page_number_xpath, "li", son_count)
-                self.activebrowser.findEleAndClick(num, "xpath", son_last_xpath)
-
-            inputtext_list_len = len(inputtext_list)
-            for i in range(0, inputtext_list_len):
-                reault_check = self.activebrowser. \
-                    findEleAndCheckTableWithColnumCounts(num, result_table_ele_find,
-                                                         result_table_ele_find_value, inputtext_list[i],
-                                                         table_colnum_counts)
-                self.assertFalse(reault_check)
-        else:
-            #否则点击确定按钮
-            self.activebrowser.findEleAndClickWithAlert(num,confirm_ele_find,confirm_ele_find_value)
-            print("已经点击确定按钮")
-
-            if not is_submit_success:  #如果不是添加成功，需要验证某些文本信息
-                asserttest_list_all = asserttiptext.assertiptext(self.activebrowser,addnew_id)
-                asserttest_list_all_long = len(asserttest_list_all)
-                for i in range(0,asserttest_list_all_long):
-                    self.assertTrue(asserttest_list_all[i][0],asserttest_list_all[i][1])
-            else:
-                if is_signel_page:
-                    self.activebrowser.outPutMyLog("页面不需要分页")
-                else:
-                    son_ele_s = self.activebrowser.getFatherSonElesList( "xpath", page_number_xpath, "tag_name", "li")
-                    son_count = len(son_ele_s)
-                    son_last_xpath = "%s/%s[%s]" % (page_number_xpath, "li", son_count)
-                    self.activebrowser.findEleAndClick(num, "xpath", son_last_xpath)
-
-                inputtext_list_len = len(inputtext_list)
-                for i in range(0,inputtext_list_len):
-                    reault_check = self.activebrowser.\
-                        findEleAndCheckTableWithColnumCounts(num,result_table_ele_find,
-                                                             result_table_ele_find_value,inputtext_list[i],
-                                                             table_colnum_counts)
-                    self.assertTrue(reault_check)
-
+        if asserttest_list_all_long == 0 :
+            self.activebrowser.outPutErrorMyLog("【异常提示】：本用例为验证点击登录按钮后的提示信息，"
+                                                "但没有添加要验证的提示信息，"
+                                                "请检查用例测试数据，将测试数据补充完整！")
+            self.assertTrue(False)
 
 
     # def test001(self):
@@ -158,52 +112,46 @@ class TestLoginClass(unittest.TestCase):  # 创建测试类
     #     self.definedepend(self.dependid)
 
     @staticmethod    #根据不同的参数生成测试用例
-    def getTestFunc(num,depend_click_case_id,
-                     is_cancel,
-                     addnew_id,
-                     confirm_ele_find,confirm_ele_find_value,
-                     cancel_ele_find,cancel_ele_find_value,
-                     is_submit_success,
-                     is_signel_page,
-                     page_number_xpath,
-                     result_table_ele_find,result_table_ele_find_value,
-                     table_colnum_counts):
+    def getTestFunc(num,login_id,
+                    login_url,
+                    is_auto_input_code,code_image_xpath,code_type,
+
+                    code_input_ele_find,code_input_ele_find_value,
+
+                    login_button_ele_find,login_button_ele_find_value,
+                    click_login_button_delay_time):
 
         def func(self):
-            self.definenewadd(num,depend_click_case_id,
-                     is_cancel,
-                     addnew_id,
-                     confirm_ele_find,confirm_ele_find_value,
-                     cancel_ele_find,cancel_ele_find_value,
-                     is_submit_success,
-                     is_signel_page,
-                     page_number_xpath,
-                     result_table_ele_find,result_table_ele_find_value,
-                     table_colnum_counts)
+            self.definelogin(num,login_id,
+                    login_url,
+                    is_auto_input_code,code_image_xpath,code_type,
+                    code_input_ele_find,code_input_ele_find_value,
+                    login_button_ele_find,login_button_ele_find_value,
+                    click_login_button_delay_time)
         return func
 
 def __generateTestCases():
-    from testdatas.models import NewAddAndCheck
+    from testdatas.models import LoginAndCheck
 
-    newaddandchecktestcase_all = NewAddAndCheck.objects.filter(is_run_case=True).\
-        filter(test_project="餐饮油烟监管治服一体化平台").filter(test_module="登录")\
+    loginandchecktestcase_all = LoginAndCheck.objects.filter(is_run_case=True).\
+        filter(test_project="中石油_迭代一").filter(id=3).filter(test_module="登录")\
         .order_by('id')
 
-    for newaddandchecktestcase in newaddandchecktestcase_all:
-        forcount = newaddandchecktestcase.case_counts
+    for loginandchecktestcase in loginandchecktestcase_all:
+        forcount = loginandchecktestcase.case_counts
         starttime = GetTimeStr().getTimeStr()
-        if len(str(newaddandchecktestcase.id)) == 1:
-            newaddandchecktestcaseid = '0000%s' % newaddandchecktestcase.id
-        elif len(str(newaddandchecktestcase.id)) == 2:
-            newaddandchecktestcaseid = '000%s' % newaddandchecktestcase.id
-        elif len(str(newaddandchecktestcase.id)) == 3:
-            newaddandchecktestcaseid = '00%s' % newaddandchecktestcase.id
-        elif len(str(newaddandchecktestcase.id)) == 4:
-            newaddandchecktestcaseid = '0%s' % newaddandchecktestcase.id
-        elif len(str(newaddandchecktestcase.id)) == 5:
-            newaddandchecktestcaseid = '%s' % newaddandchecktestcase.id
+        if len(str(loginandchecktestcase.id)) == 1:
+            loginandchecktestcaseid = '0000%s' % loginandchecktestcase.id
+        elif len(str(loginandchecktestcase.id)) == 2:
+            loginandchecktestcaseid = '000%s' % loginandchecktestcase.id
+        elif len(str(loginandchecktestcase.id)) == 3:
+            loginandchecktestcaseid = '00%s' % loginandchecktestcase.id
+        elif len(str(loginandchecktestcase.id)) == 4:
+            loginandchecktestcaseid = '0%s' % loginandchecktestcase.id
+        elif len(str(loginandchecktestcase.id)) == 5:
+            loginandchecktestcaseid = '%s' % loginandchecktestcase.id
         else:
-            newaddandchecktestcaseid = 'Id已经超过5位数，请重新定义'
+            loginandchecktestcaseid = 'Id已经超过5位数，请重新定义'
 
         for i in range(1, forcount + 1):  # 循环，从1开始
             if len(str(i)) == 1:
@@ -220,24 +168,22 @@ def __generateTestCases():
                 forcount_i = 'Id已经超过5位数，请重新定义'
 
             args = []
-            args.append(newaddandchecktestcaseid)
+            args.append(loginandchecktestcaseid)
             # args.append(i)
-            args.append(newaddandchecktestcase.depend_click_case_id)
-            args.append(newaddandchecktestcase.is_click_cancel)
-            args.append(newaddandchecktestcase.id)
-            args.append(newaddandchecktestcase.confirm_ele_find)
-            args.append(newaddandchecktestcase.confirm_ele_find_value)
-            args.append(newaddandchecktestcase.cancel_ele_find)
-            args.append(newaddandchecktestcase.cancel_ele_find_value)
-            args.append(newaddandchecktestcase.is_submit_success)
-            args.append(newaddandchecktestcase.is_signel_page)
-            args.append(newaddandchecktestcase.page_number_xpath)
-            args.append(newaddandchecktestcase.result_table_ele_find)
-            args.append(newaddandchecktestcase.result_table_ele_find_value)
-            args.append(newaddandchecktestcase.table_colnum_counts)
+            args.append(loginandchecktestcase.id)
+            args.append(loginandchecktestcase.login_url)
+
+            args.append(loginandchecktestcase.is_auto_input_code)
+            args.append(loginandchecktestcase.code_image_xpath)
+            args.append(loginandchecktestcase.code_type)
+            args.append(loginandchecktestcase.code_input_ele_find)
+            args.append(loginandchecktestcase.code_input_ele_find_value)
+            args.append(loginandchecktestcase.login_button_ele_find)
+            args.append(loginandchecktestcase.login_button_ele_find_value)
+            args.append(loginandchecktestcase.click_login_button_delay_time)
 
             setattr(TestLoginClass,
-                    'test_func_%s_%s_%s' % (newaddandchecktestcaseid, newaddandchecktestcase.test_case_title, forcount_i),
+                    'test_func_%s_%s_%s' % (loginandchecktestcaseid, loginandchecktestcase.test_case_title, forcount_i),
                     TestLoginClass.getTestFunc(*args))  # 通过setattr自动为TestCase类添加成员方法，方法以“test_func_”开头
 
 

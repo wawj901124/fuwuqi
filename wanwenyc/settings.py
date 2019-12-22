@@ -50,6 +50,9 @@ INSTALLED_APPS = [
     'testdatas.apps.TestdatasConfig', #注册testdatas
     'reportdatas.apps.ReportdatasConfig', #注册reportdatas
     'testapidatas.apps.TestapidatasConfig',#注册testapidatas
+    'reportpageloadtime.apps.ReportpageloadtimeConfig',#注册testapidatas
+    'dependallshow.apps.DependallshowConfig',#注册dependallshow
+    'testupdatadb.apps.TestupdatadbConfig',#注册testupdatadb
 ]
 
 MIDDLEWARE = [
@@ -121,6 +124,19 @@ DATABASES = {
         'OPTIONS':{'init_command':'SET sql_mode="STRICT_TRANS_TABLES",storage_engine=INNODB;'}  #设置数据库为INNODB，为第三方数据库登录用
     }
 }
+
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'wanwei',
+#         'USER':'lepus_user',
+#         'PASSWORD':'123456',
+#         'HOST':'192.168.100.187',
+#         'PORT': '3306',         # 数据库使用的端口
+#         'OPTIONS':{'init_command':'SET sql_mode="STRICT_TRANS_TABLES",storage_engine=INNODB;'}  #设置数据库为INNODB，为第三方数据库登录用
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators

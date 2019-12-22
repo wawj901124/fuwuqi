@@ -125,7 +125,9 @@ class TestSearchClass(unittest.TestCase):  # 创建测试类
 
         else: #否则断言“暂无数据”在页面中
             self.activebrowser.delayTime(10)
-            self.assertIn("暂无数据",self.activebrowser.getPageSource())
+            pageresuorce = self.activebrowser.getPageSource()
+            self.assertIn("暂无数据",pageresuorce)
+            self.assertNotIn("数据加载中", pageresuorce)
 
 
         if inputtext_list_len == 0 and selectoptiontext_list_long == 0:

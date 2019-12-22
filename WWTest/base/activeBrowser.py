@@ -79,6 +79,12 @@ class  ActiveBrowser(object):
 
         chrome_options.add_argument('--headless')   #–headless”参数是不用打开图形界面
         chrome_options.add_argument('--no-sandbox')  #“–no - sandbox”参数是让Chrome在root权限下跑
+        chrome_options.add_argument("--kiosk") #全屏启动
+        chrome_options.add_argument("--start-maximized")  #全屏启动
+        chrome_options.add_argument("--start-fullscreen")  #全屏启动
+        #chrome_options.add_argument("--window-size=4000,1600")  #专门应对无头浏览器中不能最大化屏幕的方案
+        chrome_options.add_argument("--window-size=1920,1050")  # 专门应对无头浏览器中不能最大化屏幕的方案
+
         # chrome_options.add_argument('--disable-dev-shm-usage') #不加载图片, 提升速度
         # chrome_options.add_argument('blink-settings=imagesEnabled=false')
         # chrome_options.add_argument('--disable-gpu') # 谷歌文档提到需要加上这个属性来规避bug
@@ -407,6 +413,46 @@ class  ActiveBrowser(object):
         self.outPutMyLog('获取到的元素的截图路径为：%s'% eleimage)
         return ele
 
+    #判断元素不存在
+    def assertEleNotExist(self,findstyle,findstylevalue):
+        try:
+            if str(findstyle) == "class_name":
+                ele = self.driver.find_element_by_class_name(findstylevalue)
+                self.outPutMyLog("找到class_name为【%s】的元素" % findstylevalue)
+            elif str(findstyle) == "css_selector":
+                ele = self.driver.find_element_by_css_selector(findstylevalue)
+                self.outPutMyLog("找到css_selector为【%s】的元素" % findstylevalue)
+            elif str(findstyle) == "id":
+                ele = self.driver.find_element_by_id(findstylevalue)
+                self.outPutMyLog("找到id为【%s】的元素" % findstylevalue)
+            elif str(findstyle) == "link_text":
+                ele = self.driver.find_element_by_link_text(findstylevalue)
+                self.outPutMyLog("找到link_text为【%s】的元素" % findstylevalue)
+            elif str(findstyle) == "name":
+                ele = self.driver.find_element_by_name(findstylevalue)
+                self.outPutMyLog("找到name为【%s】的元素" % findstylevalue)
+            elif str(findstyle) == "partial_link_text":
+                ele = self.driver.find_element_by_partial_link_text(findstylevalue)
+                self.outPutMyLog("找到link_text为【%s】的元素" % findstylevalue)
+            elif str(findstyle) == "tag_name":
+                ele = self.driver.find_element_by_tag_name(findstylevalue)
+                self.outPutMyLog("找到tag_name为【%s】的元素" % findstylevalue)
+            elif str(findstyle) == "xpath":
+                ele = self.driver.find_element_by_xpath(findstylevalue)
+                self.outPutMyLog("找到xpath为【%s】的元素" % findstylevalue)
+            else:
+                self.outPutErrorMyLog("元素的查找方式不再八类（id、name、class_name、tag_name、"
+                                      "link_text、partial_link_text、css_selector、xpath）之中，"
+                                      "请输入正确的查找方式.")
+            self.driver.execute_script("arguments[0].scrollIntoView();", ele)  # 拖动到可见的元素去，影响截取特定区域的截图，不影响整个页面截图
+            self.driver.execute_script("arguments[0].setAttribute('style',arguments[1]);", ele,"background:green;border:2px solid red")   #高亮显示操作的元素
+            self.getScreenshotAboutMySQL()
+            self.outPutErrorMyLog("问题描述：元素应该消失，而实际没有消失")
+            self.closeBrowse()
+            assert  False
+        except:
+            pass
+
     #查找元素，然后输入内容
     def findEleAndInputNum(self,num,findstyle,findstylevalue,inputcontent):
         ele = self.findEleImageNum(num,findstyle,findstylevalue)
@@ -432,10 +478,37 @@ class  ActiveBrowser(object):
         return eletext
 
     #查找元素，然后点击
+    def findEleAndClickNoDelayTime(self,num,findstyle,findstylevalue):
+        ele = self.findEleImageNum(num,findstyle,findstylevalue)
+        try:
+            ele.click()   #点击
+            self.outPutMyLog("点击元素")
+        except Exception as e:
+            self.getScreenshotAboutMySQL()
+            self.outPutErrorMyLog("点击失败，关闭驱动，问题描述：%s" % e)
+            self.closeBrowse()
+            assert False
+        return ele
+
+    #查找元素，然后点击
     def findEleAndClick(self,num,findstyle,findstylevalue):
         ele = self.findEleImageNum(num,findstyle,findstylevalue)
         try:
             ele.click()   #点击
+            self.outPutMyLog("点击元素")
+            self.delayTime(3)
+        except Exception as e:
+            self.getScreenshotAboutMySQL()
+            self.outPutErrorMyLog("点击失败，关闭驱动，问题描述：%s" % e)
+            self.closeBrowse()
+            assert False
+        return ele
+
+    #查找元素，然后使用JS点击
+    def findEleAndClickWithJS(self,num,findstyle,findstylevalue):
+        ele = self.findEleImageNum(num,findstyle,findstylevalue)
+        try:
+            self.singleClick(ele)   #点击
             self.outPutMyLog("点击元素")
             self.delayTime(3)
         except Exception as e:
@@ -518,6 +591,7 @@ class  ActiveBrowser(object):
             for i in range(0,int(colnum_counts)):
                 if inputtext.lower() in value[i].lower():
                     is_exist = True
+                    break
             #     self.outPutMyLog('input输入内容变小写：%s'% inputtext.lower())
             #
             #     self.outPutMyLog('搜索到的表格内容变小写：%s'% value[colnum].lower())
@@ -1114,6 +1188,7 @@ class  ActiveBrowser(object):
         firedir = r'%s/imagefile/' % str(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
         self.createdir(firedir)
         path = "%s/%s.png"% (firedir,tStr)
+        print("yyyyyyyyyyyyyyyyyyyyyyyy:%s" % path)
         driver.get_screenshot_as_file(path)
         return path
 
@@ -1148,6 +1223,22 @@ class  ActiveBrowser(object):
                     # ne6:6位英文数字）
         #请准确填写，以免影响识别准确性。（其他类型，请使用：图片验证码识别-复杂版）
         codetext = IdentificationVerificationCode(picture=imagecode,v_type="n4")
+        return codetext
+
+    def getCodeTextByThreeInterfaseWithCodeType(self,path,codetype):
+        imagecodestr = self.getCodeImage(path)
+        imagecode = r"%s/imagefile/%s_code.png" % (str(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),imagecodestr)# 打开验证码图片
+        #验证码类型（n4:4位纯数字，
+                    # n5:5位纯数字
+                    # n6:6位纯数字
+                    # e4:4位纯英文
+                    # e5:5位纯英文
+                    # e6:6位纯英文
+                    # ne4:4位英文数字
+                    # ne5:5位英文数字
+                    # ne6:6位英文数字）
+        #请准确填写，以免影响识别准确性。（其他类型，请使用：图片验证码识别-复杂版）
+        codetext = IdentificationVerificationCode(picture=imagecode,v_type=codetype)
         return codetext
 
 
@@ -1376,6 +1467,22 @@ class  ActiveBrowser(object):
     #双击某个元素
     def doubleClick(self,ele):
         ActionChains(self.driver).double_click(ele).perform()
+
+    #单击某个元素
+    def singleClick(self,ele):
+        ActionChains(self.driver).click(ele).perform()
+
+
+    #切换到iframe
+    def swithToIframe(self,iframeele):
+        self.driver.switch_to.frame(iframeele)
+        self.outPutMyLog("切换到iframe框")
+
+    #退出iframe
+    def quiteCurrentIframe(self):
+        self.driver.switch_to.default_content()
+        self.outPutMyLog("退出当前iframe框")
+        self.outPutMyLog("切换回进入iframe框之前的内容")
 
 
     #关闭浏览器
