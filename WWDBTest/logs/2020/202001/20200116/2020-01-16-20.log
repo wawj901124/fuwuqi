@@ -1,0 +1,2839 @@
+Time:2020-01-16 20:00:22,007; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:00:22,008; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:00:22,009; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:00:28,705; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:00:28,706; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:00:28,708; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:00:48,753; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:00:48,754; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:00:48,755; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:00:58,869; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:00:58,870; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:00:58,871; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:01:18,897; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:01:18,897; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:01:18,898; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:01:23,445; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:01:23,446; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:01:23,446; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:01:43,471; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:01:43,472; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:01:43,473; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:01:45,712; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:01:45,713; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:01:45,714; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:02:07,082; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:02:07,083; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:02:07,084; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:02:08,467; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:02:08,467; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:02:08,468; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:02:28,491; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:02:28,491; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:02:28,492; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:02:29,622; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:02:29,622; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:02:29,623; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:02:49,648; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:02:49,648; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:02:49,649; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:02:50,530; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:02:50,531; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:02:50,532; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:03:10,557; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:03:10,558; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:03:10,558; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:03:10,561; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:03:10,562; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:03:10,563; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:03:32,044; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:03:32,045; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:03:32,045; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:03:33,004; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:03:33,005; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:03:33,006; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:03:53,027; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:03:53,028; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:03:53,029; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:03:54,529; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:03:54,530; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:03:54,530; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:04:14,556; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:04:14,557; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:04:14,557; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:04:15,432; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:04:15,433; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:04:15,433; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:04:35,459; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:04:35,460; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:04:35,461; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:04:35,464; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:04:35,465; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:04:35,466; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:04:57,267; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:04:57,268; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:04:57,269; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:04:58,780; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:04:58,781; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:04:58,809; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:05:18,832; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:05:18,833; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:05:18,834; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:05:19,765; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:05:19,766; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:05:19,767; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:05:39,788; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:05:39,789; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:05:39,790; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:05:40,732; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:05:40,733; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:05:40,733; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:06:00,759; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:06:00,760; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:06:00,760; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:06:00,762; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:06:00,762; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:06:00,763; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:06:22,143; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:06:22,144; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:06:22,145; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:06:23,388; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:06:23,389; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:06:23,390; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:06:43,414; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:06:43,415; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:06:43,416; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:06:44,399; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:06:44,400; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:06:44,402; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:07:04,430; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:07:04,430; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:07:04,431; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:07:05,743; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:07:05,744; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:07:05,744; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:07:25,771; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:07:25,771; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:07:25,772; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:07:25,774; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:07:25,774; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:07:25,775; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:07:47,291; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:07:47,292; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:07:47,292; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:07:48,388; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:07:48,389; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:07:48,391; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:08:08,411; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:08:08,412; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:08:08,413; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:08:09,891; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:08:09,892; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:08:09,893; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:08:29,918; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:08:29,919; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:08:29,920; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:08:31,646; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:08:31,647; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:08:31,648; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:08:51,670; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:08:51,670; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:08:51,671; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:08:51,673; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:08:51,673; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:08:51,674; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:09:13,359; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:09:13,360; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:09:13,361; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:09:14,828; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:09:14,828; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:09:14,829; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:09:34,846; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:09:34,847; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:09:34,848; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:09:36,136; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:09:36,137; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:09:36,138; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:09:56,163; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:09:56,163; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:09:56,164; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:09:57,077; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:09:57,077; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:09:57,078; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:10:17,103; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:10:17,103; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:10:17,104; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:10:17,106; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:10:17,106; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:10:17,107; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:10:38,506; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:10:38,507; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:10:38,508; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:10:39,479; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:10:39,480; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:10:39,481; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:10:59,506; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:10:59,507; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:10:59,508; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:11:00,499; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:11:00,500; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:11:00,501; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:11:20,525; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:11:20,526; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:11:20,527; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:11:21,460; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:11:21,461; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:11:21,461; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:11:41,488; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:11:41,489; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:11:41,490; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:11:41,492; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:11:41,493; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:11:41,494; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:12:03,075; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:12:03,075; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:12:03,076; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:12:04,642; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:12:04,642; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:12:04,643; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:12:24,669; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:12:24,669; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:12:24,670; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:12:25,615; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:12:25,616; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:12:25,617; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:12:45,641; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:12:45,642; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:12:45,643; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:12:46,926; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:12:46,927; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:12:46,928; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:13:06,952; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:13:06,952; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:13:06,953; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:13:06,955; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:13:06,955; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:13:06,956; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:13:28,329; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:13:28,330; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:13:28,331; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:13:30,088; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:13:30,089; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:13:30,089; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:13:50,113; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:13:50,114; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:13:50,115; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:13:51,365; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:13:51,366; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:13:51,368; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:14:11,393; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:14:11,393; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:14:11,394; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:14:12,592; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:14:12,592; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:14:12,593; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:14:32,619; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:14:32,620; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:14:32,620; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:14:32,622; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:14:32,623; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:14:32,624; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:14:54,306; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:14:54,307; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:14:54,308; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:14:55,410; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:14:55,411; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:14:55,411; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:15:15,437; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:15:15,437; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:15:15,438; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:15:16,413; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:15:16,414; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:15:16,414; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:15:36,437; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:15:36,438; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:15:36,439; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:15:37,804; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:15:37,804; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:15:37,805; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:15:57,829; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:15:57,829; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:15:57,830; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:15:57,832; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:15:57,832; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:15:57,833; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:16:19,329; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:16:19,329; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:16:19,330; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:16:20,397; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:16:20,398; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:16:20,399; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:16:40,424; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:16:40,424; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:16:40,425; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:16:41,381; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:16:41,382; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:16:41,383; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:17:01,407; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:17:01,408; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:17:01,409; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:17:02,293; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:17:02,294; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:17:02,295; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:17:22,320; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:17:22,321; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:17:22,321; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:17:22,323; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:17:22,323; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:17:22,324; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:17:43,697; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:17:43,698; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:17:43,699; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:17:44,991; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:17:44,992; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:17:44,993; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:18:05,015; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:18:05,016; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:18:05,016; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:18:06,144; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:18:06,145; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:18:06,146; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:18:26,169; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:18:26,170; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:18:26,171; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:18:27,132; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:18:27,133; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:18:27,133; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:18:47,159; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:18:47,159; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:18:47,160; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:18:47,162; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:18:47,162; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:18:47,163; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:19:08,550; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:19:08,551; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:19:08,553; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:19:10,079; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:19:10,079; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:19:10,080; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:19:30,102; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:19:30,103; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:19:30,103; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:19:31,595; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:19:31,596; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:19:31,597; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:19:51,624; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:19:51,624; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:19:51,625; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:19:52,805; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:19:52,806; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:19:52,807; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:20:12,831; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:20:12,832; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:20:12,832; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:20:12,834; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:20:12,834; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:20:12,835; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:20:34,337; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:20:34,338; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:20:34,338; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:20:35,581; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:20:35,582; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:20:35,582; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:20:55,608; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:20:55,609; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:20:55,610; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:20:57,002; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:20:57,003; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:20:57,005; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:21:17,051; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:21:17,051; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:21:17,052; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:21:17,926; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:21:17,927; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:21:17,928; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:21:37,952; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:21:37,952; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:21:37,953; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:21:37,954; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:21:37,955; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:21:37,956; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:21:59,806; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:21:59,806; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:21:59,807; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:22:00,792; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:22:00,793; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:22:00,793; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:22:20,813; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:22:20,814; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:22:20,814; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:22:21,875; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:22:21,875; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:22:21,876; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:22:41,897; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:22:41,898; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:22:41,898; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:22:42,787; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:22:42,788; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:22:42,789; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:23:02,809; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:23:02,810; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:23:02,811; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:23:02,813; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:23:02,813; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:23:02,815; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:23:24,473; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:23:24,474; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:23:24,474; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:23:26,378; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:23:26,379; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:23:26,380; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:23:46,407; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:23:46,408; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:23:46,409; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:23:47,728; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:23:47,729; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:23:47,729; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:24:07,757; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:24:07,758; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:24:07,758; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:24:09,447; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:24:09,447; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:24:09,448; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:24:29,473; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:24:29,474; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:24:29,475; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:24:29,478; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:24:29,478; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:24:29,479; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:24:50,949; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:24:50,949; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:24:50,950; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:24:51,970; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:24:51,972; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:24:51,973; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:25:11,998; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:25:11,999; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:25:12,000; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:25:13,428; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:25:13,428; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:25:13,430; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:25:33,456; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:25:33,456; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:25:33,457; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:25:34,565; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:25:34,565; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:25:34,566; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:25:54,586; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:25:54,587; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:25:54,587; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:25:54,589; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:25:54,589; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:25:54,590; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:26:16,000; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:26:16,000; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:26:16,001; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:26:17,239; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:26:17,240; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:26:17,241; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:26:37,267; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:26:37,268; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:26:37,269; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:26:38,536; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:26:38,537; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:26:38,537; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:26:58,564; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:26:58,564; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:26:58,565; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:27:00,025; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:27:00,026; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:27:00,027; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:27:20,053; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:27:20,054; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:27:20,055; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:27:20,058; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:27:20,059; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:27:20,060; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:27:41,584; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:27:41,585; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:27:41,586; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:27:42,989; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:27:42,990; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:27:42,991; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:28:03,016; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:28:03,017; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:28:03,018; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:28:04,788; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:28:04,789; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:28:04,790; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:28:24,816; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:28:24,817; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:28:24,818; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:28:25,945; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:28:25,946; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:28:25,947; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:28:45,971; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:28:45,972; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:28:45,972; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:28:45,974; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:28:45,974; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:28:45,975; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:29:07,457; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:29:07,457; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:29:07,458; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:29:08,420; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:29:08,421; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:29:08,421; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:29:28,446; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:29:28,447; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:29:28,448; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:29:30,042; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:29:30,043; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:29:30,043; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:29:50,069; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:29:50,070; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:29:50,070; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:29:51,371; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:29:51,373; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:29:51,374; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:30:11,397; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:30:11,397; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:30:11,398; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:30:11,401; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:30:11,401; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:30:11,402; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:30:32,864; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:30:32,864; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:30:32,865; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:30:34,048; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:30:34,048; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:30:34,049; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:30:54,074; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:30:54,075; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:30:54,075; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:30:55,207; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:30:55,207; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:30:55,208; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:31:15,235; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:31:15,235; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:31:15,236; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:31:16,618; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:31:16,619; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:31:16,620; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:31:36,645; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:31:36,646; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:31:36,646; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:31:36,649; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:31:36,650; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:31:36,651; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:31:58,224; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:31:58,225; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:31:58,226; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:31:59,507; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:31:59,507; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:31:59,508; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:32:19,533; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:32:19,534; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:32:19,534; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:32:20,668; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:32:20,668; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:32:20,669; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:32:40,695; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:32:40,696; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:32:40,697; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:32:42,115; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:32:42,116; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:32:42,117; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:33:02,138; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:33:02,139; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:33:02,139; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:33:02,141; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:33:02,142; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:33:02,142; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:33:23,629; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:33:23,630; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:33:23,630; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:33:25,723; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:33:25,724; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:33:25,725; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:33:45,753; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:33:45,754; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:33:45,755; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:33:47,351; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:33:47,352; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:33:47,353; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:34:07,378; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:34:07,378; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:34:07,379; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:34:09,021; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:34:09,021; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:34:09,022; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:34:29,047; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:34:29,048; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:34:29,048; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:34:29,050; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:34:29,051; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:34:29,051; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:34:50,508; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:34:50,509; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:34:50,510; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:34:51,831; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:34:51,831; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:34:51,832; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:35:11,857; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:35:11,858; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:35:11,858; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:35:12,800; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:35:12,801; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:35:12,802; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:35:32,827; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:35:32,828; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:35:32,829; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:35:34,219; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:35:34,220; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:35:34,221; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:35:54,293; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:35:54,293; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:35:54,294; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:35:54,296; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:35:54,297; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:35:54,297; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:36:15,728; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:36:15,729; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:36:15,729; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:36:16,806; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:36:16,807; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:36:16,808; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:36:36,831; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:36:36,832; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:36:36,833; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:36:37,819; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:36:37,819; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:36:37,820; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:36:57,845; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:36:57,846; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:36:57,847; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:36:58,899; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:36:58,900; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:36:58,901; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:37:18,922; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:37:18,922; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:37:18,923; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:37:18,926; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:37:18,926; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:37:18,927; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:37:40,528; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:37:40,529; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:37:40,529; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:37:41,822; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:37:41,823; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:37:41,824; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:38:01,850; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:38:01,850; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:38:01,851; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:38:03,119; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:38:03,120; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:38:03,121; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:38:23,146; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:38:23,147; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:38:23,147; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:38:24,037; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:38:24,038; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:38:24,039; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:38:44,063; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:38:44,064; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:38:44,064; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:38:44,066; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:38:44,066; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:38:44,067; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:39:05,594; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:39:05,595; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:39:05,595; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:39:07,195; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:39:07,196; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:39:07,197; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:39:27,271; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:39:27,272; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:39:27,274; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:39:28,724; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:39:28,725; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:39:28,726; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:39:48,751; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:39:48,752; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:39:48,753; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:39:49,904; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:39:49,905; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:39:49,905; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:40:09,931; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:40:09,932; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:40:09,933; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:40:09,937; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:40:09,938; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:40:09,939; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:40:31,579; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:40:31,580; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:40:31,581; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:40:32,806; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:40:32,807; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:40:32,808; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:40:52,832; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:40:52,832; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:40:52,833; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:40:54,034; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:40:54,035; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:40:54,037; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:41:14,061; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:41:14,062; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:41:14,063; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:41:14,956; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:41:14,956; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:41:14,957; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:41:34,981; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:41:34,982; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:41:34,983; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:41:34,984; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:41:34,985; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:41:34,985; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:41:56,525; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:41:56,526; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:41:56,526; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:41:57,501; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:41:57,501; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:41:57,502; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:42:17,527; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:42:17,527; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:42:17,528; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:42:18,665; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:42:18,665; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:42:18,666; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:42:38,692; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:42:38,693; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:42:38,694; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:42:40,180; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:42:40,180; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:42:40,181; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:43:00,207; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:43:00,207; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:43:00,208; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:43:00,210; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:43:00,210; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:43:00,211; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:43:21,605; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:43:21,605; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:43:21,606; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:43:22,697; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:43:22,698; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:43:22,699; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:43:42,725; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:43:42,725; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:43:42,726; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:43:43,724; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:43:43,725; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:43:43,726; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:44:03,752; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:44:03,752; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:44:03,753; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:44:04,625; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:44:04,625; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:44:04,626; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:44:24,651; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:44:24,652; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:44:24,652; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:44:24,655; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:44:24,655; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:44:24,656; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:44:46,195; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:44:46,196; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:44:46,196; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:44:47,233; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:44:47,234; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:44:47,234; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:45:07,260; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:45:07,260; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:45:07,261; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:45:08,554; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:45:08,554; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:45:08,555; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:45:28,580; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:45:28,581; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:45:28,582; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:45:29,900; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:45:29,901; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:45:29,902; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:45:49,928; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:45:49,928; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:45:49,929; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:45:49,931; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:45:49,931; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:45:49,932; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:46:11,386; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:46:11,387; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:46:11,389; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:46:12,413; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:46:12,414; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:46:12,414; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:46:32,438; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:46:32,440; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:46:32,441; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:46:33,688; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:46:33,689; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:46:33,689; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:46:53,706; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:46:53,707; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:46:53,708; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:46:54,628; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:46:54,628; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:46:54,629; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:47:14,649; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:47:14,650; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:47:14,651; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:47:14,652; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:47:14,653; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:47:14,654; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:47:36,112; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:47:36,112; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:47:36,113; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:47:37,097; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:47:37,098; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:47:37,098; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:47:57,124; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:47:57,124; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:47:57,125; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:47:58,561; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:47:58,562; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:47:58,563; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:48:18,589; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:48:18,590; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:48:18,590; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:48:19,469; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:48:19,470; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:48:19,470; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:48:39,493; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:48:39,493; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:48:39,494; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:48:39,497; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:48:39,497; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:48:39,498; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:49:01,113; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:49:01,114; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:49:01,115; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:49:02,104; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:49:02,105; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:49:02,105; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:49:22,131; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:49:22,131; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:49:22,133; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:49:23,061; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:49:23,062; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:49:23,063; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:49:43,085; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:49:43,086; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:49:43,087; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:49:44,656; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:49:44,657; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:49:44,658; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:50:04,679; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:50:04,679; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:50:04,680; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:50:04,682; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:50:04,683; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:50:04,683; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:50:26,343; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:50:26,344; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:50:26,345; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:50:27,723; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:50:27,724; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:50:27,725; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:50:47,751; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:50:47,752; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:50:47,753; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:50:49,147; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:50:49,148; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:50:49,148; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:51:09,173; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:51:09,173; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:51:09,174; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:51:10,178; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:51:10,178; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:51:10,179; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:51:30,201; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:51:30,201; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:51:30,202; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:51:30,204; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:51:30,205; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:51:30,205; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:51:51,761; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:51:51,762; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:51:51,763; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:51:52,928; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:51:52,928; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:51:52,929; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:52:12,955; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:52:12,956; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:52:12,956; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:52:14,209; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:52:14,210; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:52:14,210; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:52:34,236; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:52:34,237; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:52:34,238; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:52:35,666; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:52:35,666; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:52:35,667; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:52:55,688; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:52:55,689; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:52:55,689; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:52:55,691; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:52:55,692; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:52:55,692; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:53:17,160; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:53:17,161; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:53:17,161; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:53:18,296; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:53:18,296; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:53:18,297; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:53:38,321; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:53:38,322; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:53:38,323; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:53:39,261; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:53:39,262; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:53:39,263; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:53:59,288; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:53:59,289; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:53:59,290; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:54:00,538; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:54:00,539; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:54:00,539; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:54:20,565; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:54:20,566; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:54:20,566; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:54:20,570; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:54:20,570; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:54:20,571; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:54:41,979; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:54:41,980; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:54:41,981; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:54:43,187; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:54:43,187; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:54:43,188; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:55:03,213; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:55:03,214; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:55:03,215; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:55:04,157; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:55:04,158; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:55:04,159; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:55:24,179; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:55:24,180; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:55:24,181; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:55:25,685; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:55:25,686; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:55:25,687; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:55:45,714; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:55:45,714; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:55:45,715; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:55:45,717; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:55:45,717; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:55:45,718; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:56:07,080; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:56:07,081; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:56:07,081; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:56:08,211; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:56:08,212; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:56:08,213; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:56:28,238; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:56:28,238; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:56:28,239; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:56:29,922; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:56:29,922; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:56:29,923; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:56:49,945; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:56:49,946; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:56:49,946; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:56:51,238; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:56:51,239; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:56:51,241; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:57:11,262; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:57:11,262; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:57:11,263; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:57:11,266; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:57:11,266; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:57:11,267; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:57:32,678; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:57:32,679; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:57:32,679; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:57:33,737; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:57:33,738; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:57:33,739; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:57:53,764; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:57:53,765; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:57:53,765; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:57:54,707; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:57:54,708; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:57:54,709; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:58:14,734; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:58:14,735; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:58:14,735; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:58:16,297; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:58:16,298; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:58:16,299; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:58:36,325; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:58:36,326; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:58:36,326; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:58:36,329; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:58:36,330; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:58:36,330; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:58:57,853; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:58:57,854; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:58:57,856; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:58:58,960; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:58:58,961; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:58:58,961; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:59:18,987; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:59:18,988; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:59:18,988; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:59:20,154; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:59:20,155; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:59:20,156; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2020-01-16 20:59:40,182; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2020-01-16 20:59:40,183; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:59:40,184; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2020-01-09 00:00:00'
+        
+ 
+Time:2020-01-16 20:59:41,505; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2020-01-09的数据
+ 
+Time:2020-01-16 20:59:41,505; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2020-01-16 20:59:41,506; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 

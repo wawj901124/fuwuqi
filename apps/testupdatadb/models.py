@@ -22,6 +22,8 @@ class UpdateDbData(models.Model):#继承django的Model模块
                                      verbose_name=u"用例优先级")
     test_case_title = models.CharField(max_length=200, default="", verbose_name=u"测试内容的名称")
     is_run_case = models.BooleanField(default=True,verbose_name=u"是否运行")
+    depend_case = models.ForeignKey('self', default="", null=True, blank=True,
+                                   verbose_name=u"依赖的前置用例",on_delete=models.PROTECT)
 
     db_host = models.CharField(max_length=100, default="192.168.100.198",null=True, blank=True, verbose_name=u"数据库IP")
     db_port = models.CharField(max_length=100, default="3306",null=True, blank=True, verbose_name=u"数据库端口")
@@ -57,9 +59,9 @@ class UpdateDbData(models.Model):#继承django的Model模块
     def __str__(self):#重载函数
         return self.test_case_title
 
-    # def go_to(self):   #定义点击后跳转到某一个地方（可以加html代码）
-    #     from django.utils.safestring import mark_safe   #调用mark_safe这个函数，django可以显示成一个文本，而不是html代码
-    #     return mark_safe("<a href='{}/testdatas/clickandbackcopy/{}/'>复制新加</a>".format(DJANGO_SERVER_YUMING,self.id))
-    #     # return  "<a href='http://192.168.212.194:9002/testcase/{}/'>跳转</a>".format(self.id)
-    #
-    # go_to.short_description = u"复制新加"   #为go_to函数名个名字
+    def go_to(self):   #定义点击后跳转到某一个地方（可以加html代码）
+        from django.utils.safestring import mark_safe   #调用mark_safe这个函数，django可以显示成一个文本，而不是html代码
+        return mark_safe("<a href='{}/testupdatadb/testupdatadbcopy/{}/'>复制新加</a>".format(DJANGO_SERVER_YUMING,self.id))
+        # return  "<a href='http://192.168.212.194:9002/testcase/{}/'>跳转</a>".format(self.id)
+
+    go_to.short_description = u"复制新加"   #为go_to函数名个名字

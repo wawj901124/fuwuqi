@@ -23,7 +23,7 @@ class UpdateDbDataXadmin(object):
                     "db_biao", "db_ziduan", "db_xiugaiqiandezhi", "db_xiugaihoudezhi", "db_tiaojianziduan",
                     "db_tiaojianzhi",
 
-                    "case_counts"]  # 定义显示的字段
+                    "case_counts","go_to"]  # 定义显示的字段
     list_filter = ["test_project", "test_module", "test_page",
                    "test_case_title", "is_run_case",
                    "write_user"]  # 定义筛选的字段
@@ -51,7 +51,16 @@ class UpdateDbDataXadmin(object):
     # 设置是否加入导入插件
     import_excel = True  # True表示显示使用插件，False表示不显示使用插件，该import_excel变量会覆盖插件中的变量
 
+    #重载get_context方法，只显示本用户添加的用例
+    def get_context(self):
+        context = super(UpdateDbDataXadmin, self).get_context()   #调用父类
 
+        if 'form' in context:   #固定写法
+            if self.request.user.is_superuser:  # 超级用户则返回所有
+                context['form'].fields['depend_case'].queryset = UpdateDbData.objects.all()
+            else:  # 非超级用户则只返回本用户添加的点击场景的用例
+                context['form'].fields['depend_case'].queryset = UpdateDbData.objects.filter(write_user=self.request.user)   #取form中的depend_click_case（与model中的字段相同），只取当前用户填写的数据
+        return context
 
 
     def save_models(self):  # 重载save_models的方法，可以在做了某个动作后，动态重新加载

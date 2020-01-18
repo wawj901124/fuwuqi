@@ -1,7 +1,39 @@
 # 导入pymysql模块
 import pymysql
+from datetime import datetime,timedelta
+from dateutil.relativedelta import relativedelta
 
 from WWDBTest.util.myLogs import MyLogs   #导入日志
+
+
+class GetBeforeTime():
+    def getNowTime(self):
+        now_time = datetime.now()
+        print("当前时间：%s" % now_time)
+        return now_time
+
+    def getBeforeTime(self,time_str, years=0, months=0, days=0, hours=0, minutes=0, seconds=0):
+        if type(time_str) == str:
+            time_str = datetime.strptime(time_str, '%Y-%m-%d %H:%M:%S')
+
+        ret = time_str + relativedelta(years=years, months=months, days=days, hours=hours, minutes=minutes,
+                                       seconds=seconds)
+        return ret
+
+    def run(self,years=0, months=0, days=0, hours=0, minutes=0, seconds=0):
+        now_time = self.getNowTime()
+        ret2 = self.getBeforeTime(now_time,years=years, months=months, days=days, hours=hours, minutes=minutes,
+                                       seconds=seconds)
+        print("结果时间:%s" % ret2)
+        return  ret2
+
+    def runGetBeforeOneWeekTime(self):
+        before_two_weeks = self.run(days=-7)
+        before_two_weeks_str = str(before_two_weeks)
+        before_two_weeks_str_list = before_two_weeks_str.split(" ")
+        before_two_weeks_str_day = before_two_weeks_str_list[0]
+        print("before_one_week_str_day:%s" % before_two_weeks_str_day)
+        return before_two_weeks_str_day
 
 
 class OperationMyDB(object):
@@ -123,6 +155,23 @@ class OperationMyDB(object):
         for r in rs:
             self.outPutMyLog("\t\t%s" % r)
 
+    def connectMyDBAndSelectAndReturn(self):
+        # 定义要执行的SQL语句
+        sql = """
+        SELECT %s FROM %s WHERE %s=%s
+        """ % (self.db_ziduan,self.db_biao,self.db_tiaojianziduan,self.db_tiaojianzhi)
+
+        if self.db_tiaojianzhi == "all":
+            sql = """
+            SELECT %s FROM %s 
+            """ % (self.db_ziduan, self.db_biao)
+        # 执行SQL语句
+        rs = self.connectMyDBAndExecute(sql)
+        self.outPutMyLog("\t查询的是%s表中的%s字段（筛选条件是字段%s等于%s的结果）的值，查询到的结果是：\n" % (self.db_biao,self.db_ziduan,self.db_tiaojianziduan,self.db_tiaojianzhi))
+        for r in rs:
+            self.outPutMyLog("\t\t%s" % r)
+        return rs
+
     def connectMyDBAndUpdate(self):
         # 定义要执行的SQL语句
         sql = """
@@ -137,6 +186,19 @@ class OperationMyDB(object):
         # 执行SQL语句
         rs = self.connectMyDBAndExecute(sql)
         self.outPutMyLog("\t替换的是%s表中的%s字段（筛选条件是字段%s等于%s的结果）的值：\n\t\t要替换的内容：%s\n\t\t替换后的内容：%s\n" % (self.db_biao,self.db_ziduan,self.db_tiaojianziduan,self.db_tiaojianzhi,self.db_xiugaiqiandezhi,self.db_xiugaihoudezhi))
+
+    def connectMyDBAndDelete(self):
+        gbt = GetBeforeTime()
+        btwd = gbt.runGetBeforeOneWeekTime()
+        print("btwd:%s" % btwd)
+        # 定义要执行的SQL语句
+        sql = """
+        delete from %s  where %s<'%s 00:00:00'
+        """ % (self.db_biao,self.db_tiaojianziduan,btwd)
+        # 执行SQL语句
+        rs = self.connectMyDBAndExecute(sql)
+        self.outPutMyLog("\t删除的是%s表中的%s字段小于%s的数据\n" % (self.db_biao,self.db_tiaojianziduan,btwd))
+
 
     def closeCursorAndConnect(self):
         # 关闭光标对象

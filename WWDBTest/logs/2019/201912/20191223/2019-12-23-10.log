@@ -1,0 +1,836 @@
+Time:2019-12-23 10:12:35,310; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.198_testconn
+ 
+Time:2019-12-23 10:12:35,311; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:12:35,313; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:替换前查询到的结果：
+ 
+Time:2019-12-23 10:12:35,314; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+            SELECT current_page_click_ele_find_value FROM testdatas_clickandback 
+            
+ 
+Time:2019-12-23 10:12:35,326; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	查询的是testdatas_clickandback表中的current_page_click_ele_find_value字段（筛选条件是字段id等于all的结果）的值，查询到的结果是：
+ 
+Time:2019-12-23 10:12:35,327; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[1]/div/div/div[2]/i 
+Time:2019-12-23 10:12:35,328; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[2]/ul/li[5]/div/div/div/span 
+Time:2019-12-23 10:12:35,330; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[2]/ul/li[5]/ul/div[1]/li/div/div/span 
+Time:2019-12-23 10:12:35,331; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/button 
+Time:2019-12-23 10:12:35,332; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[2]/a/div/div 
+Time:2019-12-23 10:12:35,334; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/button[1]/span 
+Time:2019-12-23 10:12:35,335; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[3]/a/div/div 
+Time:2019-12-23 10:12:35,336; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/button[1] 
+Time:2019-12-23 10:12:35,337; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[4]/a/div/div 
+Time:2019-12-23 10:12:35,338; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div/div[1]/button 
+Time:2019-12-23 10:12:35,340; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[5]/a/div/div 
+Time:2019-12-23 10:12:35,341; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,342; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[2]/ul/li[5]/ul/div[3]/li/div/div/span 
+Time:2019-12-23 10:12:35,344; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div/div[1]/div[6]/button[1]/span 
+Time:2019-12-23 10:12:35,345; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[4]/a/div/div 
+Time:2019-12-23 10:12:35,346; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div/div[1]/div[5]/button[1] 
+Time:2019-12-23 10:12:35,347; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[3]/a/div/div 
+Time:2019-12-23 10:12:35,348; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div/div[1]/div[5]/button[1]/span 
+Time:2019-12-23 10:12:35,350; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[2] 
+Time:2019-12-23 10:12:35,351; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[3] 
+Time:2019-12-23 10:12:35,352; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[4] 
+Time:2019-12-23 10:12:35,354; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[5] 
+Time:2019-12-23 10:12:35,355; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[6] 
+Time:2019-12-23 10:12:35,356; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[7] 
+Time:2019-12-23 10:12:35,357; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[8] 
+Time:2019-12-23 10:12:35,358; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[9] 
+Time:2019-12-23 10:12:35,360; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[10] 
+Time:2019-12-23 10:12:35,361; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[11] 
+Time:2019-12-23 10:12:35,362; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[12] 
+Time:2019-12-23 10:12:35,364; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[13] 
+Time:2019-12-23 10:12:35,365; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[14] 
+Time:2019-12-23 10:12:35,366; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[15] 
+Time:2019-12-23 10:12:35,367; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[16] 
+Time:2019-12-23 10:12:35,368; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[17] 
+Time:2019-12-23 10:12:35,370; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[18] 
+Time:2019-12-23 10:12:35,371; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[19] 
+Time:2019-12-23 10:12:35,372; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[20] 
+Time:2019-12-23 10:12:35,374; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[21] 
+Time:2019-12-23 10:12:35,375; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[22] 
+Time:2019-12-23 10:12:35,377; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[23] 
+Time:2019-12-23 10:12:35,378; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[24] 
+Time:2019-12-23 10:12:35,379; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,380; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,381; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,383; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,384; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,386; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,387; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,388; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,389; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,391; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,392; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,393; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,395; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,396; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,397; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,399; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,400; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,401; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,403; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,404; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,406; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,407; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,408; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,409; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[2]/a/div/div 
+Time:2019-12-23 10:12:35,410; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/button[1] 
+Time:2019-12-23 10:12:35,412; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[5]/a/div/div 
+Time:2019-12-23 10:12:35,413; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[6]/a/div/div 
+Time:2019-12-23 10:12:35,414; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[7]/a/div/div 
+Time:2019-12-23 10:12:35,416; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[8]/a/div/div 
+Time:2019-12-23 10:12:35,417; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div/div[1]/div[4]/button[1]/span 
+Time:2019-12-23 10:12:35,418; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div/div[1]/div[4]/button[1] 
+Time:2019-12-23 10:12:35,420; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div/div[1]/div[4]/button[1]/span 
+Time:2019-12-23 10:12:35,421; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[2]/ul/li[5]/ul/div[4]/li/div/div/span 
+Time:2019-12-23 10:12:35,422; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div/div[1]/button[1]/span 
+Time:2019-12-23 10:12:35,423; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[2]/a/div/div/span 
+Time:2019-12-23 10:12:35,424; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[3]/a/div/div/span 
+Time:2019-12-23 10:12:35,426; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[4]/a/div/div/span 
+Time:2019-12-23 10:12:35,427; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[6]/a/div/div/span 
+Time:2019-12-23 10:12:35,428; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div/div[1]/div[6]/button[1]/span 
+Time:2019-12-23 10:12:35,429; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div/div[1]/div[5]/button[1]/span 
+Time:2019-12-23 10:12:35,431; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div/div[1]/div[5]/button[1]/span 
+Time:2019-12-23 10:12:35,432; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div/div[1]/div[4]/button[1]/span 
+Time:2019-12-23 10:12:35,433; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div/div[2]/div[1]/div[3]/table/tbody/tr[1]/td[10]/div/button/span 
+Time:2019-12-23 10:12:35,434; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[2]/div/div[2]/div/div[2]/div[2]/div/button/span 
+Time:2019-12-23 10:12:35,435; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[2]/div/div[2]/div/div[5]/div/button/span 
+Time:2019-12-23 10:12:35,437; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[2]/ul/li[5]/ul/div[2]/li/div/div/span 
+Time:2019-12-23 10:12:35,438; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[4]/a/div/div/span 
+Time:2019-12-23 10:12:35,439; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[5]/a/div/div/span 
+Time:2019-12-23 10:12:35,441; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div[1]/div[4]/div/div[1]/div[4]/button 
+Time:2019-12-23 10:12:35,442; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[6]/a/div/div/span 
+Time:2019-12-23 10:12:35,443; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[7]/a/div/div/span 
+Time:2019-12-23 10:12:35,445; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[2]/ul/li[5]/ul/div[5]/li/div/div/span 
+Time:2019-12-23 10:12:35,446; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[2]/a/div/div/span 
+Time:2019-12-23 10:12:35,447; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[3]/a/div/div/span 
+Time:2019-12-23 10:12:35,448; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[4]/a/div/div/span 
+Time:2019-12-23 10:12:35,449; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		//*[@id="app"]/div/header/nav/div/div/div/a[6] 
+Time:2019-12-23 10:12:35,451; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[2]/ul/li[8]/div/div/div/span 
+Time:2019-12-23 10:12:35,452; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[2]/ul/li[8]/ul/div[3]/li/div/div/span 
+Time:2019-12-23 10:12:35,453; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[3]/a/div/div 
+Time:2019-12-23 10:12:35,454; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div/div[1]/div[5]/button[1]/span 
+Time:2019-12-23 10:12:35,456; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[2]/ul/li[8]/ul/div[2]/li/div/div/span 
+Time:2019-12-23 10:12:35,457; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[5]/a/div/div/span 
+Time:2019-12-23 10:12:35,458; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[4]/a/div/div 
+Time:2019-12-23 10:12:35,460; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div/div[1]/div[5]/button[1]/span 
+Time:2019-12-23 10:12:35,461; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[2]/ul/li[8]/ul/div[1]/li/div/div/span 
+Time:2019-12-23 10:12:35,462; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[3]/a/div/div/span 
+Time:2019-12-23 10:12:35,463; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div[3]/table/tbody/tr/td[8]/div/button/span 
+Time:2019-12-23 10:12:35,464; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[2]/div/div[3]/span/button[1]/span 
+Time:2019-12-23 10:12:35,465; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[2]/div/div[3]/span/button[1]/span 
+Time:2019-12-23 10:12:35,467; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[2]/div/div[3]/span/button[3]/span 
+Time:2019-12-23 10:12:35,468; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/header/section[1]/div/div/a[2]/span 
+Time:2019-12-23 10:12:35,470; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/nav/div/div/ul/li[9]/div/div/span 
+Time:2019-12-23 10:12:35,471; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/nav/div/div/ul/li[9]/ul/li[1]/span[2] 
+Time:2019-12-23 10:12:35,472; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/section/div/div/div[1]/div[3]/button[2]/span/span 
+Time:2019-12-23 10:12:35,473; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[2]/ul/li[1]/div/div/div/span 
+Time:2019-12-23 10:12:35,475; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[2]/ul/li[1]/ul/div[3]/li/div/div/span 
+Time:2019-12-23 10:12:35,476; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[1]/div/div/div[2]/i 
+Time:2019-12-23 10:12:35,477; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[2]/ul/li[1]/div/div/div/span 
+Time:2019-12-23 10:12:35,479; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[2]/ul/li[1]/ul/div[1]/li/div/div/span 
+Time:2019-12-23 10:12:35,480; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div/div[1]/div[6]/button/span 
+Time:2019-12-23 10:12:35,481; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div[1]/div[2]/div/ul/li[6] 
+Time:2019-12-23 10:12:35,482; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div[2]/div/div/div[2]/div[2]/div/div[2]/div/div[1]/div[2]/button[2]/span/span 
+Time:2019-12-23 10:12:35,483; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div[1]/div[2]/div/ul/li[7] 
+Time:2019-12-23 10:12:35,485; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div[2]/div/div/div/div[2]/div/div/div/div[1]/div[3]/button[2]/span/span 
+Time:2019-12-23 10:12:35,486; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div[2]/div/div/div[2]/div[2]/div/div[1]/div[1]/div/div/div/div[2]/span 
+Time:2019-12-23 10:12:35,487; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div[2]/div/div/div[2]/div[2]/div/div[2]/div/div[1]/div[2]/button[2]/span/span 
+Time:2019-12-23 10:12:35,489; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div[2]/div/div/div[2]/div[2]/div/div[1]/div[1]/div/div/div/div[3]/span 
+Time:2019-12-23 10:12:35,490; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div[2]/div/div/div[2]/div[2]/div/div[2]/div/div[1]/div[4]/button[2]/span/span 
+Time:2019-12-23 10:12:35,491; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div[1]/div[2]/div/ul/li[4] 
+Time:2019-12-23 10:12:35,492; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div[2]/div/div/div[2]/div[2]/div/div[1]/div[1]/div/div/div/div[2]/span 
+Time:2019-12-23 10:12:35,494; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div[2]/div/div/div[2]/div[2]/div/div[2]/div/div[1]/div[6]/button[2]/span/span 
+Time:2019-12-23 10:12:35,495; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div[2]/div/div/div[2]/div[2]/div/div[1]/div[1]/div/div/div/div[3]/span 
+Time:2019-12-23 10:12:35,496; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div[2]/div/div/div[2]/div[2]/div/div[2]/div/div[1]/div[4]/button[2]/span/span 
+Time:2019-12-23 10:12:35,497; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div[2]/div/div/div[2]/div[2]/div/div[1]/div[1]/div/div/div/div[4]/span 
+Time:2019-12-23 10:12:35,499; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:执行替换:
+ 
+Time:2019-12-23 10:12:35,500; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+            UPDATE testdatas_clickandback SET current_page_click_ele_find_value = REPLACE(current_page_click_ele_find_value, "修改后的油烟餐饮", "/html/body/")
+            
+ 
+Time:2019-12-23 10:12:35,504; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	替换的是testdatas_clickandback表中的current_page_click_ele_find_value字段（筛选条件是字段id等于all的结果）的值：
+		要替换的内容：修改后的油烟餐饮
+		替换后的内容：/html/body/
+ 
+Time:2019-12-23 10:12:35,505; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:替换后查询到的结果：
+ 
+Time:2019-12-23 10:12:35,506; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+            SELECT current_page_click_ele_find_value FROM testdatas_clickandback 
+            
+ 
+Time:2019-12-23 10:12:35,516; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	查询的是testdatas_clickandback表中的current_page_click_ele_find_value字段（筛选条件是字段id等于all的结果）的值，查询到的结果是：
+ 
+Time:2019-12-23 10:12:35,517; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[1]/div/div/div[2]/i 
+Time:2019-12-23 10:12:35,518; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[2]/ul/li[5]/div/div/div/span 
+Time:2019-12-23 10:12:35,519; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[2]/ul/li[5]/ul/div[1]/li/div/div/span 
+Time:2019-12-23 10:12:35,520; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/button 
+Time:2019-12-23 10:12:35,522; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[2]/a/div/div 
+Time:2019-12-23 10:12:35,523; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/button[1]/span 
+Time:2019-12-23 10:12:35,524; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[3]/a/div/div 
+Time:2019-12-23 10:12:35,525; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/button[1] 
+Time:2019-12-23 10:12:35,527; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[4]/a/div/div 
+Time:2019-12-23 10:12:35,528; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div/div[1]/button 
+Time:2019-12-23 10:12:35,529; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[5]/a/div/div 
+Time:2019-12-23 10:12:35,530; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,532; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[2]/ul/li[5]/ul/div[3]/li/div/div/span 
+Time:2019-12-23 10:12:35,533; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div/div[1]/div[6]/button[1]/span 
+Time:2019-12-23 10:12:35,534; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[4]/a/div/div 
+Time:2019-12-23 10:12:35,535; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div/div[1]/div[5]/button[1] 
+Time:2019-12-23 10:12:35,536; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[3]/a/div/div 
+Time:2019-12-23 10:12:35,537; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div/div[1]/div[5]/button[1]/span 
+Time:2019-12-23 10:12:35,539; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[2] 
+Time:2019-12-23 10:12:35,540; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[3] 
+Time:2019-12-23 10:12:35,541; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[4] 
+Time:2019-12-23 10:12:35,543; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[5] 
+Time:2019-12-23 10:12:35,544; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[6] 
+Time:2019-12-23 10:12:35,545; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[7] 
+Time:2019-12-23 10:12:35,546; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[8] 
+Time:2019-12-23 10:12:35,548; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[9] 
+Time:2019-12-23 10:12:35,549; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[10] 
+Time:2019-12-23 10:12:35,550; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[11] 
+Time:2019-12-23 10:12:35,551; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[12] 
+Time:2019-12-23 10:12:35,552; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[13] 
+Time:2019-12-23 10:12:35,554; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[14] 
+Time:2019-12-23 10:12:35,555; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[15] 
+Time:2019-12-23 10:12:35,556; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[16] 
+Time:2019-12-23 10:12:35,557; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[17] 
+Time:2019-12-23 10:12:35,559; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[18] 
+Time:2019-12-23 10:12:35,560; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[19] 
+Time:2019-12-23 10:12:35,561; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[20] 
+Time:2019-12-23 10:12:35,563; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[21] 
+Time:2019-12-23 10:12:35,564; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[22] 
+Time:2019-12-23 10:12:35,565; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[23] 
+Time:2019-12-23 10:12:35,566; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/div/ul/li[24] 
+Time:2019-12-23 10:12:35,567; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,568; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,570; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,571; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,572; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,574; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,575; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,577; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,578; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,579; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,580; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,582; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,583; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,584; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,586; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,587; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,588; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,589; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,591; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,592; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,593; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,595; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,596; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div/button/span 
+Time:2019-12-23 10:12:35,597; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[2]/a/div/div 
+Time:2019-12-23 10:12:35,599; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[1]/button[1] 
+Time:2019-12-23 10:12:35,600; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[5]/a/div/div 
+Time:2019-12-23 10:12:35,601; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[6]/a/div/div 
+Time:2019-12-23 10:12:35,603; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[7]/a/div/div 
+Time:2019-12-23 10:12:35,604; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[8]/a/div/div 
+Time:2019-12-23 10:12:35,605; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div/div[1]/div[4]/button[1]/span 
+Time:2019-12-23 10:12:35,606; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div/div[1]/div[4]/button[1] 
+Time:2019-12-23 10:12:35,607; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div/div[1]/div[4]/button[1]/span 
+Time:2019-12-23 10:12:35,609; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[2]/ul/li[5]/ul/div[4]/li/div/div/span 
+Time:2019-12-23 10:12:35,610; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div/div[1]/button[1]/span 
+Time:2019-12-23 10:12:35,611; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[2]/a/div/div/span 
+Time:2019-12-23 10:12:35,613; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[3]/a/div/div/span 
+Time:2019-12-23 10:12:35,614; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[4]/a/div/div/span 
+Time:2019-12-23 10:12:35,615; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[6]/a/div/div/span 
+Time:2019-12-23 10:12:35,617; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div/div[1]/div[6]/button[1]/span 
+Time:2019-12-23 10:12:35,618; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div/div[1]/div[5]/button[1]/span 
+Time:2019-12-23 10:12:35,619; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div/div[1]/div[5]/button[1]/span 
+Time:2019-12-23 10:12:35,620; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div/div[1]/div[4]/button[1]/span 
+Time:2019-12-23 10:12:35,621; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div/div[2]/div[1]/div[3]/table/tbody/tr[1]/td[10]/div/button/span 
+Time:2019-12-23 10:12:35,623; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[2]/div/div[2]/div/div[2]/div[2]/div/button/span 
+Time:2019-12-23 10:12:35,624; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[2]/div/div[2]/div/div[5]/div/button/span 
+Time:2019-12-23 10:12:35,625; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[2]/ul/li[5]/ul/div[2]/li/div/div/span 
+Time:2019-12-23 10:12:35,626; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[4]/a/div/div/span 
+Time:2019-12-23 10:12:35,628; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[5]/a/div/div/span 
+Time:2019-12-23 10:12:35,629; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div[1]/div[4]/div/div[1]/div[4]/button 
+Time:2019-12-23 10:12:35,630; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[6]/a/div/div/span 
+Time:2019-12-23 10:12:35,631; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[7]/a/div/div/span 
+Time:2019-12-23 10:12:35,633; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[2]/ul/li[5]/ul/div[5]/li/div/div/span 
+Time:2019-12-23 10:12:35,634; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[2]/a/div/div/span 
+Time:2019-12-23 10:12:35,635; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[3]/a/div/div/span 
+Time:2019-12-23 10:12:35,637; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[4]/a/div/div/span 
+Time:2019-12-23 10:12:35,638; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		//*[@id="app"]/div/header/nav/div/div/div/a[6] 
+Time:2019-12-23 10:12:35,639; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[2]/ul/li[8]/div/div/div/span 
+Time:2019-12-23 10:12:35,640; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[2]/ul/li[8]/ul/div[3]/li/div/div/span 
+Time:2019-12-23 10:12:35,642; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[3]/a/div/div 
+Time:2019-12-23 10:12:35,643; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div/div[1]/div[5]/button[1]/span 
+Time:2019-12-23 10:12:35,644; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[2]/ul/li[8]/ul/div[2]/li/div/div/span 
+Time:2019-12-23 10:12:35,646; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[5]/a/div/div/span 
+Time:2019-12-23 10:12:35,647; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[4]/a/div/div 
+Time:2019-12-23 10:12:35,648; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div/div[1]/div[5]/button[1]/span 
+Time:2019-12-23 10:12:35,650; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[2]/ul/li[8]/ul/div[1]/li/div/div/span 
+Time:2019-12-23 10:12:35,651; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[1]/div/div[3]/a/div/div/span 
+Time:2019-12-23 10:12:35,652; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div[3]/table/tbody/tr/td[8]/div/button/span 
+Time:2019-12-23 10:12:35,654; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[2]/div/div[3]/span/button[1]/span 
+Time:2019-12-23 10:12:35,655; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[2]/div/div[3]/span/button[1]/span 
+Time:2019-12-23 10:12:35,656; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[2]/div/div[3]/span/button[3]/span 
+Time:2019-12-23 10:12:35,658; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/header/section[1]/div/div/a[2]/span 
+Time:2019-12-23 10:12:35,659; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/nav/div/div/ul/li[9]/div/div/span 
+Time:2019-12-23 10:12:35,660; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/nav/div/div/ul/li[9]/ul/li[1]/span[2] 
+Time:2019-12-23 10:12:35,661; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div[1]/div/div/section/div/div/div[1]/div[3]/button[2]/span/span 
+Time:2019-12-23 10:12:35,663; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[2]/ul/li[1]/div/div/div/span 
+Time:2019-12-23 10:12:35,664; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[2]/ul/li[1]/ul/div[3]/li/div/div/span 
+Time:2019-12-23 10:12:35,665; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[1]/div/div/div[2]/i 
+Time:2019-12-23 10:12:35,667; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[2]/ul/li[1]/div/div/div/span 
+Time:2019-12-23 10:12:35,668; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[2]/ul/li[1]/ul/div[1]/li/div/div/span 
+Time:2019-12-23 10:12:35,669; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div/div[1]/div[6]/button/span 
+Time:2019-12-23 10:12:35,670; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div[1]/div[2]/div/ul/li[6] 
+Time:2019-12-23 10:12:35,672; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div[2]/div/div/div[2]/div[2]/div/div[2]/div/div[1]/div[2]/button[2]/span/span 
+Time:2019-12-23 10:12:35,673; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div[1]/div[2]/div/ul/li[7] 
+Time:2019-12-23 10:12:35,674; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div[2]/div/div/div/div[2]/div/div/div/div[1]/div[3]/button[2]/span/span 
+Time:2019-12-23 10:12:35,675; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div[2]/div/div/div[2]/div[2]/div/div[1]/div[1]/div/div/div/div[2]/span 
+Time:2019-12-23 10:12:35,677; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div[2]/div/div/div[2]/div[2]/div/div[2]/div/div[1]/div[2]/button[2]/span/span 
+Time:2019-12-23 10:12:35,678; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div[2]/div/div/div[2]/div[2]/div/div[1]/div[1]/div/div/div/div[3]/span 
+Time:2019-12-23 10:12:35,679; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div[2]/div/div/div[2]/div[2]/div/div[2]/div/div[1]/div[4]/button[2]/span/span 
+Time:2019-12-23 10:12:35,680; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div[1]/div[2]/div/ul/li[4] 
+Time:2019-12-23 10:12:35,681; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div[2]/div/div/div[2]/div[2]/div/div[1]/div[1]/div/div/div/div[2]/span 
+Time:2019-12-23 10:12:35,683; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div[2]/div/div/div[2]/div[2]/div/div[2]/div/div[1]/div[6]/button[2]/span/span 
+Time:2019-12-23 10:12:35,684; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div[2]/div/div/div[2]/div[2]/div/div[1]/div[1]/div/div/div/div[3]/span 
+Time:2019-12-23 10:12:35,685; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div[2]/div/div/div[2]/div[2]/div/div[2]/div/div[1]/div[4]/button[2]/span/span 
+Time:2019-12-23 10:12:35,686; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:		/html/body/div/div/div[2]/div/div/div[2]/div[2]/div/div[1]/div[1]/div/div/div/div[4]/span 
+Time:2019-12-23 10:12:35,688; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:12:35,690; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2019-12-23 10:24:39,420; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.198_lepuseight
+ 
+Time:2019-12-23 10:24:39,423; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:24:39,428; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2019-12-16 00:00:00'
+        
+ 
+Time:2019-12-23 10:24:40,525; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2019-12-16的数据
+ 
+Time:2019-12-23 10:24:40,528; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:24:40,530; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2019-12-23 10:24:40,538; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.198_lepuseight
+ 
+Time:2019-12-23 10:24:40,541; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:24:40,547; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2019-12-16 00:00:00'
+        
+ 
+Time:2019-12-23 10:24:40,778; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2019-12-16的数据
+ 
+Time:2019-12-23 10:24:40,781; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:24:40,784; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2019-12-23 10:24:40,792; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.198_lepuseight
+ 
+Time:2019-12-23 10:24:40,795; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:24:40,801; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2019-12-16 00:00:00'
+        
+ 
+Time:2019-12-23 10:24:40,806; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2019-12-16的数据
+ 
+Time:2019-12-23 10:24:40,809; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:24:40,812; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2019-12-23 10:27:12,619; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.198_lepuseight
+ 
+Time:2019-12-23 10:27:12,620; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:27:12,622; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2019-12-16 00:00:00'
+        
+ 
+Time:2019-12-23 10:27:13,169; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2019-12-16的数据
+ 
+Time:2019-12-23 10:27:13,172; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:27:13,176; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2019-12-23 10:27:13,184; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.198_lepuseight
+ 
+Time:2019-12-23 10:27:13,187; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:27:13,193; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2019-12-16 00:00:00'
+        
+ 
+Time:2019-12-23 10:27:13,368; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2019-12-16的数据
+ 
+Time:2019-12-23 10:27:13,371; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:27:13,375; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2019-12-23 10:27:13,382; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.198_lepuseight
+ 
+Time:2019-12-23 10:27:13,385; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:27:13,390; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2019-12-16 00:00:00'
+        
+ 
+Time:2019-12-23 10:27:13,395; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2019-12-16的数据
+ 
+Time:2019-12-23 10:27:13,398; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:27:13,401; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2019-12-23 10:27:13,408; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.198_lepuseight
+ 
+Time:2019-12-23 10:27:13,411; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:27:13,417; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2019-12-16 00:00:00'
+        
+ 
+Time:2019-12-23 10:27:13,421; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2019-12-16的数据
+ 
+Time:2019-12-23 10:27:13,425; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:27:13,428; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2019-12-23 10:28:57,115; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.198_lepuseight
+ 
+Time:2019-12-23 10:28:57,118; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:28:57,123; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2019-12-16 00:00:00'
+        
+ 
+Time:2019-12-23 10:30:02,035; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2019-12-16的数据
+ 
+Time:2019-12-23 10:30:02,037; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:30:02,038; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2019-12-23 10:30:02,040; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.198_lepuseight
+ 
+Time:2019-12-23 10:30:02,042; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:30:02,044; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2019-12-16 00:00:00'
+        
+ 
+Time:2019-12-23 10:30:02,525; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2019-12-16的数据
+ 
+Time:2019-12-23 10:30:02,526; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:30:02,527; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2019-12-23 10:30:02,530; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.198_lepuseight
+ 
+Time:2019-12-23 10:30:02,531; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:30:02,533; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2019-12-16 00:00:00'
+        
+ 
+Time:2019-12-23 10:30:02,638; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2019-12-16的数据
+ 
+Time:2019-12-23 10:30:02,639; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:30:02,640; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2019-12-23 10:30:02,642; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.198_lepuseight
+ 
+Time:2019-12-23 10:30:02,643; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:30:02,645; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2019-12-16 00:00:00'
+        
+ 
+Time:2019-12-23 10:30:02,647; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2019-12-16的数据
+ 
+Time:2019-12-23 10:30:02,648; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:30:02,650; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2019-12-23 10:35:40,629; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2019-12-23 10:35:40,632; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:35:40,638; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2019-12-16 00:00:00'
+        
+ 
+Time:2019-12-23 10:36:44,017; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2019-12-16的数据
+ 
+Time:2019-12-23 10:36:44,019; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:36:44,021; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2019-12-23 10:37:04,091; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2019-12-23 10:37:04,094; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:37:04,100; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2019-12-16 00:00:00'
+        
+ 
+Time:2019-12-23 10:41:11,882; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2019-12-16的数据
+ 
+Time:2019-12-23 10:41:11,885; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:41:11,888; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2019-12-23 10:41:31,919; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2019-12-23 10:41:31,922; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:41:31,928; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2019-12-16 00:00:00'
+        
+ 
+Time:2019-12-23 10:42:32,354; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2019-12-16的数据
+ 
+Time:2019-12-23 10:42:32,357; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:42:32,360; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2019-12-23 10:42:52,384; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2019-12-23 10:42:52,386; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:42:52,389; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2019-12-16 00:00:00'
+        
+ 
+Time:2019-12-23 10:42:58,789; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2019-12-16的数据
+ 
+Time:2019-12-23 10:42:58,790; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:42:58,791; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2019-12-23 10:50:02,947; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2019-12-23 10:50:02,950; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:50:02,956; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2019-12-16 00:00:00'
+        
+ 
+Time:2019-12-23 10:50:03,005; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2019-12-16的数据
+ 
+Time:2019-12-23 10:50:03,007; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:50:03,010; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2019-12-23 10:50:23,041; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2019-12-23 10:50:23,042; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:50:23,044; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2019-12-16 00:00:00'
+        
+ 
+Time:2019-12-23 10:50:23,828; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2019-12-16的数据
+ 
+Time:2019-12-23 10:50:23,829; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:50:23,831; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2019-12-23 10:50:43,857; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2019-12-23 10:50:43,859; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:50:43,861; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2019-12-16 00:00:00'
+        
+ 
+Time:2019-12-23 10:50:43,867; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2019-12-16的数据
+ 
+Time:2019-12-23 10:50:43,868; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:50:43,870; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2019-12-23 10:51:03,897; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2019-12-23 10:51:03,899; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:51:03,903; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2019-12-16 00:00:00'
+        
+ 
+Time:2019-12-23 10:51:03,907; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2019-12-16的数据
+ 
+Time:2019-12-23 10:51:03,909; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:51:03,911; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2019-12-23 10:52:35,478; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2019-12-23 10:52:35,480; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:52:35,482; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2019-12-16 00:00:00'
+        
+ 
+Time:2019-12-23 10:52:35,541; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2019-12-16的数据
+ 
+Time:2019-12-23 10:52:35,542; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:52:35,543; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2019-12-23 10:52:55,712; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2019-12-23 10:52:55,715; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:52:55,720; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2019-12-16 00:00:00'
+        
+ 
+Time:2019-12-23 10:52:56,351; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2019-12-16的数据
+ 
+Time:2019-12-23 10:52:56,354; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:52:56,358; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2019-12-23 10:53:16,387; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2019-12-23 10:53:16,389; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:53:16,391; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2019-12-16 00:00:00'
+        
+ 
+Time:2019-12-23 10:53:16,399; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2019-12-16的数据
+ 
+Time:2019-12-23 10:53:16,401; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:53:16,402; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2019-12-23 10:53:36,429; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2019-12-23 10:53:36,432; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:53:36,438; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2019-12-16 00:00:00'
+        
+ 
+Time:2019-12-23 10:53:36,442; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2019-12-16的数据
+ 
+Time:2019-12-23 10:53:36,445; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:53:36,448; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2019-12-23 10:55:21,846; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2019-12-23 10:55:21,846; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:55:21,847; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2019-12-16 00:00:00'
+        
+ 
+Time:2019-12-23 10:55:21,874; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2019-12-16的数据
+ 
+Time:2019-12-23 10:55:21,875; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:55:21,877; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2019-12-23 10:55:41,904; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2019-12-23 10:55:41,906; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:55:41,907; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2019-12-16 00:00:00'
+        
+ 
+Time:2019-12-23 10:55:42,527; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2019-12-16的数据
+ 
+Time:2019-12-23 10:55:42,529; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:55:42,530; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2019-12-23 10:55:50,534; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2019-12-23 10:55:50,535; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:55:50,537; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_disk_history  where create_time<'2019-12-16 00:00:00'
+        
+ 
+Time:2019-12-23 10:55:50,567; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_disk_history表中的create_time字段小于2019-12-16的数据
+ 
+Time:2019-12-23 10:55:50,568; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:55:50,570; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2019-12-23 10:56:02,554; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2019-12-23 10:56:02,555; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:56:02,557; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2019-12-16 00:00:00'
+        
+ 
+Time:2019-12-23 10:56:02,566; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2019-12-16的数据
+ 
+Time:2019-12-23 10:56:02,567; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:56:02,569; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2019-12-23 10:56:10,751; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2019-12-23 10:56:10,752; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:56:10,753; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_diskio_history  where create_time<'2019-12-16 00:00:00'
+        
+ 
+Time:2019-12-23 10:56:11,225; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_diskio_history表中的create_time字段小于2019-12-16的数据
+ 
+Time:2019-12-23 10:56:11,226; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:56:11,227; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2019-12-23 10:56:22,634; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2019-12-23 10:56:22,635; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:56:22,637; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2019-12-16 00:00:00'
+        
+ 
+Time:2019-12-23 10:56:22,640; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2019-12-16的数据
+ 
+Time:2019-12-23 10:56:22,641; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:56:22,643; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2019-12-23 10:56:31,254; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2019-12-23 10:56:31,255; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:56:31,257; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_net_history  where create_time<'2019-12-16 00:00:00'
+        
+ 
+Time:2019-12-23 10:56:31,267; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_net_history表中的create_time字段小于2019-12-16的数据
+ 
+Time:2019-12-23 10:56:31,268; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:56:31,270; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
+Time:2019-12-23 10:56:51,293; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+成功连接数据库:192.168.100.187_lepuseight
+ 
+Time:2019-12-23 10:56:51,294; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:成功创建执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:56:51,296; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	执行的sql语句：
+		
+        delete from os_status_history  where create_time<'2019-12-16 00:00:00'
+        
+ 
+Time:2019-12-23 10:56:51,299; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:	删除的是os_status_history表中的create_time字段小于2019-12-16的数据
+ 
+Time:2019-12-23 10:56:51,301; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:
+关闭执行SQL语句的光标对象
+ 
+Time:2019-12-23 10:56:51,303; FileName:myLogs.py;-> FuncName:printLog;  LineNo.:84; LevelNo.:20;--->LevelName:INFO;----->LogMessage:断开数据库连接
+ 
